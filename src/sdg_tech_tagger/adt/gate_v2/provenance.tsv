@@ -1,0 +1,934 @@
+group	term	decision	basis	sources	source_type	local_new	local_share	status	note
+AI	action recognition	in	literature	OECD20; AIW21	published	19	1.00	D011: R2 pass: 1.00 of 19 new documents	
+AI	activation function*	in	literature	LIU21	published	11	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	active learning	in	excluded	CSET20; AIW21; WIPO19	published	28	0.61	D011: admitted by hand	polysemy: pedagogy
+AI	activity recognition	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A3	
+AI	actor-critic algorithm*	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	adaboost*	in	literature	LIU21	published	5	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	adaptive boosting	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	adversarial learning	in	literature	LIU21	published	14	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	adversarial network	in	wos	evidence B: OECD20, AIW	published	3	0.67	D011: R0 continuity	
+AI	ai	in	literature	UNCTAD21; ATI21; TANG23 (recall stage before a classifier)	published, with a condition or for the family of terms	1772	0.95	D011: R2 pass: 0.95 of 1772 new documents	no plural: exception to plural tolerance, so AIS does not match (D014)
+AI	albert	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	also a first name; kept for continuity
+AI	alphafold	in	review 2026-10-07	WIPO24	published			D013: added, review finding A14	
+AI	anfis	in	literature	TANG23; LIU21 (neuro-fuzzy)	published, with a condition or for the family of terms	24	1.00	D011: R2 pass: 1.00 of 24 new documents	abbreviation used bare by the cited strategy
+AI	ann	in	excluded	TANG23	published	65	0.88	D013: admitted (review findings C16, C17, C21)	polysemy: a first name, Ann Arbor
+AI	anomaly detection	in	literature	AIW21; CSET20	published	76	0.74	D011: R2 pass: 0.74 of 76 new documents	
+AI	ant colony algorithm*	in	third check 2026-10-08	OWN	own, added for recall			D018: replaces ant colony (3.4)	narrowed from the OECD20 keyword ant colony; ant colony optimization is in
+AI	ant colony optimisation	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A7	
+AI	ant colony optimization	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A7	
+AI	ant colony system*	in	third check 2026-10-08	OWN	own, added for recall			D018: replaces ant colony (3.4)	narrowed from the OECD20 keyword ant colony; ant colony optimization is in
+AI	artificial bee colony	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A7	
+AI	artificial general intelligence	in	review 2026-10-07	AIW21	published			D013: added, review finding A5	
+AI	artificial intellig*	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, CSET20, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	artificial intelligen*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	artificial neural network	in	wos	evidence B: OECD20, AIW, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	association rule*	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	attention mechanism*	in	measured	OWN	own, added for recall	131	0.98	D011: R2 pass: 0.98 of 131 new documents	
+AI	autoencoder	in	wos	evidence B: Liu+, OECD20, Tang23pre	published	10	1.00	D011: R0 continuity	
+AI	autoencoder*	in	literature	LIU21	published	10	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	automated reasoning	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	autonomous weapon*	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M17	OECD20 files it under AI; group not decided by Kevin
+AI	back-propagation	in	review 2026-10-07	CSET20	published			D013: added, review finding A11	
+AI	back-propagation algorithm*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	back-propagation learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	back-propagation net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	backpropagation	in	wos	evidence B: WIPO19-K2, OECD20, CSET20, Tang23pre	published	0		D011: R0 continuity	
+AI	backpropagation algorithm*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	backpropagation learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	backpropagation net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	bayesian learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	bayesian network	in	wos	evidence B: WIPO19-K1, OECD20, Tang23pre	published	22	0.91	D011: R0 continuity	
+AI	bidirectional encoder representations from transformer	in	wos	OWN	own, original WoS query	2	1.00	D011: R0 continuity	
+AI	big data	in	wos	evidence B: AIW, Tang23pre	published	0		D011: R0 continuity	big data inside AI is a framing choice (D034 of the source repository); contested in the literature
+AI	boltzmann machine*	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	boosting algorithm*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	bp learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	bp network*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	brownboost	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	business intelligence	in	final check 2026-10-07	MMM21; AIW21	published			D014: added, final check finding M16	
+AI	case-based reasoning	in	review 2026-10-07	AIW21	published			D013: added, review finding A13	LIU21 rejected both
+AI	catboost	in	measured	OWN	own, added for recall	9	1.00	D011: R2 pass: 1.00 of 9 new documents	
+AI	character recognition	in	literature	WIPO19; CSET20	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AI	chat-bot*	in	wos	EUROSTAT23; ATI21; OECD20; MMM21; ISO8373	published	302	0.98	D014: written chat-bot* instead of chatbot* (M10)	moved from ROB: ISO 8373 requires an actuated mechanism; chatbots are AI in Eurostat, ATI, OECD
+AI	chatgpt	in	literature	WIPO24	published	249	1.00	D011: R2 pass: 1.00 of 249 new documents	
+AI	classification algorithm*	in	literature	LIU21	published	27	0.78	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	classification tree*	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M9	
+AI	cnn	in	review 2026-10-07	TANG23	published	88	1.00	D013: replaces cnn*	abbreviation used bare by the cited strategy
+AI	co-training	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	cognitive comput*	in	wos	OECD17ICT; ATI21; BIANCHINI26	published	11	0.82	D011: R0 continuity	moved from CI: classified with AI-type cognition, not infrastructure
+AI	collaborative filtering	in	review 2026-10-07	OECD20; AIW21	published			D013: added, review finding A9	
+AI	committee machine*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	community detection	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	computation* intelligen*	in	literature	LIU21	published	14	0.71	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	computer vision	in	wos	evidence B: OECD20, CSET20, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	computer-aided diagnosis	in	review 2026-10-07	CSET20	published			D013: added, review finding A16	
+AI	concept* drift	in	literature	LIU21	published	7	0.86	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	conditional random field*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	connectionis*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	continual learning	in	measured	OWN	own, added for recall	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+AI	contrastive learning	in	measured	OWN	own, added for recall	33	1.00	D011: R2 pass: 1.00 of 33 new documents	
+AI	conversational agent*	in	measured	OWN	own, added for recall	24	1.00	D011: R2 pass: 1.00 of 24 new documents	
+AI	convolution* net*	in	literature	LIU21	published	78	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	convolutional neural network	in	wos	evidence B: OECD20, AIW, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	dall-e	in	literature	WIPO24	published	2	1.00	D011: R2 untested (fewer than 5 new documents)	
+AI	data analytics	in	review 2026-10-07	ATI21; AIW21	published			D013: added, review finding A18	big data analytics, kept in AI (D011)
+AI	data mining	in	wos	evidence B: WIPO19-K1, OECD20(italic), AIW, Tang23pre	published	0		D011: R0 continuity	
+AI	data science	in	wos	OWN	own, original WoS query	2	0.50	D011: R0 continuity	
+AI	decision forest*	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	decision tree*	in	literature	WIPO19; OECD20; TANG23	published	59	0.92	D011: R2 pass: 0.92 of 59 new documents	
+AI	deep belief net*	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	deep belief network	in	wos	evidence B: Liu+, OECD20	published	2	1.00	D011: R0 continuity	
+AI	deep convolutional neural network	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	deep generative model	in	wos	evidence B: WIPO24	published	1	1.00	D011: R0 continuity	
+AI	deep learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	deep net*	in	literature	LIU21	published	8	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	deep neural network	in	wos	evidence B: OECD20, AIW, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	denoising diffusion probabilistic model*	in	literature	WIPO24	published	5	1.00	D011: R2 pass: 1.00 of 5 new documents	
+AI	dictionary learning	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	differential evolution	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A7	
+AI	differential evolution algorithm	in	wos	evidence B: OECD20	published	1	0.00	D011: R0 continuity	
+AI	diffusion model	in	wos	OWN	own, original WoS query	20	0.65	D011: R0 continuity	
+AI	dnn	in	literature	TANG23	published	31	0.97	D018: written dnn instead of dnn* (4.12, the * matched unrelated strings; the plural still matches)	abbreviation used bare by the cited strategy
+AI	echo state* net*	in	literature	LIU21	published	4	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	emotion recognition	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A2	
+AI	ensemble learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	evolutionary algorithm	in	wos	evidence B: OECD20, AIW, CSET20, Tang23	published	32	0.16	D011: R0 continuity	
+AI	evolutionary computation	in	review 2026-10-07	OECD20; ANZSRC20	published			D013: added, review finding A6	
+AI	expert system*	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	extreme learning machine*	in	literature	LIU21	published	21	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	extreme machine learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	face detection	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	face recognition	in	literature	OECD20; WIPO19; AIW21; CSET20	published	9	0.78	D011: R2 pass: 0.78 of 9 new documents	
+AI	facial expression recognition	in	review 2026-10-07	OECD20; TANG23; CSET20	published			D013: added, review finding A2	
+AI	facial recognition	in	review 2026-10-07	CSET20; WIPO19	published			D013: added, review finding A1	
+AI	feature engineering	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	feature extraction	in	wos	evidence B: OECD20, AIW, CSET20, Tang23pre	published	0		D011: R0 continuity	
+AI	feature learning	in	literature	LIU21	published	15	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	feature selection	in	literature	OECD20; CSET20; WIPO19	published	45	0.87	D011: R2 pass: 0.87 of 45 new documents	
+AI	federated learning	in	measured	OWN	own, added for recall	193	1.00	D011: R2 pass: 1.00 of 193 new documents	
+AI	feed-forward net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	feedforward net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	few-shot	in	measured	OWN	own, added for recall	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+AI	foundation model*	in	measured	OWN	own, added for recall	29	1.00	D011: R2 pass: 1.00 of 29 new documents	
+AI	fuzzy inference	in	literature	OECD20 (fuzzy system); TANG23	published, with a condition or for the family of terms	48	1.00	D011: R2 pass: 1.00 of 48 new documents	
+AI	fuzzy logic	in	literature	WIPO19; OECD20; AIW21; ANZSRC20	published	147	0.99	D011: R2 pass: 0.99 of 147 new documents	
+AI	genai	in	literature	OWN	own, added for recall	59	1.00	D011: R2 pass: 1.00 of 59 new documents	used by WIPO24 in its patent search only, with classes
+AI	generalisation error*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	generalization error*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	generative adversarial net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	generative adversarial network	in	wos	evidence B: Liu+, OECD20, AIW, CSET20, Tang23, Tang23pre, WIPO24	published	0		D011: R0 continuity	
+AI	generative adversarial network*	in	wos	evidence B: Liu+, OECD20, AIW, CSET20, Tang23, Tang23pre, WIPO24	published	0		D011: R0 continuity	
+AI	generative ai	in	literature	WIPO24	published	179	1.00	D011: R2 pass: 1.00 of 179 new documents	
+AI	generative artificial intelligence	in	wos	evidence B: WIPO24	published	0		D011: R0 continuity	
+AI	generative model	in	wos	evidence B: AIW, WIPO24	published	14	0.93	D011: R0 continuity	
+AI	generative modeling	in	final check 2026-10-07	WIPO24	published, with a condition or for the family of terms			D014: added, final check finding M15	
+AI	generative modelling	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M15	UK spelling of the WIPO24 term
+AI	generative pre-trained transformer	in	wos	evidence B: WIPO24	published	2	1.00	D011: R0 continuity	
+AI	genetic algorithm	in	wos	evidence B: WIPO19-K1, OECD20, AIW, Tang23	published	65	0.18	D011: R0 continuity	
+AI	genetic programming	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	gesture recognition	in	wos	evidence B: OECD20, AIW, Tang23pre	published	0		D011: R0 continuity	
+AI	github copilot	in	literature	WIPO24	published	2	1.00	D011: R2 untested (fewer than 5 new documents)	
+AI	gnn	in	literature	TANG23	published	3	1.00	D018: written gnn instead of gnn* (4.12, the * matched unrelated strings; the plural still matches)	abbreviation used bare by the cited strategy
+AI	gpt-2	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M15	
+AI	gpt-3	in	literature	WIPO24	published	11	1.00	D011: R2 pass: 1.00 of 11 new documents	
+AI	gpt-3.5	in	third check 2026-10-08	OWN	own, added for recall			D018: added, third check finding 4.2	gpt-3 and gpt-4 do not match the decimal version once decimals are kept whole
+AI	gpt-4	in	literature	WIPO24	published	29	1.00	D011: R2 pass: 1.00 of 29 new documents	
+AI	gpt-4.0	in	third check 2026-10-08	OWN	own, added for recall			D018: added, third check finding 4.2	gpt-3 and gpt-4 do not match the decimal version once decimals are kept whole
+AI	gpt-4o	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M15	
+AI	gpt4	in	literature	WIPO24	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AI	gradient boost*	in	candidate 2026-10-03	LIU21; OECD20	published			D011: admitted by hand, no row in provenance.tsv	
+AI	gradient boosting	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	gradient tree boosting	in	wos	evidence B: WIPO19-K1, OECD20	published	0		D011: R0 continuity	
+AI	grammatical inference	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	graph convolutional	in	measured	OWN	own, added for recall	48	1.00	D011: R2 pass: 1.00 of 48 new documents	
+AI	graph learning	in	literature	LIU21	published	10	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	graph* kernel*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	graphical model*	in	excluded	OECD20; AIW21; CSET20	published	6	0.83	D011: admitted by hand	LIU21 hit ratio 8.3%
+AI	gravitational search algorithm	in	wos	evidence B: OECD20(italic)	published	0		D011: R0 continuity	
+AI	handwriting recognition	in	literature	WIPO19; CSET20	published	2	0.00	D011: R2 untested (fewer than 5 new documents)	
+AI	hebbian learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	hidden markov model*	in	excluded	OECD20; WIPO19; TANG23	published	11	1.00	D011: admitted by hand	LIU21 names it as a main noise source in medicine
+AI	hierarchical clustering	in	literature	OECD20; CSET20	published	33	0.82	D011: R2 pass: 0.82 of 33 new documents	
+AI	hopfield net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	hypergraph* learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	image classification	in	wos	evidence B: OECD20, CSET20, Tang23pre	published	2	1.00	D011: R0 continuity	
+AI	image model	in	wos	OWN	own, original WoS query	1	1.00	D011: R0 continuity	
+AI	image recognition	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	image retrieval	in	literature	OECD20; AIW21; CSET20; TANG23	published	5	0.80	D011: R2 pass: 0.80 of 5 new documents	
+AI	image segmentation	in	wos	evidence B: OECD20(italic), Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	incremental learning	in	literature	LIU21	published	6	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	inductive logic programming	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	information extraction	in	literature	AIW21; CSET20	published	18	0.61	D011: R2 pass: 0.61 of 18 new documents	
+AI	information retrieval	in	wos	evidence B: AIW, CSET20	published	0		D011: R0 continuity	
+AI	instance-based learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	instruction model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	intelligent agent*	in	literature	LIU21	published	6	0.50	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	intelligent algorithm*	in	literature	LIU21	published	25	0.64	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	intelligent machine*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	k-means	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	k-nearest neighbo*	in	final check 2026-10-07	CSET20	published			D014: replaces nearest neighbo* (J7)	
+AI	keras	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	kernel learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	kernel machine	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	knn	in	measured	OWN	own, added for recall	25	0.92	D011: R2 pass: 0.92 of 25 new documents	
+AI	knowledge representation	in	wos	evidence B: CSET20	published	3	1.00	D011: R0 continuity	
+AI	knowledge-based system*	in	review 2026-10-07	CSET20; AIW21	published			D013: added, review finding A13	LIU21 rejected both
+AI	label propagation	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	language model	in	wos	OWN	own, original WoS query	252	1.00	D011: R0 continuity	
+AI	language model*	in	literature	WIPO24	published	256	1.00	D011: R2 pass: 1.00 of 256 new documents	
+AI	large action model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	large language model	in	wos	evidence B: WIPO24	published	224	1.00	D011: R0 continuity	
+AI	large-scale data*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	latent dirichlet allocation	in	wos	evidence B: WIPO19-K1, OECD20	published	0		D011: R0 continuity	
+AI	latent semantic analysis	in	wos	evidence B: WIPO19-K1, OECD20	published	0		D011: R0 continuity	
+AI	lazy learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	learning algorithm*	in	literature	LIU21	published	28	0.89	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	learning automata	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	learning automaton	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	singular of the OECD20 keyword learning automata
+AI	learning model*	in	literature	LIU21	published	56	0.86	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	learning to rank*	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	learning-based	in	measured	OWN	own, added for recall	94	0.93	D011: R2 pass: 0.93 of 94 new documents	
+AI	lightgbm	in	measured	OWN	own, added for recall	17	1.00	D011: R2 pass: 1.00 of 17 new documents	
+AI	link prediction	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	liquid state machine*	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	llm	in	literature	OWN	own, added for recall	217	1.00	D018: written llm instead of llm* (4.12, the * matched unrelated strings; the plural still matches)	used by WIPO24 in its patent search only, with classes
+AI	logitboost	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	long short term memory	in	wos	evidence B: Liu+, Tang23	published	0		D011: R0 continuity	
+AI	long short-term memory	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	lpboost	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	lstm	in	literature	TANG23	published	86	0.99	D011: R2 pass: 0.99 of 86 new documents	abbreviation used bare by the cited strategy
+AI	machine intelligence	in	wos	evidence B: Liu+, OECD20	published	0		D011: R0 continuity	
+AI	machine learning	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, CSET20, Tang23	published	1	1.00	D011: R0 continuity	
+AI	machine translation	in	wos	evidence B: OECD20, AIW, CSET20	published	0		D011: R0 continuity	
+AI	machine vision	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A4	
+AI	machine* intelligen*	in	literature	LIU21	published	2	0.50	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	machine* learning	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	machine-learned ranking	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	madaboost	in	literature	OECD20	published	0		D011: R2 untested (fewer than 5 new documents)	
+AI	madboost	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	probable typo of OECD20 madaboost, which is added; kept for continuity
+AI	manifold learning	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	manifold regularisation	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	manifold regularization	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	markovian	in	wos	evidence B: OECD20(italic)	published	0		D011: R0 continuity	
+AI	masked language model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	massive data*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	memetic algorithm	in	wos	evidence B: OECD20	published	1	0.00	D011: R0 continuity	
+AI	meta-learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	metric learning	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	mixture of expert*	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* class classification	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* instance learning	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* kernel* learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* label classification	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* label learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi* task learning	in	literature	LIU21	published	9	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi-agent learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multi-agent system*	in	excluded	WIPO19; OECD20; TANG23	published	33	0.42	D013: admitted (review findings C16, C17, C21)	LIU21 hit ratio 11.4%
+AI	multi-layer perceptron	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	multiagent learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multiclass classification	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multiinstance learning	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multikernel* learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multilabel classification	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multilabel learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	multilayer perceptron*	in	wos	evidence B: WIPO19-K1, Tang23pre	published	0		D011: R0 continuity	
+AI	multilingual language model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	multimodal large language model	in	wos	OWN	own, original WoS query	1	1.00	D011: R0 continuity	
+AI	multitask learning	in	literature	LIU21	published	4	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	naive bayes	in	measured	TANG23	published	5	1.00	D011: R2 pass: 1.00 of 5 new documents	
+AI	naive bayes* classifi*	in	literature	LIU21	published	6	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	named entity recognition	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+AI	natural language generation	in	wos	evidence B: WIPO19-K1, OECD20, AIW, CSET20	published	0		D011: R0 continuity	
+AI	natural language processing	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	natural language understanding	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	nearest neighbo* algorithm*	in	final check 2026-10-07	OECD20	published			D014: replaces nearest neighbo* (J7)	
+AI	nearest neighbo* classif*	in	final check 2026-10-07	OWN	own, added for recall			D014: replaces nearest neighbo* (J7)	
+AI	nearest neighbor algorithm	in	literature	OECD20 (British form in the WoS file); CSET20	published, with a condition or for the family of terms	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AI	nearest neighbour algorithm	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	neocognitron*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neural gas	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neural model*	in	literature	LIU21	published	5	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neural net*	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	neural network	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, AIW, CSET20, Tang23pre	published	0		D011: R0 continuity	
+AI	neural radiance field*	in	literature	WIPO24	published	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+AI	neural turing machine	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	neuro dynamic programming	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neuro fuzzy	in	literature	LIU21	published	21	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neuro-computing	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neuro-evolution	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neuro-robotic*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neurocomputing	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neurodynamic programming	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neuroevolution	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neurofuzzy	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	neurorobotic*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	nlp	in	literature	TANG23	published	17	0.65	D011: R2 pass: 0.65 of 17 new documents	abbreviation used bare by the cited strategy
+AI	object detection	in	wos	evidence B: OECD20, Tang23pre	published	2	1.00	D011: R0 continuity	
+AI	object identification	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	object recognition	in	wos	evidence B: OECD20, AIW, CSET20, Tang23pre	published	0		D011: R0 continuity	
+AI	one class classifi*	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	one-shot learning	in	review 2026-10-07	CSET20	published			D013: added, review finding A12	
+AI	pac learning	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	particle swarm	in	final check 2026-10-07	TANG23	published			D014: added, final check finding M14	
+AI	particle swarm optimisation	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	particle swarm optimization	in	literature	OECD20 (British form in the WoS file); LIU21	published, with a condition or for the family of terms	205	0.20	D011: R2 dropped (R2 fail: 0.20 of 205 new documents)	source cell as first written: OECD20 (British form in the WoS file); LIU21 tested
+AI	pattern recognition	in	wos	evidence B: OECD20, AIW, CSET20, Tang23pre	published	0		D011: R0 continuity	
+AI	pcnn	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	pedestrian detection	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	perceptron*	in	literature	LIU21	published	4	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	policy gradient methods	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	pose estimation	in	wos	evidence B: Tang23pre	published	0		D011: R0 continuity	
+AI	predictive analytics	in	literature	WIPO19; ATI21	published	75	0.91	D011: R2 pass: 0.91 of 75 new documents	
+AI	probabl* approximate* correct learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	prompt engineering	in	literature	WIPO24	published	21	1.00	D011: R2 pass: 1.00 of 21 new documents	
+AI	pulse coupled neural net*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	pytorch	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	q learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	q-learning	in	wos	evidence B: Liu+, OECD20, AIW	published	0		D011: R0 continuity	
+AI	question answering	in	literature	AIW21; WIPO19	published	12	1.00	D011: R2 pass: 1.00 of 12 new documents	
+AI	radial basis function net*	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	random forest	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, CSET20, Tang23, Tang23pre	published	27	1.00	D011: R0 continuity	
+AI	random forest*	in	literature	LIU21	published	28	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	rankboost	in	wos	evidence B: WIPO19-K1, OECD20	published	0		D011: R0 continuity	
+AI	rbf net*	in	literature	LIU21	published	2	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	rbfnn*	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	recommendation system*	in	literature	WIPO19; CSET20	published	19	0.95	D011: R2 pass: 0.95 of 19 new documents	
+AI	recommender system*	in	literature	OECD20; AIW21; CSET20; WIPO19; TANG23	published	13	1.00	D011: R2 pass: 1.00 of 13 new documents	
+AI	recurrent neural network	in	wos	evidence B: OECD20, AIW, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	regression tree	in	wos	evidence B: OECD20	published	18	0.94	D011: R0 continuity	
+AI	reinforced learning	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M13	Liu, Shapira, Yue and Guan 2021, patent strategy (evidence B 1.2); no reference key
+AI	reinforcement learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	relational learning	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	relevance vector* machine*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	representation learning	in	literature	LIU21	published	25	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	reservoir computing	in	literature	LIU21	published	10	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	resnet*	in	measured	OWN	own, added for recall	46	1.00	D011: R2 pass: 1.00 of 46 new documents	
+AI	retrieval augmented generation	in	wos	evidence B: WIPO24	published	0		D011: R0 continuity	
+AI	rnn	in	literature	TANG23	published	10	1.00	D018: written rnn instead of rnn* (4.12, the * matched unrelated strings; the plural still matches)	abbreviation used bare by the cited strategy
+AI	roberta	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	robot* learning	in	literature	LIU21	published	7	0.43	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	robotic process automation	in	excluded	EUROSTAT23	published	0		D011: admitted by hand	also sets ROB through robot*; not corrected (C6); source is the Eurostat page on AI in enterprises, opened by both reviews
+AI	rule learning	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	rule* induction	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	rule-based learning	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	rule-based system*	in	literature	LIU21	published	3	0.33	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	self-organising map	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A10	
+AI	self-organizing map	in	review 2026-10-07	OECD20; TANG23	published			D013: added, review finding A10	
+AI	semantic search	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	semantic segmentation	in	literature	TANG23; ATI21	published	87	1.00	D011: R2 pass: 1.00 of 87 new documents	
+AI	semantic web	in	final check 2026-10-07	OECD20; AIW21; TANG23	published			D014: added, final check finding M11	
+AI	semi-supervised learning	in	wos	evidence B: WIPO19-K1, OECD20, AIW, CSET20	published	0		D011: R0 continuity	
+AI	sentiment analysis	in	wos	evidence B: OECD20, AIW, Tang23, Tang23pre	published	0		D011: R0 continuity	
+AI	similarity learning	in	literature	LIU21	published	1	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	small language model	in	wos	OWN	own, original WoS query	2	1.00	D011: R0 continuity	
+AI	sparse representation	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	spectral clustering	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M12	
+AI	speech processing	in	literature	AIW21; CSET20	published	3	0.33	D011: R2 untested (fewer than 5 new documents)	
+AI	speech recognition	in	wos	evidence B: WIPO19-K2, OECD20, AIW, CSET20	published	0		D011: R0 continuity	
+AI	speech synthesis	in	literature	AIW21; CSET20	published	2	0.50	D011: R2 untested (fewer than 5 new documents)	
+AI	speech to text	in	review 2026-10-07	OECD20	published			D013: added, review finding A15	
+AI	statistical language model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	statistical learning	in	wos	evidence B: AIW, CSET20	published	0		D011: R0 continuity	
+AI	statistical relation* learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	statistical relational learning	in	wos	evidence B: Liu+, OECD20, AIW	published	0		D011: R0 continuity	
+AI	stochastic block model	in	wos	OWN	own, original WoS query	2	1.00	D011: R0 continuity	
+AI	stochastic gradient	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	string kernel*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	supervised learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	support vector machine	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, AIW, CSET20, Tang23, Tang23pre	published	12	1.00	D011: R0 continuity	
+AI	support vector regression	in	wos	evidence B: Liu+, OECD20, Tang23pre	published	0		D011: R0 continuity	
+AI	support* vector* machine*	in	literature	LIU21	published	12	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	support* vector* regression	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	svm	in	review 2026-10-07	TANG23	published	37	0.95	D013: replaces svm*	abbreviation used bare by the cited strategy
+AI	swarm intelligence	in	literature	WIPO19; OECD20; AIW21	published	37	0.14	D011: R2 dropped (R2 fail: 0.14 of 37 new documents)	
+AI	swarm optimisation	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	swarm optimization	in	literature	OECD20 (British form in the WoS file)	published, with a condition or for the family of terms	231	0.21	D011: R2 dropped (R2 fail: 0.21 of 231 new documents)	
+AI	task-based generative model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	temporal difference learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	tensorflow	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	text classification	in	wos	evidence B: AIW, Tang23pre	published	0		D011: R0 continuity	
+AI	text mining	in	literature	AIW21; CSET20; OECD20	published	52	0.88	D011: R2 pass: 0.88 of 52 new documents	
+AI	text to speech	in	review 2026-10-07	OECD20	published			D013: added, review finding A15	
+AI	text-to-image generation	in	literature	WIPO24	published	0		D011: R2 untested (fewer than 5 new documents)	
+AI	text-to-image model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	text-to-image prompt	in	final check 2026-10-07	WIPO24	published			D014: added, final check finding M15	
+AI	text-to-video model	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	tinyml	in	review 2026-10-07	OWN	own, added for recall			D013: also sets AI (C9)	machine learning on microcontrollers; the CI row stays
+AI	topic model*	in	literature	OECD20	published	61	0.95	D011: R2 pass: 0.95 of 61 new documents	
+AI	totalboost	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	training algorithm*	in	literature	LIU21	published	3	1.00	D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	transductive learning	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	transfer learning	in	wos	LIU21	published	0		D011: R0 continuity	
+AI	transformer	in	wos	OWN	own, original WoS query	46	0.48	D011: R0 continuity	also a power transformer; kept for continuity
+AI	transformer network*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	u-net	in	measured	OWN	own, added for recall	39	1.00	D011: R2 pass: 1.00 of 39 new documents	
+AI	unsupervised learning	in	wos	evidence B: Liu+, WIPO19-K1, OECD20, AIW, CSET20	published	0		D011: R0 continuity	
+AI	variational inference	in	wos	evidence B: OECD20	published	0		D011: R0 continuity	
+AI	vector machine	in	wos	evidence B: OECD20	published	12	1.00	D011: R0 continuity	
+AI	virtual assistant*	in	literature	OECD20; ATI21	published	7	1.00	D011: R2 pass: 1.00 of 7 new documents	
+AI	vision transformer	in	wos	OWN	own, original WoS query	5	1.00	D011: R0 continuity	
+AI	voice recognition	in	wos	ATI21	published	0		D011: R0 continuity	
+AI	wasserstein gan	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	word embedding*	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+AI	word2vec	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AI	xai	in	measured	OWN	own, added for recall	16	1.00	D011: R2 pass: 1.00 of 16 new documents	
+AI	xgboost	in	wos	evidence B: Liu+, WIPO19-K1, OECD20	published	0		D011: R0 continuity	
+AI	xgboost*	in	literature	LIU21	published	0		D011: R1 validated by source (LIU21 hit ratio or manual check)	Liu et al. 2021 final query, kept by hit ratio or manual check
+AI	yolo*	in	measured	OWN	own, added for recall	155	0.99	D011: R2 pass: 0.99 of 155 new documents	
+AI	zero-shot	in	measured	CSET20	published	26	1.00	D011: R2 pass: 1.00 of 26 new documents	
+AI	ant colony	out	final check 2026-10-07	TANG23; OECD20				D018: replaced by algorithm and system forms; matched entomology (3.4)	
+AI	bert	out	excluded			23	0.96	D011: stays out (polysemy: a first name; no strategy uses it bare; the WoS file has the expansion)	polysemy: a first name; no strategy uses it bare; the WoS file has the expansion
+AI	cluster analysis	out	review 2026-10-07					D013: not added, high noise risk (review finding A17)	
+AI	cnn*	out	literature	TANG23		88	1.00	D013: replaced by cnn, the * matched unrelated strings	abbreviation used bare by the cited strategy
+AI	dimensionality reduction	out	review 2026-10-07					D013: not added, high noise risk (review finding A17)	
+AI	extended realit*	out	excluded			43	0.30	D011: stays out (not AI in any framework; VR/AR group takes no additions)	not AI in any framework; VR/AR group takes no additions
+AI	fuzzy set*	out	review 2026-10-07					D013: not added, high noise risk (review finding A8)	
+AI	fuzzy system*	out	review 2026-10-07					D013: not added, high noise risk (review finding A8)	
+AI	gaussian mixture model	out	review 2026-10-07					D013: not added, high noise risk (review finding A17)	
+AI	gaussian process	out	review 2026-10-07					D013: not added, high noise risk (review finding A17)	
+AI	gpt	out	excluded			66	0.98	D011: stays out (polysemy: glutamic-pyruvic transaminase; WIPO24 drops the bare form and lists versions)	polysemy: glutamic-pyruvic transaminase; WIPO24 drops the bare form and lists versions
+AI	image processing	out	excluded			96	0.51	D011: stays out (flagged general by OECD20)	flagged general by OECD20
+AI	independent component analysis	out	review 2026-10-07					D013: not added, high noise risk (review finding A17)	
+AI	logistic regression	out	excluded			183	0.29	D011: stays out (outside AI in the EU AI Act guidelines; LIU21 hit ratio 2.0%)	outside AI in the EU AI Act guidelines; LIU21 hit ratio 2.0%
+AI	nearest neighbo*	out	candidate 2026-10-03	TANG23; OECD20; CSET20				D014: replaced by three forms naming the method; matched physics and ecology (J7)	
+AI	svm*	out	literature	TANG23		37	0.95	D013: replaced by svm, the * matched unrelated strings	abbreviation used bare by the cited strategy
+IOT	aiot	in	literature	ZHANGTAO21	published	49	0.96	D011: R2 pass: 0.96 of 49 new documents	
+IOT	ambient assisted living	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+IOT	ambient intelligence	in	literature	EPO20A; UKIPO14IOT; MMM21	published	7	0.57	D011: R2 pass: 0.57 of 7 new documents	
+IOT	arduino	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+IOT	artificial intelligence of things	in	literature	ZHANGTAO21	published	41	0.93	D011: R2 pass: 0.93 of 41 new documents	
+IOT	bluetooth low energy	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	was: evidence C: S16 mentions Bluetooth as short-range IoT connectivity
+IOT	body area network*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A26	
+IOT	car-to-car	in	literature	EPO20A	published	0		D011: R2 untested (fewer than 5 new documents)	
+IOT	cloud of things	in	literature	UKIPO14IOT	published	0		D011: R2 untested (fewer than 5 new documents)	
+IOT	connected car	in	final check 2026-10-07	ATI21	published, with a condition or for the family of terms			D018: written connected car instead of connected car* (3.3, the * matched connected care, connected carbon)	
+IOT	connected device*	in	wos	"evidence C: S19 (ATI IoT web keywords ""connected devices""; LinkedIn IoT and Connectivity ""connected devices""; Dealroom ""connected device"")"	published	0		D011: R0 continuity	
+IOT	connected home*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	connected object*	in	review 2026-10-07	MMM21; ATI21	published			D013: added, review finding A21	
+IOT	connected vehicle*	in	literature	EPO20A; OECD18IOT	published, with a condition or for the family of terms	68	0.69	D011: R2 pass: 0.69 of 68 new documents	
+IOT	cyber-physical	in	final check 2026-10-07	EPO20A; ATI21	published, with a condition or for the family of terms			D014: added (M4)	also NIST SP 1900-202, evidence C S12
+IOT	cyber-physical system*	in	wos	"evidence C: S17 (""(W CYBER+, PHYSI+, SYSTEM+)""), S19 (IoT keywords, LinkedIn IoT), S12 (equivalence with IoT)"	published	0		D011: R0 continuity	
+IOT	d2d communication*	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	the abbreviation with its noun; bare d2d stays out
+IOT	device-to-device communication*	in	final check 2026-10-07	EPO20A	published, with a condition or for the family of terms			D014: replaces device-to-device (J5)	
+IOT	device-to-device d2d	in	third check 2026-10-08	OWN	own, added for recall			D018: added, third check finding 3.1	"the usual wording ""device-to-device (D2D) communication"", which device-to-device communication* misses"
+IOT	esp32	in	measured	OWN	own, added for recall	26	0.88	D011: R2 pass: 0.88 of 26 new documents	
+IOT	fitness tracker*	in	literature	ATI21	published	4	1.00	D011: R2 untested (fewer than 5 new documents)	
+IOT	home automation	in	literature	EPO20A; ATI21	published	3	0.67	D011: R2 untested (fewer than 5 new documents)	
+IOT	human-machine interface*	in	wos	"evidence C: S19 (IoT application area ""human machine interface (HMI)"")"	published	0		D011: R0 continuity	no source places it in IoT (EPO: user interfaces); kept for continuity
+IOT	hyper connectivity	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	iiot	in	literature	ATI21	published	9	1.00	D011: R2 pass: 1.00 of 9 new documents	
+IOT	industrial internet	in	literature	UKIPO14IOT; MMM21	published	14	0.43	D011: R2 dropped (R2 fail: 0.43 of 14 new documents)	
+IOT	industrial internet of things	in	wos	"evidence C: S19 (definition and keyword), S18 (Benassi class), S26 (""Industrial Internet"" synonym)"	published	0		D011: R0 continuity	
+IOT	intelligent building*	in	review 2026-10-07	EPO20A; ATI21	published			D013: added, review finding A22	
+IOT	intelligent factor*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	intelligent transport* system*	in	review 2026-10-07	ITUY2060; ATI21	published			D013: added, review finding A24	ATI21 files it under Mobility
+IOT	inter-vehicle communication*	in	final check 2026-10-07	EPO20A; MERIT23	published			D014: added, final check finding M7	
+IOT	internet of energy	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+IOT	internet of everything	in	wos	evidence C: S17, S18, S26	published	0		D011: R0 continuity	
+IOT	internet of medical things	in	literature	CHIROMA24	published	46	1.00	D011: R2 pass: 1.00 of 46 new documents	
+IOT	internet of things	in	wos	evidence C: S1, S2, S17, S18, S19, S21, S22, S32, S33	published	0		D011: R0 continuity	
+IOT	internet of underwater things	in	measured	OWN	own, added for recall	24	1.00	D011: R2 pass: 1.00 of 24 new documents	was: evidence C: Domingo 2012 (metadata only)
+IOT	internet of vehicles	in	excluded	evidence C: S19 (under Mobility, not IoT)	published, with a condition or for the family of terms	122	0.37	D011: admitted by hand	ATI21 files it under Mobility
+IOT	iomt	in	literature	CHIROMA24	published	45	0.98	D011: R2 pass: 0.98 of 45 new documents	
+IOT	iot	in	wos	"evidence C: S17 (""IOT""), S19 (""IoT""), S21, S22 (""iot""), S33"	published	10	0.70	D011: R0 continuity	
+IOT	lorawan	in	literature	ATI21	published	29	1.00	D011: R2 pass: 1.00 of 29 new documents	
+IOT	low power wide area	in	review 2026-10-07	ATI21; EPO20	published			D013: added, review finding A20	
+IOT	lpwa	in	literature	ATI21	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+IOT	lpwan	in	literature	EPO20A; ATI21	published	16	0.94	D011: R2 pass: 0.94 of 16 new documents	
+IOT	m2m	in	literature	EPO20A; MERIT23; ATI21; OECD18IOT; UKIPO14IOT	published	6	0.00	D011: R2 dropped (R2 fail: 0.00 of 6 new documents)	
+IOT	machine type communication*	in	literature	EPO20A; ITUM2083	published	15	0.33	D011: R2 dropped (R2 fail: 0.33 of 15 new documents)	
+IOT	machine-to-enterprise	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	machine-to-human	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	machine-to-machine	in	wos	"evidence C: S17 (""MACHINE_TO_MACHINE"", ""M2M""), S13, S19, S26, S39"	published	0		D011: R0 continuity	
+IOT	mmtc	in	literature	ITUM2083	published	7	0.86	D013: moved from CI to IOT, with its spelled-out form (C3)	
+IOT	mqtt	in	measured	OWN	own, added for recall	15	0.80	D011: R2 pass: 0.80 of 15 new documents	
+IOT	near field communication	in	literature	ATI21; GUBBI13	published	4	0.50	D011: R2 untested (fewer than 5 new documents)	
+IOT	networked device*	in	review 2026-10-07	MMM21; ATI21	published			D013: added, review finding A21	
+IOT	pervasive comput*	in	literature	MMM21	published	7	0.29	D011: R2 dropped (R2 fail: 0.29 of 7 new documents)	
+IOT	pervasive sensing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	predictive maintenance	in	review 2026-10-07	ATI21	published			D013: added, review finding A23	MMM21 files it under big data
+IOT	radio frequency identification	in	review 2026-10-07	ATI21; ITUY2060; GUBBI13	published			D013: added, review finding A19	
+IOT	raspberry pi	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+IOT	remote monitoring	in	excluded	ATI21	published	103	0.49	D011: admitted by hand	CPC G16Y excludes mere monitoring
+IOT	rfid	in	literature	ATI21; OECD17ICT; GUBBI13; ITUY2060	published	48	0.44	D011: R2 dropped (R2 fail: 0.44 of 48 new documents)	
+IOT	sensor network*	in	wos	"evidence C: S17 (""SENSOR_NETWORK""), S18, S23, S38"	published	0		D011: R0 continuity	
+IOT	sensor node*	in	literature	EPO20A; MERIT23; GUBBI13	published	51	0.94	D011: R2 pass: 0.94 of 51 new documents	
+IOT	sigfox	in	literature	ATI21; OECD18IOT	published	0		D011: R2 untested (fewer than 5 new documents)	
+IOT	smart building*	in	candidate 2026-10-03	EPO20A; ATI21	published, with a condition or for the family of terms			D011: admitted by hand, no row in provenance.tsv	
+IOT	smart device*	in	wos	"evidence C: S19 (""smart device"")"	published	0		D011: R0 continuity	
+IOT	smart dust	in	literature	MMM21; ATI21	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+IOT	smart environment*	in	review 2026-10-07	GUBBI13	published			D013: added, review finding A25	
+IOT	smart factor*	in	wos	"evidence C: S16 (""Smart factories""), S19 (""smart factory"")"	published	0		D011: R0 continuity	
+IOT	smart grid*	in	literature	MMM21; ITUY2060	published	442	0.17	D011: R2 dropped (R2 fail: 0.17 of 442 new documents)	
+IOT	smart health	in	review 2026-10-07	EPO20A; ATI21	published, with a condition or for the family of terms			D013: added, review finding A22	
+IOT	smart home*	in	wos	"evidence C: S17 (""(1W SMART, HOME)""), S19, S21, S1"	published	0		D011: R0 continuity	
+IOT	smart house	in	final check 2026-10-07	EPO20A	published			D019: written smart house instead of smart house* (3.10, the * matched smart household)	
+IOT	smart meter*	in	literature	EUROSTAT22IOT; OECD18IOT; UKIPO14IOT; MMM21	published	112	0.99	D011: R2 pass: 0.99 of 112 new documents	
+IOT	smart office	in	review 2026-10-07	EPO20A; ATI21	published			D013: added, review finding A22	
+IOT	smart sensor*	in	wos	"evidence C: S39 (""smart sensors"")"	published	0		D011: R0 continuity	
+IOT	smart-watch*	in	literature	ISO20924 (wearables); OECD18IOT	published, with a condition or for the family of terms	19	0.95	D014: written smart-watch* instead of smartwatch* (M5)	
+IOT	ubiquitous computing	in	literature	EPO20A; UKIPO14IOT; MMM21	published	16	0.19	D011: R2 dropped (R2 fail: 0.19 of 16 new documents)	
+IOT	ubiquitous sensing	in	review 2026-10-07	GUBBI13	published			D013: added, review finding A25	
+IOT	v2i	in	literature	OWN	own, added for recall	44	0.66	D011: R2 pass: 0.66 of 44 new documents	
+IOT	v2v	in	literature	EPO20A; ITUM2083	published	62	0.56	D011: R2 pass: 0.56 of 62 new documents	
+IOT	v2x	in	literature	EPO20A; MERIT23	published	100	0.52	D011: R2 pass: 0.52 of 100 new documents	
+IOT	vanet*	in	measured	OWN	own, added for recall	70	0.53	D011: R2 pass: 0.53 of 70 new documents	
+IOT	vehicle-to-everything	in	literature	EPO20A	published	77	0.45	D011: R2 dropped (R2 fail: 0.45 of 77 new documents)	
+IOT	vehicle-to-infrastructure	in	literature	EPO20A; ITUM2083	published	42	0.62	D011: R2 pass: 0.62 of 42 new documents	
+IOT	vehicle-to-vehicle	in	literature	EPO20A; ITUM2083	published	66	0.55	D011: R2 pass: 0.55 of 66 new documents	
+IOT	vehicular network*	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+IOT	wearable*	in	wos	"evidence C: S2 (wearable device), S15, S16, S19 (""smart wearable""; Crunchbase ""Wearables""), S21"	published	0		D011: R0 continuity	
+IOT	web of things	in	literature	EPO20A; UKIPO14IOT; MMM21	published	3	1.00	D011: R2 untested (fewer than 5 new documents)	
+IOT	wireless body area network*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+IOT	wireless sensor network*	in	wos	"evidence C: S17 (""WSN""), S18, S19 (LinkedIn IoT), S38"	published	0		D011: R0 continuity	
+IOT	wireless sensor*	in	literature	EPO20A; GUBBI13	published	44	0.91	D011: R2 pass: 0.91 of 44 new documents	
+IOT	wsn	in	literature	EPO20A; MERIT23	published	18	0.89	D011: R2 pass: 0.89 of 18 new documents	
+IOT	zigbee	in	measured	OWN	own, added for recall	13	1.00	D011: R2 pass: 1.00 of 13 new documents	
+IOT	device-to-device	out	literature	EPO20A		62	0.05	D014: replaced by device-to-device communication*; matched device-to-device variability (J5)	
+IOT	embedded system*	out	excluded			121	0.13	D011: stays out (too generic for a gate)	too generic for a gate
+IOT	iov	out	excluded			114	0.39	D011: stays out (no source; polysemy)	no source; polysemy
+IOT	lora	out	excluded			99	0.47	D011: stays out (polysemy: low-rank adaptation (AI); no strategy searches it bare)	polysemy: low-rank adaptation (AI); no strategy searches it bare
+IOT	nfc	out	excluded	ATI21		16	0.12	D014: out again; its source uses it only with patent classes, and it matches nanofibrillated cellulose (F3)	polysemy: nanofibrillated cellulose
+IOT	smart city	out	excluded			1125	0.12	D013: out of IOT; smart cit* in UMBRELLA covers it (C4)	application domain: see UMBRELLA
+CI	5g	in	wos	EPO20A; MERIT23; ATI21	published	0		D014: bare form back; decimals are kept whole in gate text, so 0.5g no longer matches (F1)	
+CI	5g networks	in	wos	"evidence C: S21, S22 (""5g network"")"	published	0		D011: R0 continuity	
+CI	5th generation mobile	in	wos	"evidence C: S15 (""The 5th generation (5G) of mobile networks"")"	published	0		D011: R0 continuity	
+CI	6g	in	literature	ITUM2160	published	277	0.98	D014: bare form back; decimals are kept whole in gate text, so 0.5g no longer matches (F1)	
+CI	6th generation mobile	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	sibling of 5th generation mobile
+CI	amazon web services	in	literature	ATWATCH20; MMM21	published	13	1.00	D011: R2 pass: 1.00 of 13 new documents	
+CI	anything as a service	in	literature	ATI21	published	0		D011: R2 untested (fewer than 5 new documents)	
+CI	apache cassandra	in	wos	MMM21	published	0		D013: moved from AI to CI (review finding C1)	MMM21 has the bare name
+CI	apache hive	in	wos	MMM21	published	0		D013: moved from AI to CI (review finding C1)	MMM21 has the bare name
+CI	apache kafka	in	wos	MMM21	published	0		D013: moved from AI to CI (review finding C1)	MMM21 has the bare name
+CI	apache spark	in	wos	MMM21	published	0		D013: moved from AI to CI (review finding C1)	MMM21 has the bare name
+CI	aws	in	excluded	MMM21	published	33	0.64	D013: admitted (review findings C16, C17, C21)	polysemy: automatic weather station; spelled-out form kept
+CI	b5g	in	measured	OWN	own, added for recall	17	1.00	D011: R2 pass: 1.00 of 17 new documents	
+CI	bigtable	in	wos	OWN	own, original WoS query	0		D013: moved from AI to CI (review finding C1)	
+CI	cloud application*	in	wos	"evidence C: S24 (""cloud app%"")"	published	0		D011: R0 continuity	
+CI	cloud architecture*	in	wos	"evidence C: S24 (""cloud architectur%"")"	published	0		D011: R0 continuity	
+CI	cloud broker	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud client	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud computing	in	wos	evidence C: S3, S2 (ISO 17788), S16, S17, S19, S20, S24, S25	published	0		D011: R0 continuity	
+CI	cloud environment*	in	measured	OWN	own, added for recall	37	0.92	D011: R2 pass: 0.92 of 37 new documents	
+CI	cloud infrastructure*	in	wos	evidence C: S3 (footnote 2), S19 (LinkedIn), S24	published	0		D011: R0 continuity	
+CI	cloud migration	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud optimizer	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud platform*	in	wos	"evidence C: S19 (""Google cloud platform"", ""Sap Cloud platform""), S42"	published	0		D011: R0 continuity	
+CI	cloud portfolio	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud provider	in	wos	"evidence C: S13 (""IoT cloud providers""), S2 (term ""cloud service provider"" in ISO/IEC 20924, from ISO/IEC 17788)"	published	5	1.00	D011: R0 continuity	
+CI	cloud resource*	in	measured	"evidence C: S3 (""computing resources""), S20"	published	15	1.00	D011: R2 pass: 1.00 of 15 new documents	
+CI	cloud securit*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A28	
+CI	cloud server*	in	wos	"evidence C: S17 (""(4UG CLOUD, ... SERVER ...)""), S18"	published	0		D011: R0 continuity	
+CI	cloud service*	in	wos	evidence C: S17, S19, S24, S2 (3.1.8 cloud service)	published	0		D011: R0 continuity	
+CI	cloud software	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A28	
+CI	cloud solution*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A28	
+CI	cloud sourcing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	cloud storage	in	wos	"evidence C: S15, S16 (""Intelligent cloud storage""), S17 (Software: ""Cloud storage"" G06F3/067), S24"	published	1	1.00	D011: R0 continuity	
+CI	cloud technolog*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A28	
+CI	cloud-based	in	literature	MMM21; UKIPO14BD; GORELICK17	published	368	0.94	D011: R2 pass: 0.94 of 368 new documents	
+CI	cloud-edge	in	literature	ATWATCH20	published	62	0.95	D011: R2 pass: 0.95 of 62 new documents	
+CI	cloud-native	in	measured	OWN	own, added for recall	25	1.00	D011: R2 pass: 1.00 of 25 new documents	
+CI	cloudera	in	final check 2026-10-07	MMM21	published			D014: added, final check finding M20	
+CI	cloudlet*	in	literature	NIST500325	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	cluster comput*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A27	
+CI	cluster computing	in	wos	"evidence C: S24 (""cluster comput%""), S17 (""(3D CLUSTER+, SERVER?)"")"	published	0		D011: R0 continuity	
+CI	cluster server*	in	review 2026-10-07	EPO20A; MERIT23	published			D013: added, review finding A30	
+CI	community cloud*	in	wos	evidence C: S3	published	0		D011: R0 continuity	
+CI	computation offloading	in	measured	OWN	own, added for recall	36	0.56	D011: R2 pass: 0.56 of 36 new documents	
+CI	compute-in-memory	in	measured	OWN	own, added for recall	78	1.00	D011: R2 pass: 1.00 of 78 new documents	
+CI	computing continuum	in	literature	ATWATCH20	published	6	1.00	D011: R2 pass: 1.00 of 6 new documents	
+CI	computing-in-memory	in	measured	OWN	own, added for recall	80	1.00	D011: R2 pass: 1.00 of 80 new documents	
+CI	concurrent comput*	in	review 2026-10-07	MMM21	published			D013: added, review finding A32	
+CI	cyberinfrastructure*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	data warehous*	in	review 2026-10-07	MMM21; ATI21; UKIPO14BD	published			D014: written data warehous* instead of data warehouse* (M3, also matches data warehousing)	big data term; software placed in CI as for finding C1 (this session's reading)
+CI	data-center*	in	wos	EPO17; EPO20; OECD19	published	0		D014: written data-center* instead of data center* (M1, also matches datacenter)	moved from AI: data centres are the substrate of cloud computing; already in the CI file
+CI	data-centre*	in	wos	EPO17; EPO20; OECD19	published	0		D014: written data-centre* instead of data centre* (M1, also matches datacentre)	moved from AI: as data center*
+CI	data-intensive comput*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	decentralized computing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	dew computing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	distributed comput*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A27	
+CI	distributed computing	in	wos	"evidence C: S5 (3.1.1 definition), S15 (""distributed computing and data storage""), S24, S27 (""distributed process*"")"	published	0		D011: R0 continuity	
+CI	distributed file system*	in	wos	OWN	own, original WoS query	0		D013: moved from AI to CI (review finding C1)	
+CI	docker	in	wos	ISOTR23188	published	33	0.27	D011: R0 continuity	moved from AI: container software, named as cloud and edge technology
+CI	dynamic cloud*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	edge ai	in	measured	OWN	own, added for recall	108	0.79	D011: R2 pass: 0.79 of 108 new documents	
+CI	edge computing	in	wos	evidence C: S4, S5, S6, S19 (cloud, IoT and big data lists), S20	published	0		D011: R0 continuity	
+CI	edge device*	in	literature	ATWATCH20; NIST500325	published	421	0.95	D011: R2 pass: 0.95 of 421 new documents	
+CI	edge intelligence	in	measured	OWN	own, added for recall	51	0.96	D011: R2 pass: 0.96 of 51 new documents	
+CI	edge node*	in	literature	NIST500325; ISOTR23188	published	67	0.88	D011: R2 pass: 0.88 of 67 new documents	
+CI	edge server*	in	literature	ISOTR23188; NIST500325	published	75	1.00	D011: R2 pass: 1.00 of 75 new documents	
+CI	edge-cloud	in	literature	ATWATCH20	published	56	1.00	D011: R2 pass: 1.00 of 56 new documents	
+CI	elastic-search	in	final check 2026-10-07	MMM21	published			D019: written elastic-search instead of elasticsearch (3.12, also matches elastic search)	
+CI	embb	in	literature	ITUM2083	published	4	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	exascale	in	candidate 2026-10-03	BIANCHINI26	published			D011: admitted by hand, no row in provenance.tsv	
+CI	federated cloud*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	"was: evidence C: S20 (""federations of resources"", ""federating infrastructures""; not as keyword)"
+CI	field programmable gate array*	in	literature	ATI21; EPO20A	published	94	0.91	D011: R2 pass: 0.91 of 94 new documents	
+CI	fifth generation mobile	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	fog computing	in	wos	evidence C: S4, S39, S40	published	0		D011: R0 continuity	
+CI	fog node*	in	literature	NIST500325	published	14	1.00	D011: R2 pass: 1.00 of 14 new documents	
+CI	fpga*	in	literature	ATI21; EPO20A; ISOTR23188	published	274	0.95	D011: R2 pass: 0.95 of 274 new documents	
+CI	google cloud	in	excluded	MMM21; ATI21; ATWATCH20	published	8	0.50	D011: admitted by hand	local check fails
+CI	google earth engine	in	literature	GORELICK17; AMANI20; NIST800145 (PaaS)	published, with a condition or for the family of terms	786	0.97	D011: R2 pass: 0.97 of 786 new documents	
+CI	gpu*	in	literature	NIST800223; ISOTR23188	published	403	0.72	D011: R2 pass: 0.72 of 403 new documents	
+CI	graphics processing unit*	in	literature	NIST800223; ISOTR23188	published	70	0.83	D011: R2 pass: 0.83 of 70 new documents	
+CI	grid comput*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A27	
+CI	grid computing	in	wos	"evidence C: S17 (""(D COMPUT+, GRID?)""), S24, S25 (G06F9/5072 grid computing as cloud), S27"	published	0		D011: R0 continuity	
+CI	hadoop	in	wos	MMM21; UKIPO14BD; ATI21	published	0		D013: moved from AI to CI (review finding C1)	
+CI	hardware acceleration	in	literature	NIST800223	published	40	0.93	D011: R2 pass: 0.93 of 40 new documents	
+CI	hardware accelerator*	in	wos	"evidence C: S9 (""hardware accelerators""), S9 intro (""hardware acceleration technology"")"	published	0		D011: R0 continuity	
+CI	hbase	in	wos	OWN	own, original WoS query	0		D013: moved from AI to CI (review finding C1)	
+CI	high performance comput*	in	wos	evidence C: S9, S19 (LinkedIn Cloud and Adv. Manufacturing; IoT data infrastructure), S31	published	0		D011: R0 continuity	
+CI	hybrid cloud*	in	wos	evidence C: S3, S19, S24	published	0		D011: R0 continuity	
+CI	hypervisor*	in	literature	MMM21	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	imt-2020	in	literature	ITUM2083	published	0		D011: R2 untested (fewer than 5 new documents)	
+CI	imt-2030	in	literature	ITUM2160	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	in-memory computing	in	literature	SEBASTIAN20	published	83	0.99	D011: R2 pass: 0.99 of 83 new documents	
+CI	infrastructure as a service	in	wos	evidence C: S3, S17, S19	published	0		D011: R0 continuity	
+CI	inter-cloud	in	final check 2026-10-07	MMM21	published			D014: added, final check finding M20	
+CI	inter-cloud computing	in	wos	"evidence C: S24 (""InterCloud"")"	published	0		D011: R0 continuity	
+CI	kubernetes	in	measured	OWN	own, added for recall	28	0.79	D011: R2 pass: 0.79 of 28 new documents	
+CI	mapreduce	in	wos	evidence B: OECD20	published	0		D013: moved from AI to CI (review finding C1)	
+CI	massively parallel processing	in	wos	"evidence C: S27 (""massively parallel process*""); S31 lists ""massive parallel processing"" as an AI keyword"	published	0		D011: R0 continuity	
+CI	memristor*	in	measured	OWN	own, added for recall	68	0.76	D011: R2 pass: 0.76 of 68 new documents	was: evidence C: Ielmini and Wong 2018 (metadata only)
+CI	microservice*	in	literature	ISOTR23188	published	38	0.58	D011: R2 pass: 0.58 of 38 new documents	
+CI	microsoft azure	in	literature	ATWATCH20; MMM21	published	8	0.62	D011: R2 pass: 0.62 of 8 new documents	
+CI	mist computing	in	literature	NIST500325	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	mobile edge	in	literature	ETSIMEC15; ISOTR23188	published	20	1.00	D011: R2 pass: 1.00 of 20 new documents	
+CI	multi-access edge	in	literature	OWN	own, added for recall	1	1.00	D011: R2 untested (fewer than 5 new documents)	was: ETSI (term of ETSI GS MEC, not opened)
+CI	multi-cloud*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	multi-core comput*	in	final check 2026-10-07	OWN	own, added for recall			D014: replaces multi-core (J4)	narrowed from the MMM21 keyword multi-core
+CI	multi-core cpu*	in	final check 2026-10-07	OWN	own, added for recall			D014: replaces multi-core (J4)	narrowed from the MMM21 keyword multi-core
+CI	multi-core processor*	in	final check 2026-10-07	OWN	own, added for recall			D014: replaces multi-core (J4)	narrowed from the MMM21 keyword multi-core
+CI	multitenan*	in	literature	MMM21	published	4	0.50	D011: R2 untested (fewer than 5 new documents)	
+CI	network slicing	in	measured	OWN	own, added for recall	24	0.79	D011: R2 pass: 0.79 of 24 new documents	
+CI	neuromorphic	in	literature	ATI21	published	135	0.69	D011: R2 pass: 0.69 of 135 new documents	
+CI	neuromorphic comput*	in	wos	"evidence C: S19 (""neuromorphic computing"" new technology; ""neuromorphic"" micro-electronics)"	published	0		D011: R0 continuity	
+CI	nosql	in	review 2026-10-07	MMM21	published			D013: added, review finding A18	big data term; software placed in CI as for finding C1 (this session's reading)
+CI	on-demand computing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	"was: evidence C: S3 (""on-demand network access"", not a keyword)"
+CI	openstack	in	review 2026-10-07	MMM21	published			D013: added, review finding A31	
+CI	optical comput*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+CI	parallel comput*	in	review 2026-10-07	MMM21; EPO20A	published			D013: added, review finding A27	
+CI	parallel computing	in	wos	"evidence C: S24 (""parallel comput%"")"	published	0		D011: R0 continuity	
+CI	parallel processing	in	literature	MMM21; UKIPO14BD	published	54	0.41	D011: R2 dropped (R2 fail: 0.41 of 54 new documents)	
+CI	photonic comput*	in	wos	"evidence C: S19 (""photonic computing"" under Photonics)"	published	0		D011: R0 continuity	
+CI	platform as a service	in	wos	evidence C: S3, S17, S19	published	0		D011: R0 continuity	
+CI	private cloud*	in	wos	evidence C: S3, S19, S24	published	0		D011: R0 continuity	
+CI	public cloud*	in	wos	evidence C: S3, S19, S20, S24	published	0		D011: R0 continuity	
+CI	quantum algorithm*	in	literature	CPCG06N10; BORNMANN19	published	5	0.60	D011: R2 pass: 0.60 of 5 new documents	
+CI	quantum annealer*	in	literature	BORNMANN19	published	1	0.00	D011: R2 untested (fewer than 5 new documents)	
+CI	quantum annealing	in	literature	BORNMANN19 (annealer)	published, with a condition or for the family of terms	2	0.50	D011: R2 untested (fewer than 5 new documents)	
+CI	quantum bit*	in	review 2026-10-07	BORNMANN19	published			D013: added, review finding A29	
+CI	quantum circuit*	in	literature	CPCG06N10	published	14	0.50	D011: R2 dropped (R2 fail: 0.50 of 14 new documents)	
+CI	quantum comput*	in	wos	evidence C: S10 (G06N 10/00), S11, S19, S25, S28, S29	published	0		D011: R0 continuity	
+CI	quantum device*	in	review 2026-10-07	BORNMANN19	published			D013: added, review finding A29	
+CI	quantum error correction	in	literature	BORNMANN19; CPCG06N10	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	quantum hardware	in	review 2026-10-07	BORNMANN19	published			D013: added, review finding A29	
+CI	quantum processor*	in	literature	CPCG06N10	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+CI	quantum simulat*	in	review 2026-10-07	BORNMANN19	published			D013: added, review finding A29	
+CI	quantum software	in	review 2026-10-07	BORNMANN19	published			D013: added, review finding A29	
+CI	quantum supremacy	in	literature	BORNMANN19	published	0		D011: R2 untested (fewer than 5 new documents)	
+CI	qubit*	in	literature	CPCG06N10; BORNMANN19; UKIPO14Q	published	7	0.71	D011: R2 pass: 0.71 of 7 new documents	
+CI	real-time comput*	in	wos	"evidence C: S19 (""real Time Systems"" under Adv. Manufacturing), S5 (real time in edge)"	published	0		D011: R0 continuity	
+CI	server cluster*	in	review 2026-10-07	EPO20A; MERIT23	published			D013: added, review finding A30	
+CI	server farm*	in	literature	EPO20A; MERIT23	published	1	0.00	D011: R2 untested (fewer than 5 new documents)	
+CI	serverless	in	literature	ISOTR23188; ATI21	published	34	0.88	D011: R2 pass: 0.88 of 34 new documents	
+CI	sixth generation mobile	in	final check 2026-10-07	OWN	own, added for recall			D014: added (M21)	sibling of fifth generation mobile
+CI	software as a service	in	wos	evidence C: S3, S17, S19	published	0		D011: R0 continuity	
+CI	software-defined network*	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	"was: evidence C: S19 has ""SD-WAN"" (Connectivity)"
+CI	splunk	in	final check 2026-10-07	MMM21; UKIPO14BD	published			D014: added, final check finding M20	
+CI	supercomput*	in	wos	"evidence C: S9, S31 (""supercomputing"", ""supercomputer"")"	published	0		D011: R0 continuity	
+CI	system-on-a-chip	in	final check 2026-10-07	ATI21	published			D014: added (M2)	the wording of the source
+CI	system-on-chip	in	literature	ATI21	published	36	0.86	D011: R2 pass: 0.86 of 36 new documents	
+CI	systems-on-a-chip	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	plural on the first word
+CI	systems-on-chip	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	plural on the first word
+CI	task offloading	in	measured	OWN	own, added for recall	62	0.73	D011: R2 pass: 0.73 of 62 new documents	
+CI	tensor processing unit*	in	review 2026-10-07	AIW21	published			D013: added, review finding A33	
+CI	tinyml	in	measured	OWN	own, added for recall	54	0.52	D011: R2 pass: 0.52 of 54 new documents	
+CI	urllc	in	literature	ITUM2083	published	15	0.67	D011: R2 pass: 0.67 of 15 new documents	
+CI	utility computing	in	literature	MMM21	published	0		D011: R2 untested (fewer than 5 new documents)	
+CI	virtual machine*	in	literature	ISOTR23188	published	24	0.46	D011: R2 dropped (R2 fail: 0.46 of 24 new documents)	
+CI	virtualisation	in	candidate 2026-10-03	MMM21	published			D011: admitted by hand, no row in provenance.tsv	
+CI	virtualization	in	literature	EPO17; MMM21	published	61	0.34	D011: R2 dropped (R2 fail: 0.34 of 61 new documents)	
+CI	vmware	in	review 2026-10-07	MMM21	published			D013: added, review finding A31	
+CI	xaas	in	literature	ATI21	published	0		D011: R2 untested (fewer than 5 new documents)	
+CI	5g communication*	out	review 2026-10-07	UNCTAD21				D014: not needed, the bare form is back	
+CI	5g network*	out	review 2026-10-07	UNCTAD21				D014: not needed, the bare form is back	
+CI	5g system*	out	review 2026-10-07	UNCTAD21				D014: not needed, the bare form is back	
+CI	6g communication*	out	review 2026-10-07	OWN				D014: not needed, the bare form is back	by analogy with the UNCTAD21 forms for 5g; ITUM2160 defines 6G
+CI	6g network*	out	review 2026-10-07	OWN				D014: not needed, the bare form is back	by analogy with the UNCTAD21 forms for 5g; ITUM2160 defines 6G
+CI	6g system*	out	review 2026-10-07	OWN				D014: not needed, the bare form is back	by analogy with the UNCTAD21 forms for 5g; ITUM2160 defines 6G
+CI	as-a-service	out	excluded			86	0.22	D011: stays out (catches mobility as a service)	catches mobility as a service
+CI	cloud data*	out	review 2026-10-07	MMM21; EPO20A				D014: removed, matches point clouds and atmospheric clouds (J2)	
+CI	cloud network*	out	review 2026-10-07	MMM21; EPO20A				D014: removed, matches point clouds and atmospheric clouds (J2)	
+CI	cloud process*	out	review 2026-10-07	MMM21; EPO20A				D014: removed, matches point clouds and atmospheric clouds (J2)	
+CI	cloud system*	out	review 2026-10-07	MMM21; EPO20A				D014: removed, matches point clouds and atmospheric clouds (J2)	
+CI	container*	out	excluded			276	0.13	D011: stays out (polysemy: shipping containers)	polysemy: shipping containers
+CI	distributed system*	out	review 2026-10-07					D011: stays out (decided by hand)	
+CI	hpc	out	excluded			49	0.47	D011: stays out (polysemy: hydroxypropyl cellulose; used bare only in acknowledgment fields (BIANCHINI26))	polysemy: hydroxypropyl cellulose; used bare only in acknowledgment fields (BIANCHINI26)
+CI	iaas	out	literature	EPO20A; ATI21		1	0.00	D014: removed, equals the plural of unrelated abbreviations; the spelled-out form stays (J6)	
+CI	mobile cloud	out	review 2026-10-07					D011: stays out (decided by hand)	
+CI	multi-core	out	review 2026-10-07	MMM21				D014: replaced by processor, cpu and comput* forms; matched optical fibres (J4)	
+CI	paas	out	literature	EPO20A; ATI21		2	0.00	D014: removed, equals the plural of unrelated abbreviations; the spelled-out form stays (J6)	
+CI	saas	out	literature	EPO20A; ATI21		5	0.20	D014: removed, equals the plural of unrelated abbreviations; the spelled-out form stays (J6)	
+BL	altcoin	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+BL	altcoin*	in	literature	OWN	own, added for recall	0		D011: R2 untested (fewer than 5 new documents)	was: plural of a WoS term
+BL	bitcoin	in	wos	evidence D: B1, B3, B4, B7, X4	published	0		D011: R0 continuity	
+BL	bitcoin*	in	literature	NISTIR8202 (plural of a WoS term)	published, with a condition or for the family of terms	0		D011: R2 untested (fewer than 5 new documents)	
+BL	block-chain	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A38	
+BL	blockchain*	in	wos	evidence D: B1, B2, B3, B4, B5, X1, X3, X4	published	0		D011: R0 continuity	
+BL	cbdc	in	review 2026-10-07	OWN	own, added for recall	17	0.71	D013: replaces cbdc*	
+BL	central bank digital currenc*	in	measured	OWN	own, added for recall	15	0.73	D011: R2 pass: 0.73 of 15 new documents	
+BL	consensus algorithm*	in	literature	NISTIR8202	published	10	0.40	D011: R2 dropped (R2 fail: 0.40 of 10 new documents)	
+BL	consensus mechanism*	in	literature	NISTIR8202; ISO22739; OECDBC18	published	8	0.38	D011: R2 dropped (R2 fail: 0.38 of 8 new documents)	
+BL	crypto market*	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+BL	crypto-asset*	in	literature	ISO22739	published	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+BL	crypto-currenc*	in	literature	BAO25	published	2	0.50	D011: R2 untested (fewer than 5 new documents)	
+BL	cryptoasset*	in	literature	ISO22739; ATI21	published	0		D011: R2 untested (fewer than 5 new documents)	
+BL	cryptocurrenc*	in	wos	evidence D: B1, B2 (3.15), B4, B7, X1, X4	published	0		D011: R0 continuity	
+BL	decentralised application*	in	literature	BAO25	published	0		D011: R2 untested (fewer than 5 new documents)	
+BL	decentralised autonomous organisation*	in	literature	BAO25	published	0		D011: R2 untested (fewer than 5 new documents)	
+BL	decentralised financ*	in	literature	BAO25	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	decentralised ledger*	in	literature	BAO25	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	decentralized application*	in	literature	ISO22739; BAO25	published	2	0.50	D011: R2 untested (fewer than 5 new documents)	
+BL	decentralized autonomous organization*	in	literature	BAO25	published	2	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	decentralized financ*	in	literature	BAO25	published	8	1.00	D011: R2 pass: 1.00 of 8 new documents	
+BL	decentralized ledger*	in	literature	BAO25	published	2	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	digital asset*	in	review 2026-10-07	ISO22739; BAO25	published			D013: added, review finding A36	
+BL	digital currenc*	in	literature	OECDBC18	published	21	0.81	D011: R2 pass: 0.81 of 21 new documents	
+BL	distributed ledger*	in	literature	ISO22739; NISTIR8202; OECDBC18; BAO25; ATI21	published	24	1.00	D011: R2 pass: 1.00 of 24 new documents	
+BL	ethereum	in	literature	NISTIR8202; BAO25; ATI21	published	12	1.00	D011: R2 pass: 1.00 of 12 new documents	
+BL	hyperledger	in	literature	NISTIR8202; BAO25	published	3	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	initial coin offering*	in	excluded	OWN	own, added for recall	0		D013: admitted (review findings C16, C17, C21)	no source
+BL	layer 2 scaling solution*	in	review 2026-10-07	BAO25	published			D013: added, review finding A34	
+BL	non-fungible token*	in	literature	BAO25; ISO22739	published	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+BL	optimistic rollup*	in	review 2026-10-07	BAO25	published			D013: added, review finding A34	
+BL	permissioned	in	review 2026-10-07	NISTIR8202; OECDBC18	published			D013: added, review finding A35	
+BL	permissionless	in	review 2026-10-07	NISTIR8202; OECDBC18	published			D013: added, review finding A35	
+BL	private blockchain*	in	wos	evidence D: B3	published	0		D011: R0 continuity	
+BL	proof of authority	in	review 2026-10-07	NISTIR8202	published			D013: added, review finding A37	
+BL	proof-of-stake	in	literature	NISTIR8202; BAO25	published	0		D011: R2 untested (fewer than 5 new documents)	
+BL	proof-of-work	in	literature	NISTIR8202	published	4	1.00	D011: R2 untested (fewer than 5 new documents)	
+BL	public blockchain*	in	wos	evidence D: B3	published	0		D011: R0 continuity	
+BL	smart contract*	in	literature	NISTIR8202; ISO22739; BAO25; ANTE21	published	31	0.97	D011: R2 pass: 0.97 of 31 new documents	
+BL	stablecoin*	in	excluded	OWN	own, added for recall	2	1.00	D011: admitted by hand	no source
+BL	tokenomics	in	excluded	OWN	own, added for recall	0		D011: admitted by hand	no source
+BL	virtual currenc*	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M23	
+BL	web 3.0	in	third check 2026-10-08	OWN	own, added for recall			D019: added, minor finding of the third check	decimal form of web3
+BL	web3	in	excluded	OWN	own, added for recall	4	0.50	D011: admitted by hand; the spaced form web 3 is not matched on purpose, it occurs in ordinary prose (D019)	no source
+BL	zk-rollup*	in	review 2026-10-07	BAO25	published			D013: added, review finding A34	
+BL	zk-snark*	in	review 2026-10-07	BAO25	published			D013: added, review finding A34	
+BL	cbdc*	out	measured			17	0.71	D013: replaced by cbdc, the * matched unrelated strings	
+BL	consensus model*	out	review 2026-10-07					D013: not added, high noise risk (review finding A37)	
+BL	dapp	out	review 2026-10-07	ISO22739		5	0.20	D014: out, treated like dlt; the spelled-out form stays (T3-2)	
+BL	dapp*	out	literature	ISO22739		5	0.20	D013: replaced by dapp, the * matched unrelated strings	
+BL	defi	out	excluded			13	0.77	D011: stays out (BAO25 spells it out)	BAO25 spells it out
+BL	dlt	out	excluded			20	0.85	D011: stays out (polysemy: dose-limiting toxicity (LEZAMA18 rule))	polysemy: dose-limiting toxicity (LEZAMA18 rule)
+BL	nft*	out	excluded			32	0.41	D011: stays out (polysemy: neurofibrillary tangles; spelled-out form kept (BAO25))	polysemy: neurofibrillary tangles; spelled-out form kept (BAO25)
+ROB	aerial vehicle*	in	literature	UNCTAD21; WIPOWP30 (inside unmanned aerial vehicle)	published, with a condition or for the family of terms	62	0.76	D011: R2 pass: 0.76 of 62 new documents	
+ROB	agv	in	review 2026-10-07	ISO8373; MEINDL21	published	45	0.98	D013: replaces agv*	
+ROB	automated car	in	final check 2026-10-07	MMM21	published, with a condition or for the family of terms			D018: written automated car instead of automated car* (3.2, the * matched automated cardiac, automated care)	
+ROB	automated driving	in	literature	SAEJ3016	published	28	0.86	D011: R2 pass: 0.86 of 28 new documents	
+ROB	automated guided vehicle*	in	literature	ISO8373; IFR25; MEINDL21	published	38	1.00	D011: R2 pass: 1.00 of 38 new documents	
+ROB	automated vehicle*	in	literature	SAEJ3016; UKIPORAS14	published	112	0.92	D011: R2 pass: 0.92 of 112 new documents	
+ROB	autonomous aerial system*	in	review 2026-10-07	HLADCHENKO26	published			D013: added, review finding A40	
+ROB	autonomous aircraft	in	literature	ICAO328	published	3	1.00	D011: R2 untested (fewer than 5 new documents)	
+ROB	autonomous car*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+ROB	autonomous driving	in	literature	EPO17; EPO20; ATI21	published	236	0.67	D011: R2 pass: 0.67 of 236 new documents	
+ROB	autonomous flight	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+ROB	autonomous mobile	in	literature	IFR25	published	5	0.80	D011: R2 pass: 0.80 of 5 new documents	
+ROB	autonomous navigation	in	literature	IFR25	published	41	0.66	D011: R2 pass: 0.66 of 41 new documents	
+ROB	autonomous ship*	in	measured	OWN	own, added for recall	21	0.95	D011: R2 pass: 0.95 of 21 new documents	
+ROB	autonomous surface	in	literature	IFR25	published	17	1.00	D011: R2 pass: 1.00 of 17 new documents	
+ROB	autonomous underwater vehicle*	in	wos	evidence D: R2 (diving robots, class B2), R6 (underwater vehicles)	published, with a condition or for the family of terms	0		D011: R0 continuity	
+ROB	autonomous vehicle*	in	wos	evidence D: R5, R6, R7, R9, X1, X3 (Vehicles domain), X4 (IT for Mobility), X6	published	0		D011: R0 continuity	
+ROB	autonomous vessel*	in	measured	OWN	own, added for recall	11	0.91	D011: R2 pass: 0.91 of 11 new documents	
+ROB	auv	in	wos	OWN	own, original WoS query	5	1.00	D011: R0 continuity	
+ROB	cobot*	in	literature	ATI21; MMM21	published	5	1.00	D011: R2 pass: 1.00 of 5 new documents	
+ROB	collision avoidance	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M18	same OECD family as the motion terms Kevin placed in ROB
+ROB	cybernetics	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	no robotics delineation uses it; kept for continuity
+ROB	driverless	in	literature	SAEJ3016; MMM21	published	12	0.83	D011: R2 pass: 0.83 of 12 new documents	
+ROB	driving automation	in	review 2026-10-07	SAEJ3016	published			D013: added, review finding A39	
+ROB	drone*	in	wos	evidence D: R5, R6, R8, R9, X1 (own technology), X4 (robotics)	published	0		D011: R0 continuity	
+ROB	end effector*	in	excluded	OWN	own, added for recall	3	1.00	D011: admitted by hand	"weak source; was: evidence D: X4 (""may change the effector"")"
+ROB	exoskeleton*	in	literature	ISO8373; IFR25; WIPOWP30; ATI21; WEN24	published	21	0.76	D011: R2 pass: 0.76 of 21 new documents	
+ROB	hexacopter*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A43	
+ROB	humanoid robot*	in	wos	"evidence D: R5, X1 (""humanoids"")"	published	0		D011: R0 continuity	
+ROB	low altitude platform*	in	review 2026-10-07	HLADCHENKO26	published			D013: added, review finding A40	
+ROB	manipulator*	in	wos	evidence D: R1 (§ 3.6 head noun), R5 (B25J classes)	published	0		D011: R0 continuity	
+ROB	microrobot*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A44	
+ROB	mobile manipulator*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	was: evidence D: R2 (AMR with arm, § 3.6 note 3, described not named)
+ROB	mobile robot*	in	wos	evidence D: R1 (§ 4.15), R2	published	0		D011: R0 continuity	
+ROB	motion planning	in	review 2026-10-07	OECD20	published			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	multi-rotor*	in	literature	HLADCHENKO26	published	2	1.00	D014: written multi-rotor* instead of multirotor* (M19)	
+ROB	multicopter*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A43	
+ROB	nanorobot*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A44	
+ROB	obstacle avoidance	in	review 2026-10-07	OECD20	published			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	quad-rotor*	in	literature	HLADCHENKO26	published	4	1.00	D014: written quad-rotor* instead of quadrotor* (M19)	
+ROB	quadcopter*	in	literature	HLADCHENKO26 (quadrotor)	published, with a condition or for the family of terms	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+ROB	remotely operated underwater vehicle*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A41	
+ROB	remotely operated vehicle*	in	literature	ISO8373 (6.17)	published, with a condition or for the family of terms	25	0.88	D011: R2 pass: 0.88 of 25 new documents	
+ROB	remotely piloted aircraft*	in	literature	ICAO328	published	15	0.73	D011: R2 pass: 0.73 of 15 new documents	
+ROB	robo-taxi*	in	excluded	OWN	own, added for recall	0		D014: written robo-taxi* instead of robotaxi* (M19)	"weak source; was: evidence D: R3 (""robotic taxi"")"
+ROB	robot*	in	wos	evidence D: R1, R2, R5 (patent terms), R9, X1, X4, X5	published	0		D011: R0 continuity	
+ROB	robotic*	in	wos	"evidence D: R5 (""robotic""), X4, X1 (""robotics"")"	published	0		D011: R0 continuity	
+ROB	rpas	in	literature	ICAO328; HLADCHENKO26	published	7	0.71	D011: R2 pass: 0.71 of 7 new documents	
+ROB	self-driving	in	literature	SAEJ3016; IFR25	published	21	0.48	D011: R2 dropped (R2 fail: 0.48 of 21 new documents)	
+ROB	self-driving car*	in	wos	"evidence D: R2 (""self-driving cars and buses"", excluded), R6, R9 (tested)"	published, with a condition or for the family of terms	0		D011: R0 continuity	
+ROB	self-driving vehicle*	in	wos	evidence D: R2	published	0		D011: R0 continuity	
+ROB	simultaneous localisation and mapping	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	simultaneous localization and mapping	in	review 2026-10-07	OECD20	published			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	tele-operat*	in	literature	ISO8373; WIPOWP30	published	8	0.75	D014: written tele-operat* instead of teleoperat* (M19)	
+ROB	telerobot*	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A44	
+ROB	trajectory planning	in	review 2026-10-07	OECD20	published			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	trajectory tracking	in	final check 2026-10-07	OECD20	published			D014: added, final check finding M18	same OECD family as the motion terms Kevin placed in ROB
+ROB	uas	in	literature	ICAO328; UNCTAD21; WIPOWP30; HLADCHENKO26	published	82	0.61	D011: R2 pass: 0.61 of 82 new documents	
+ROB	uav	in	wos	evidence D: R5, R8, R9, X1	published	64	0.72	D011: R0 continuity	
+ROB	uav*	in	literature	UNCTAD21; WIPOWP30; HLADCHENKO26; LIANG23	published	78	0.60	D011: R2 pass: 0.60 of 78 new documents	
+ROB	ugv	in	wos	evidence D: R9 (tested, excluded as redundant)	published, with a condition or for the family of terms	1	1.00	D011: R0 continuity	
+ROB	ugv*	in	literature	LIANG23	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+ROB	uncrewed	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A42	
+ROB	uncrewed aerial*	in	measured	OWN	own, added for recall	27	0.74	D011: R2 pass: 0.74 of 27 new documents	
+ROB	uncrewed vehicle*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+ROB	unmanned	in	literature	WIPOWP30; ICAO328	published	127	0.76	D011: R2 pass: 0.76 of 127 new documents	
+ROB	unmanned aerial system*	in	literature	WIPOWP30	published	30	0.77	D011: R2 pass: 0.77 of 30 new documents	
+ROB	unmanned aerial vehicle*	in	wos	evidence D: R5, R6, X1	published	0		D011: R0 continuity	
+ROB	unmanned air vehicle*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+ROB	unmanned aircraft system*	in	wos	"evidence D: R4 (ICAO), X1 (""unmanned aircraft systems"")"	published	0		D011: R0 continuity	
+ROB	unmanned ground vehicle*	in	wos	"evidence D: R9 (tested, added no records), R5 (""unmanned [...] land vehicles"")"	published, with a condition or for the family of terms	0		D011: R0 continuity	
+ROB	unmanned spacecraft	in	wos	"evidence D: R2 (class E1 ""robots for orbital space"")"	published, with a condition or for the family of terms	0		D011: R0 continuity	
+ROB	unmanned surface ve*	in	literature	IFR25 (class B1)	published, with a condition or for the family of terms	30	1.00	D011: R2 pass: 1.00 of 30 new documents	
+ROB	unmanned underwater vehicle*	in	literature	UKIPORAS14 (singular of a WoS term)	published, with a condition or for the family of terms	3	1.00	D011: R2 untested (fewer than 5 new documents)	
+ROB	unmanned underwater vehicles*	in	wos	"evidence D: R6, R9 (""UUV"")"	published	0		D011: R0 continuity	
+ROB	unmanned vehicle*	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	was: evidence D: R5 (indirect)
+ROB	unoccupied aerial*	in	measured	OWN	own, added for recall	20	0.65	D011: R2 pass: 0.65 of 20 new documents	
+ROB	uuv*	in	literature	LIANG23	published	3	0.67	D011: R2 untested (fewer than 5 new documents)	
+ROB	visual servoing	in	review 2026-10-07	OECD20	published			D013: added, review finding A45	OECD20 files these under AI; Kevin placed them in robotics
+ROB	agv*	out	literature	ISO8373; MEINDL21		45	0.98	D013: replaced by agv, the * matched unrelated strings	
+ROB	autonomous system*	out	review 2026-10-07					D013: not added, high noise risk (review finding A46)	
+ROB	auv*	out	literature	plural of a WoS term		6	0.83	D014: removed, the * matched Auvergne; auv stays (J8)	
+ROB	cav*	out	excluded			288	0.18	D011: stays out (polysemy: caveolin, constant air volume; no source)	polysemy: caveolin, constant air volume; no source
+ROB	humanoid*	out	excluded			8	0.25	D011: stays out (bare form ambiguous; humanoid robot* is in the WoS file)	bare form ambiguous; humanoid robot* is in the WoS file
+ROB	rov*	out	excluded			60	0.77	D011: stays out (no source uses the abbreviation)	no source uses the abbreviation
+ROB	usv*	out	excluded			33	0.94	D011: stays out (polysemy: ultrasonic vocalisation; no source)	polysemy: ultrasonic vocalisation; no source
+AM	3-d print*	in	literature	UKIPO13; LEZAMA18; ATI21	published	13	0.92	D011: R2 pass: 0.92 of 13 new documents	
+AM	3-dimensional print*	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A49	
+AM	3d bioprint*	in	literature	CELIK26; XUE23	published	6	1.00	D011: R2 pass: 1.00 of 6 new documents	
+AM	3d concrete print*	in	literature	HE22	published	11	1.00	D011: R2 pass: 1.00 of 11 new documents	
+AM	3d fabrication	in	literature	UKIPO13; MMM21	published	1	0.00	D011: R2 untested (fewer than 5 new documents)	
+AM	3d food print*	in	literature	EPO23AM; XUE23	published	9	1.00	D011: R2 pass: 1.00 of 9 new documents	
+AM	3d manufacturing	in	literature	UKIPO13; MMM21	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	3d print*	in	wos	"evidence D: A1 (3.3.1), A2, A3, A4, A5, A7, X1, X2, X3, X4 (""3-D Printing"")"	published	0		D011: R0 continuity	
+AM	3d prototyping	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AM	3dp	in	literature	EPO17	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	4d print*	in	literature	EPO17	published	12	1.00	D011: R2 pass: 1.00 of 12 new documents	
+AM	additive fabrication	in	wos	evidence D: A1 (historical term), A2	published, with a condition or for the family of terms	0		D011: R0 continuity	
+AM	additive layer manufacturing	in	wos	evidence D: A1 (historical term)	published, with a condition or for the family of terms	0		D011: R0 continuity	
+AM	additive manufactur*	in	literature	UKIPO13; LEZAMA18	published	5	1.00	D011: R2 pass: 1.00 of 5 new documents	
+AM	additive manufacturing	in	wos	evidence D: A1, A2, A3, A4, A5, X1, X2, X4	published	0		D011: R0 continuity	
+AM	additively manufactur*	in	literature	UKIPO13 (additive NEAR manufactur*)	published, with a condition or for the family of terms	19	1.00	D011: R2 pass: 1.00 of 19 new documents	
+AM	binder jet*	in	literature	LEZAMA18	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AM	binder jetting	in	wos	evidence D: A1, A3, X2	published	0		D011: R0 continuity	
+AM	bio-print*	in	review 2026-10-07	XUE23	published			D013: added, review finding A48	
+AM	bioprint*	in	literature	EPO17; EPO23AM; CELIK26	published	10	1.00	D011: R2 pass: 1.00 of 10 new documents	
+AM	composite filament fabrication	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AM	continuous liquid interface production	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AM	digital light processing	in	excluded	OWN	own, added for recall	3	0.67	D011: admitted by hand	no source
+AM	direct digital manufacturing	in	wos	evidence D: A8 (title)	published, with a condition or for the family of terms	0		D011: R0 continuity	
+AM	direct energy deposition	in	literature	LEZAMA18	published	2	1.00	D011: R2 untested (fewer than 5 new documents)	
+AM	direct ink writing	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AM	direct metal deposition	in	literature	LEZAMA18	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AM	direct metal laser sintering	in	wos	evidence D: A3	published	0		D011: R0 continuity	
+AM	directed energy deposition	in	wos	"evidence D: A1, A3 (""Direct* energy deposition"")"	published	0		D011: R0 continuity	
+AM	directed light fabrication	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	electron-beam freeform fabrication	in	wos	"evidence D: A2 (""EBF3"")"	published	0		D011: R0 continuity	
+AM	electron-beam melt*	in	final check 2026-10-07	LEZAMA18	published, with a condition or for the family of terms			D014: added, final check finding M22	
+AM	electron-beam melting	in	wos	"evidence D: A3 (""Electron beam"" NEAR/1 ""Melt*"")"	published, with a condition or for the family of terms	0		D011: R0 continuity	
+AM	free-form fabrication	in	review 2026-10-07	UKIPO13	published			D013: added, review finding A47	
+AM	freeform fabrication	in	literature	ISOASTM52900; UKIPO13	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	fused deposition modeling	in	wos	"evidence D: A2 (""fuse deposition model""), A3, X2, X5"	published	0		D011: R0 continuity	
+AM	fused deposition modelling	in	literature	UKIPO13	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	fused filament fabrication	in	wos	evidence D: A3	published	0		D011: R0 continuity	
+AM	fused layer modeling	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	fused layer modelling	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M22	UK spelling or synonym, Lezama-Nicolás et al. 2018 Table 6
+AM	generative printing	in	final check 2026-10-07	UKIPO13	published, with a condition or for the family of terms			D019: written generative printing instead of generative print* (3.10, the * matched generative printmaking)	UK IPO 2013 Search 5 has generativ* NEAR Print*
+AM	inkjet print*	in	literature	LEZAMA18 (only with AM context)	published, with a condition or for the family of terms	11	0.45	D011: R2 dropped (R2 fail: 0.45 of 11 new documents)	
+AM	laminat* object manufactur*	in	literature	UKIPO13; LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	laminated object manufacturing	in	wos	"evidence D: A2 (""laminate object manufacturing""), A3 (""Lamination object manufactur*"")"	published	0		D011: R0 continuity	
+AM	laser cladding	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	laser consolidation	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	laser direct casting	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	laser engineered net shaping	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	laser freeform fabrication	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	laser metal deposition	in	literature	LEZAMA18; EPO17	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AM	laser-based metal deposition	in	final check 2026-10-07	LEZAMA18	published			D014: added, final check finding M22	Lezama-Nicolás et al. 2018, Table 6
+AM	layer manufacturing	in	literature	ISOASTM52900	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	layered manufacturing	in	wos	"evidence D: A5 (""Layered Manufacturing""); A1 has ""layer manufacturing"""	published	0		D011: R0 continuity	
+AM	material extrusion	in	wos	evidence D: A1, A3	published	0		D011: R0 continuity	
+AM	material jet*	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	material jetting	in	wos	evidence D: A1, A3	published	0		D011: R0 continuity	
+AM	multi-jet modeling	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	multi-jet modelling	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M22	UK spelling or synonym, Lezama-Nicolás et al. 2018 Table 6
+AM	plastic jet printing	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	powder bed fusion	in	wos	evidence D: A1, A3	published	0		D011: R0 continuity	
+AM	rapid manufactur*	in	literature	UKIPO13; CELIK26	published	2	0.50	D011: R2 untested (fewer than 5 new documents)	
+AM	rapid prototyping	in	wos	evidence D: A2, A5, A8 (title), X4 (under Advanced Manufacturing), X5	published, with a condition or for the family of terms	0		D011: R0 continuity	
+AM	rapid tooling	in	literature	CELIK26	published	1	0.00	D011: R2 untested (fewer than 5 new documents)	
+AM	robocasting	in	wos	OWN	own, original WoS query	0		D011: R0 continuity	
+AM	selective heat sintering	in	review 2026-10-07	UKIPO13	published			D013: added, review finding A52	
+AM	selective laser deposition	in	literature	MMM21	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	selective laser manufactur*	in	literature	MMM21	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	selective laser melt*	in	literature	LEZAMA18	published	1	1.00	D011: R2 untested (fewer than 5 new documents)	
+AM	selective laser melting	in	wos	evidence D: A3, X2	published	0		D011: R0 continuity	
+AM	selective laser sinter*	in	literature	UKIPO13; LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	selective laser sintering	in	wos	evidence D: A2, A3, X2, X5	published	0		D011: R0 continuity	
+AM	sheet lamination	in	wos	evidence D: A1, A3	published	0		D011: R0 continuity	
+AM	stereolithograph*	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	stereolithography	in	wos	evidence D: A2, A3, X2, X5	published	0		D011: R0 continuity	
+AM	thermojet	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	thin-film photopolymerisation	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M22	UK spelling or synonym, Lezama-Nicolás et al. 2018 Table 6
+AM	thin-film photopolymerization	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A51	
+AM	three-d print*	in	review 2026-10-07	LEZAMA18	published			D013: added, review finding A49	
+AM	three-dimensional print*	in	literature	UKIPO13; LEZAMA18	published	12	1.00	D011: R2 pass: 1.00 of 12 new documents	
+AM	two-photon polymerisation	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A50	
+AM	two-photon polymerization	in	excluded	OWN	own, added for recall	0		D011: admitted by hand	no source
+AM	ultrasonic consolidation	in	literature	LEZAMA18	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	vat photopolymerisation	in	literature	EPO23AM	published	0		D011: R2 untested (fewer than 5 new documents)	
+AM	vat photopolymerization	in	wos	evidence D: A1 (3.2.7), A3, A4	published	0		D011: R0 continuity	
+AM	voxeljet	in	final check 2026-10-07	LEZAMA18	published			D014: added, final check finding M22	Lezama-Nicolás et al. 2018, Table 6
+AM	ebf3	out	review 2026-10-07	UKIPO13				D018: removed, mostly a gene name; the spelled-out form stays (4.9)	
+UMBRELLA	4ir	in	literature	EPO17	published	7	0.14	D011: R2 dropped (R2 fail: 0.14 of 7 new documents)	
+UMBRELLA	4th industrial revolution	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+UMBRELLA	cloud manufacturing	in	review 2026-10-07	MEINDL21	published			D013: added, review finding A53	
+UMBRELLA	digital manufacturing	in	review 2026-10-07	MEINDL21	published			D013: added, review finding A53	
+UMBRELLA	digital technolog*	in	measured	OWN	own, added for recall	258	0.19	D011: R2 dropped (R2 fail: 0.19 of 258 new documents)	
+UMBRELLA	digital transformation	in	literature	EUDD22 (a process)	published, with a condition or for the family of terms	222	0.15	D011: R2 dropped (R2 fail: 0.15 of 222 new documents)	
+UMBRELLA	digital twin*	in	literature	EPO20; MMM21	published	151	0.42	D011: R2 dropped (R2 fail: 0.42 of 151 new documents)	
+UMBRELLA	digitalisation	in	literature	EUDD22 (a process)	published, with a condition or for the family of terms	41	0.12	D011: R2 dropped (R2 fail: 0.12 of 41 new documents)	
+UMBRELLA	digitalization	in	literature	EUDD22 (a process)	published, with a condition or for the family of terms	164	0.18	D011: R2 dropped (R2 fail: 0.18 of 164 new documents)	
+UMBRELLA	factories of the future	in	review 2026-10-07	MEINDL21	published			D013: added, review finding A53	
+UMBRELLA	factory of the future	in	review 2026-10-07	MEINDL21	published			D013: added, review finding A53	
+UMBRELLA	fourth industrial revolution	in	literature	EPO17; OECD17; MMM21	published	14	0.21	D011: R2 dropped (R2 fail: 0.21 of 14 new documents)	
+UMBRELLA	i4.0	in	final check 2026-10-07	OWN	own, added for recall			D014: added, final check finding M24	
+UMBRELLA	industrial revolution 4.0	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A56	
+UMBRELLA	industrie 4.0	in	literature	MEINDL21; KAGERMANN13	published	1	0.00	D011: R2 untested (fewer than 5 new documents)	
+UMBRELLA	industry 4.0	in	wos	EPO17; ATI21; OECD17; UNCTAD21; MMM21; MEINDL21	published	0		D011: R0 continuity	moved from AM: an umbrella term in every framework; no AM search strategy uses it; EPO17: most AM inventions are not 4IR
+UMBRELLA	industry 5.0	in	measured	OWN	own, added for recall	32	0.12	D011: R2 dropped (R2 fail: 0.12 of 32 new documents)	
+UMBRELLA	industry4.0	in	review 2026-10-07	OWN	own, added for recall			D013: added, review finding A56	
+UMBRELLA	intelligent city	in	final check 2026-10-07	EPO20A	published			D019: written intelligent city instead of intelligent cit* (3.10, the * matched intelligent citation; the plural still matches)	intelligent city: placed with smart cit* in UMBRELLA (this session's reading)
+UMBRELLA	intelligent manufacturing	in	review 2026-10-07	MEINDL21	published			D013: added, review finding A53	
+UMBRELLA	precision agriculture	in	literature	EPO20	published	58	0.59	D011: R2 pass: 0.59 of 58 new documents	
+UMBRELLA	smart agricultur*	in	literature	EPO20	published	26	0.42	D011: R2 dropped (R2 fail: 0.42 of 26 new documents)	
+UMBRELLA	smart cit*	in	literature	UNCTAD21; EPO20A; ATI21	published	181	0.43	D011: R2 dropped (R2 fail: 0.43 of 181 new documents)	
+UMBRELLA	smart farming	in	literature	EPO20; UNCTAD21	published	18	0.50	D011: R2 dropped (R2 fail: 0.50 of 18 new documents)	
+UMBRELLA	smart manufacturing	in	literature	MEINDL21; ATI21	published	18	0.28	D011: R2 dropped (R2 fail: 0.28 of 18 new documents)	
+UMBRELLA	society 5.0	in	candidate 2026-10-03	OWN	own, added for recall			D011: admitted by hand, no row in provenance.tsv	
+UMBRELLA	advanced manufacturing	out	review 2026-10-07					D013: not added, high noise risk (review finding A54)	
+UMBRELLA	digitisation	out	review 2026-10-07					D013: not added, high noise risk (review finding A55)	
+UMBRELLA	digitization	out	review 2026-10-07					D013: not added, high noise risk (review finding A55)	
+UMBRELLA	metaverse	out	literature	ATI21 (VR/AR)		80	0.51	D013: out, with VR/AR (C10)	
+VRAR	artificial realit*	out	wos	ANZSRC20; EPO17; ATI21		0		D011: VR/AR out of the gate	moved from AI: VR/AR is not AI in any current framework; kept in the gate for continuity, in its own group
+VRAR	augmented realit*	out	wos	ANZSRC20; EPO17; ATI21		0		D011: VR/AR out of the gate	moved from AI: as artificial realit*
+VRAR	computer-mediated realit*	out	wos	ANZSRC20; EPO17; ATI21		0		D011: VR/AR out of the gate	moved from AI: as artificial realit*
+VRAR	mixed realit*	out	wos	ANZSRC20; EPO17; ATI21		0		D011: VR/AR out of the gate	moved from AI: as artificial realit*
+VRAR	virtual realit*	out	wos	ANZSRC20; EPO17; ATI21		0		D011: VR/AR out of the gate	moved from AI: as artificial realit*

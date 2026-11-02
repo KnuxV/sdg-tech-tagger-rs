@@ -1,0 +1,322 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it, and cite the sources of the queries you use (listed under references and in CREDITS.md)."
+title: "sdg-tech-tagger-rs: tagging texts with SDGs and digital technologies by published queries"
+type: software
+version: "0.1.0"
+license: GPL-3.0-only
+abstract: >-
+  A Rust port of the R package text2sdg (Aurora, Elsevier, SIRIS and Auckland
+  SDG query systems) with a Python interface, in a mode that returns what
+  text2sdg 1.1.2 returns and a mode with corrections that restore the published
+  queries; two versions of a set of queries on advanced digital technologies;
+  and both written as Web of Science queries.
+keywords:
+  - sustainable development goals
+  - SDG
+  - text2sdg
+  - digital technologies
+  - Web of Science
+  - OpenAlex
+  - bibliometrics
+authors:
+  - family-names: Michoud
+    given-names: Kevin
+    email: kmichoud@unistra.fr
+    # TODO (Kevin): affiliation and ORCID.
+references:
+  - type: software
+    title: "text2sdg: Detecting UN Sustainable Development Goals in Text"
+    version: "1.1.2"
+    date-released: "2025-09-08"
+    license: GPL-3.0-only
+    doi: 10.32614/CRAN.package.text2sdg
+    url: "https://cran.r-project.org/package=text2sdg"
+    repository-code: "https://github.com/dwulff/text2sdg"
+    notes: "Authors as in DESCRIPTION (aut). Rui Mata (ORCID 0000-0002-1679-906X) is listed as contributor (ctb)."
+    authors:
+      - family-names: Wulff
+        given-names: Dirk U.
+        orcid: "https://orcid.org/0000-0002-4008-8022"
+      - family-names: Meier
+        given-names: Dominik S.
+        orcid: "https://orcid.org/0000-0002-3999-1388"
+  - type: article
+    title: "text2sdg: An R Package to Monitor Sustainable Development Goals from Text"
+    authors:
+      - family-names: Meier
+        given-names: Dominik S.
+      - family-names: Mata
+        given-names: Rui
+      - family-names: Wulff
+        given-names: Dirk U.
+    journal: "The R Journal"
+    volume: 16
+    issue: "1"
+    start: 83
+    end: 96
+    year: 2024
+    doi: 10.32614/RJ-2024-005
+    license: CC-BY-4.0
+  - type: article
+    title: "Using novel data and ensemble models to improve automated labeling of Sustainable Development Goals"
+    authors:
+      - family-names: Wulff
+        given-names: Dirk U.
+      - family-names: Meier
+        given-names: Dominik S.
+      - family-names: Mata
+        given-names: Rui
+    journal: "Sustainability Science"
+    volume: 19
+    issue: "5"
+    start: 1773
+    end: 1787
+    year: 2024
+    doi: 10.1007/s11625-024-01516-3
+    license: CC-BY-4.0
+  - type: article
+    status: preprint
+    title: "text2sdg: An R package to Monitor Sustainable Development Goals from Text"
+    authors:
+      - family-names: Meier
+        given-names: Dominik S.
+      - family-names: Mata
+        given-names: Rui
+      - family-names: Wulff
+        given-names: Dirk U.
+    year: 2021
+    doi: 10.48550/arXiv.2110.05856
+    url: "https://arxiv.org/abs/2110.05856"
+    publisher:
+      name: arXiv
+  - type: software
+    title: "corpustools: Managing, Querying and Analyzing Tokenized Text"
+    version: "0.5.2"
+    date-released: "2025-07-07"
+    license: GPL-3.0-only
+    doi: 10.32614/CRAN.package.corpustools
+    url: "https://cran.r-project.org/package=corpustools"
+    repository-code: "https://github.com/kasperwelbers/corpustools"
+    authors:
+      - family-names: Welbers
+        given-names: Kasper
+      - family-names: van Atteveldt
+        given-names: Wouter
+  - type: data
+    title: "Search Queries for \"Mapping Research Output to the Sustainable Development Goals (SDGs)\" v5.0"
+    version: "5.0"
+    date-released: "2020-07-02"
+    license: CC-BY-4.0
+    doi: 10.5281/zenodo.3817445
+    url: "https://github.com/Aurora-Network-Global/sdg-queries/releases/tag/v5.0"
+    authors:
+      - family-names: Vanderfeesten
+        given-names: Maurice
+        orcid: "https://orcid.org/0000-0002-5119-3514"
+        affiliation: "Vrije Universiteit Amsterdam"
+      - family-names: Otten
+        given-names: René
+        orcid: "https://orcid.org/0000-0002-6485-8810"
+        affiliation: "Vrije Universiteit Amsterdam"
+      - family-names: Spielberg
+        given-names: Eike
+        orcid: "https://orcid.org/0000-0002-3333-5814"
+        affiliation: "University of Duisburg-Essen"
+    publisher:
+      name: "Aurora Universities Network"
+    notes: "Version copied by text2sdg 1.1.2 and used by the port. Contributors to v5.0 as listed in the source README: Alessandro Arienzo, Roberto delle Donne, Ignasi Salvadó Estivill, José Luis González Ugarte, Didier Vercueil, Nykohla Strong, Eike Spielberg, Felix Schmidt, Linda Hasse, Ane Sesma, Baldvin Zarioh, Friedrich Gaigg, René Otten, Nicolien van der Grijp, Yasin Gunes, Maurice Vanderfeesten."
+  - type: data
+    title: "Search Queries for \"Mapping Research Output to the Sustainable Development Goals (SDGs)\" v5.0.3"
+    version: "5.0.3"
+    date-released: "2021-10-14"
+    license: CC-BY-4.0
+    url: "https://github.com/Aurora-Network-Global/sdg-queries/releases/tag/v5.0.3"
+    repository: "https://doi.org/10.5281/zenodo.3817444"
+    authors:
+      - family-names: Vanderfeesten
+        given-names: Maurice
+        orcid: "https://orcid.org/0000-0002-5119-3514"
+      - family-names: Otten
+        given-names: René
+        orcid: "https://orcid.org/0000-0002-6485-8810"
+      - family-names: Spielberg
+        given-names: Eike
+        orcid: "https://orcid.org/0000-0002-3333-5814"
+    publisher:
+      name: "Aurora Universities Network"
+    notes: "GitHub release only; no Zenodo record for v5.0.3 (concept DOI of the series: 10.5281/zenodo.3817444). Used for the Web of Science queries."
+  - type: data
+    title: "Identifying research supporting the United Nations Sustainable Development Goals"
+    version: "1"
+    date-released: "2019-10-22"
+    license: CC-BY-4.0
+    doi: 10.17632/87txkw7khs.1
+    url: "https://data.mendeley.com/datasets/87txkw7khs/1"
+    authors:
+      - family-names: Jayabalasingham
+        given-names: Bamini
+      - family-names: Boverhof
+        given-names: Roy
+      - family-names: Agnew
+        given-names: Kevin
+      - family-names: Klein
+        given-names: Lisette
+    publisher:
+      name: "Mendeley Data"
+  - type: data
+    title: "A controlled vocabulary defining the semantic perimeter of Sustainable Development Goals"
+    version: "1.3"
+    date-released: "2019-12-09"
+    license: CC-BY-SA-4.0
+    doi: 10.5281/zenodo.4118028
+    url: "https://zenodo.org/records/4118028"
+    authors:
+      - family-names: Duran-Silva
+        given-names: Nicolau
+        affiliation: "SIRIS Academic"
+      - family-names: Fuster
+        given-names: Enric
+        affiliation: "SIRIS Academic"
+      - family-names: Massucci
+        given-names: Francesco Alessandro
+        affiliation: "SIRIS Academic"
+      - family-names: Quinquillà
+        given-names: Arnau
+        affiliation: "SIRIS Academic"
+    publisher:
+      name: Zenodo
+    notes: "text2sdg's documentation names v1.2 (10.5281/zenodo.3567769); its table matches v1.3."
+  - type: data
+    title: "Auckland Approach SDG search queries (uoa_sdg_queries_v_2.0.xlsx)"
+    version: "2.0"
+    date-released: "2021-11-29"
+    url: "https://www.sdgmapping.auckland.ac.nz/files/2020/10/uoa_sdg_queries_v_2.0.xlsx"
+    authors:
+      - name: "University of Auckland"
+    notes: "No licence stated by the source. Date is the server's Last-Modified. text2sdg's documentation calls it version 1. Cite together with Wang, Kang and Mu (2023)."
+  - type: data
+    title: "UoA SDG Keyword List, Ver. 1.1"
+    version: "1.1"
+    date-released: "2021-06-17"
+    url: "https://www.sdgmapping.auckland.ac.nz/files/2020/10/UoA-SDG-Keyword-List-Ver.-1.1.xlsx"
+    authors:
+      - name: "University of Auckland"
+    notes: "No licence stated by the source. Date is the server's Last-Modified."
+  - type: article
+    status: preprint
+    title: "Mapping research to the Sustainable Development Goals (SDGs)"
+    authors:
+      - family-names: Wang
+        given-names: Weiwei
+      - family-names: Kang
+        given-names: Weihao
+      - family-names: Mu
+        given-names: Jingwen
+    year: 2023
+    date-published: "2023-02-20"
+    doi: 10.21203/rs.3.rs-2544385/v2
+    publisher:
+      name: "Research Square"
+    license: CC-BY-4.0
+    notes: "Version 2, the version the Auckland site asks to cite. A version 3 exists (10.21203/rs.3.rs-2544385/v3, 2023-03-09) titled 'Mapping Research to the Sustainable Development Goals: A Contextualised Approach'."
+  - type: software
+    title: "tantivy"
+    version: "0.26.2"
+    date-released: "2026-09-08"
+    license: MIT
+    url: "https://crates.io/crates/tantivy/0.26.2"
+    repository-code: "https://github.com/quickwit-oss/tantivy"
+    authors:
+      - family-names: Masurel
+        given-names: Paul
+      - name: "tantivy contributors"
+  - type: software
+    title: "ICU4X: icu_segmenter"
+    version: "2.3.0"
+    date-released: "2026-08-13"
+    url: "https://crates.io/crates/icu_segmenter/2.3.0"
+    repository-code: "https://github.com/unicode-org/icu4x"
+    authors:
+      - name: "The ICU4X Project Developers"
+    publisher:
+      name: "Unicode, Inc."
+    notes: "Licence: Unicode-3.0 (Unicode License v3; not in the SPDX list of CFF 1.2.0, so given here)."
+  - type: report
+    title: "Going Digital: Shaping Policies, Improving Lives"
+    authors:
+      - name: OECD
+    year: 2019
+    doi: 10.1787/9789264312012-en
+    publisher:
+      name: "OECD Publishing"
+    notes: "Framing of the six technology groups of the Nature Communications query."
+  - type: report
+    title: "Identifying and measuring developments in artificial intelligence: Making the impossible possible"
+    authors:
+      - family-names: Baruffaldi
+        given-names: Stefano
+      - name: "et al."
+    year: 2020
+    doi: 10.1787/5f65ff7e-en
+    publisher:
+      name: "OECD Publishing"
+    notes: "OECD Science, Technology and Industry Working Papers 2020/05. Source of technology terms of gate v2."
+  - type: article
+    title: "Tracking developments in artificial intelligence research: constructing and applying a new search strategy"
+    authors:
+      - family-names: Liu
+        given-names: Na
+      - family-names: Shapira
+        given-names: Philip
+      - family-names: Yue
+        given-names: Xiaoxu
+    journal: Scientometrics
+    volume: 126
+    issue: "4"
+    start: 3153
+    end: 3192
+    year: 2021
+    doi: 10.1007/s11192-021-03868-4
+    notes: "Source of technology terms of gate v2."
+  - type: article
+    title: "The enabling technologies of Industry 4.0: examining the seeds of the fourth industrial revolution"
+    authors:
+      - family-names: Martinelli
+        given-names: Arianna
+      - family-names: Mina
+        given-names: Andrea
+      - family-names: Moggi
+        given-names: Massimo
+    journal: "Industrial and Corporate Change"
+    volume: 30
+    issue: "1"
+    start: 161
+    end: 188
+    year: 2021
+    doi: 10.1093/icc/dtaa060
+    notes: "Source of technology terms of gate v2."
+  - type: report
+    title: "Advanced Technologies for Industry: Methodological report"
+    authors:
+      - family-names: Izsak
+      - name: "et al."
+    year: 2021
+    doi: 10.2826/911991
+    publisher:
+      name: "European Commission, EISMEA"
+    notes: "Source of technology terms of gate v2."
+  - type: article
+    status: preprint
+    title: "Scientific Discovery in the Age of AI and Supercomputing"
+    authors:
+      - family-names: Bianchini
+        given-names: Stefano
+      - family-names: Geuna
+        given-names: Aldo
+      - family-names: Shermatov
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2511.12686"
+    url: "https://arxiv.org/abs/2511.12686"
+    notes: "Source of technology terms of gate v2. The full list of sources is in CREDITS.md."

@@ -1,0 +1,163 @@
+TS = (
+("5g") OR
+("5g networks") OR
+("5th generation mobile") OR
+("6g") OR
+("6th generation mobile") OR
+("amazon web services") OR
+("anything as a service") OR
+("apache cassandra") OR
+("apache hive") OR
+("apache kafka") OR
+("apache spark") OR
+("aws") OR
+("b5g") OR
+("bigtable") OR
+("cloud application*") OR
+("cloud architecture*") OR
+("cloud broker") OR
+("cloud client") OR
+("cloud computing") OR
+("cloud environment*") OR
+("cloud infrastructure*") OR
+("cloud migration") OR
+("cloud optimizer") OR
+("cloud platform*") OR
+("cloud portfolio") OR
+("cloud provider") OR
+("cloud resource*") OR
+("cloud securit*") OR
+("cloud server*") OR
+("cloud service*") OR
+("cloud software") OR
+("cloud solution*") OR
+("cloud sourcing") OR
+("cloud storage") OR
+("cloud technolog*") OR
+("cloud-based") OR
+("cloud-edge") OR
+("cloud-native") OR
+("cloudera") OR
+("cloudlet*") OR
+("cluster comput*") OR
+("cluster computing") OR
+("cluster server*") OR
+("community cloud*") OR
+("computation offloading") OR
+("compute-in-memory") OR
+("computing continuum") OR
+("computing-in-memory") OR
+("concurrent comput*") OR
+("cyberinfrastructure*") OR
+("data warehous*") OR
+("data-center*") OR
+("data-centre*") OR
+("data-intensive comput*") OR
+("decentralized computing") OR
+("dew computing") OR
+("distributed comput*") OR
+("distributed computing") OR
+("distributed file system*") OR
+("docker") OR
+("dynamic cloud*") OR
+("edge ai") OR
+("edge computing") OR
+("edge device*") OR
+("edge intelligence") OR
+("edge node*") OR
+("edge server*") OR
+("edge-cloud") OR
+("elastic-search") OR
+("embb") OR
+("exascale") OR
+("federated cloud*") OR
+("field programmable gate array*") OR
+("fifth generation mobile") OR
+("fog computing") OR
+("fog node*") OR
+("fpga*") OR
+("google cloud") OR
+("google earth engine") OR
+("gpu*") OR
+("graphics processing unit*") OR
+("grid comput*") OR
+("grid computing") OR
+("hadoop") OR
+("hardware acceleration") OR
+("hardware accelerator*") OR
+("hbase") OR
+("high performance comput*") OR
+("hybrid cloud*") OR
+("hypervisor*") OR
+("imt-2020") OR
+("imt-2030") OR
+("in-memory computing") OR
+("infrastructure as a service") OR
+("inter-cloud") OR
+("inter-cloud computing") OR
+("kubernetes") OR
+("mapreduce") OR
+("massively parallel processing") OR
+("memristor*") OR
+("microservice*") OR
+("microsoft azure") OR
+("mist computing") OR
+("mobile edge") OR
+("multi-access edge") OR
+("multi-cloud*") OR
+("multi-core comput*") OR
+("multi-core cpu*") OR
+("multi-core processor*") OR
+("multitenan*") OR
+("network slicing") OR
+("neuromorphic") OR
+("neuromorphic comput*") OR
+("nosql") OR
+("on-demand computing") OR
+("openstack") OR
+("optical comput*") OR
+("parallel comput*") OR
+("parallel computing") OR
+("parallel processing") OR
+("photonic comput*") OR
+("platform as a service") OR
+("private cloud*") OR
+("public cloud*") OR
+("quantum algorithm*") OR
+("quantum annealer*") OR
+("quantum annealing") OR
+("quantum bit*") OR
+("quantum circuit*") OR
+("quantum comput*") OR
+("quantum device*") OR
+("quantum error correction") OR
+("quantum hardware") OR
+("quantum processor*") OR
+("quantum simulat*") OR
+("quantum software") OR
+("quantum supremacy") OR
+("qubit*") OR
+("real-time comput*") OR
+("server cluster*") OR
+("server farm*") OR
+("serverless") OR
+("sixth generation mobile") OR
+("software as a service") OR
+("software-defined network*") OR
+("splunk") OR
+("supercomput*") OR
+("system-on-a-chip") OR
+("system-on-chip") OR
+("systems-on-a-chip") OR
+("systems-on-chip") OR
+("task offloading") OR
+("tensor processing unit*") OR
+("tinyml") OR
+("urllc") OR
+("utility computing") OR
+("virtual machine*") OR
+("virtualisation") OR
+("virtualization") OR
+("vmware") OR
+("xaas")
+)

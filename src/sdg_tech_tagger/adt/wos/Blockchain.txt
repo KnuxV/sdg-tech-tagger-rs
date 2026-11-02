@@ -1,0 +1,3 @@
+TS = (
+("altcoin") OR ("bitcoin") OR ("blockchain*") OR ("cryptocurrenc*") OR ("private blockchain*") OR ("public blockchain*")
+)

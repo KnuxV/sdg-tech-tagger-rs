@@ -1,0 +1,241 @@
+TS = (
+("3-d print*") OR
+("3d print*") OR
+("3-dimensional print*") OR
+("3dimensional print*") OR
+("3d bioprint*") OR
+("3d concrete print*") OR
+("3d fabrication") OR
+("3d fabrications") OR
+("3d fabricationes") OR
+("3d food print*") OR
+("3d manufacturing") OR
+("3d manufacturings") OR
+("3d manufacturinges") OR
+("3d prototyping") OR
+("3d prototypings") OR
+("3d prototypinges") OR
+("3dp") OR
+("3dps") OR
+("3dpes") OR
+("4d print*") OR
+("additive fabrication") OR
+("additive fabrications") OR
+("additive fabricationes") OR
+("additive layer manufacturing") OR
+("additive layer manufacturings") OR
+("additive layer manufacturinges") OR
+("additive manufactur*") OR
+("additive manufacturing") OR
+("additive manufacturings") OR
+("additive manufacturinges") OR
+("additively manufactur*") OR
+("binder jet*") OR
+("binder jetting") OR
+("binder jettings") OR
+("binder jettinges") OR
+("bio-print*") OR
+("bioprint*") OR
+("composite filament fabrication") OR
+("composite filament fabrications") OR
+("composite filament fabricationes") OR
+("continuous liquid interface production") OR
+("continuous liquid interface productions") OR
+("continuous liquid interface productiones") OR
+("digital light processing") OR
+("digital light processings") OR
+("digital light processinges") OR
+("direct digital manufacturing") OR
+("direct digital manufacturings") OR
+("direct digital manufacturinges") OR
+("direct energy deposition") OR
+("direct energy depositions") OR
+("direct energy depositiones") OR
+("direct ink writing") OR
+("direct ink writings") OR
+("direct ink writinges") OR
+("direct metal deposition") OR
+("direct metal depositions") OR
+("direct metal depositiones") OR
+("direct metal laser sintering") OR
+("direct metal laser sinterings") OR
+("direct metal laser sinteringes") OR
+("directed energy deposition") OR
+("directed energy depositions") OR
+("directed energy depositiones") OR
+("directed light fabrication") OR
+("directed light fabrications") OR
+("directed light fabricationes") OR
+("electron-beam freeform fabrication") OR
+("electron-beam freeform fabrications") OR
+("electron-beam freeform fabricationes") OR
+("electronbeam freeform fabrication") OR
+("electronbeam freeform fabrications") OR
+("electronbeam freeform fabricationes") OR
+("electron-beam melt*") OR
+("electronbeam melt*") OR
+("electron-beam melting") OR
+("electron-beam meltings") OR
+("electron-beam meltinges") OR
+("electronbeam melting") OR
+("electronbeam meltings") OR
+("electronbeam meltinges") OR
+("free-form fabrication") OR
+("free-form fabrications") OR
+("free-form fabricationes") OR
+("freeform fabrication") OR
+("freeform fabrications") OR
+("freeform fabricationes") OR
+("fused deposition modeling") OR
+("fused deposition modelings") OR
+("fused deposition modelinges") OR
+("fused deposition modelling") OR
+("fused deposition modellings") OR
+("fused deposition modellinges") OR
+("fused filament fabrication") OR
+("fused filament fabrications") OR
+("fused filament fabricationes") OR
+("fused layer modeling") OR
+("fused layer modelings") OR
+("fused layer modelinges") OR
+("fused layer modelling") OR
+("fused layer modellings") OR
+("fused layer modellinges") OR
+("generative printing") OR
+("generative printings") OR
+("generative printinges") OR
+("inkjet print*") OR
+("laminat* object manufactur*") OR
+("laminated object manufacturing") OR
+("laminated object manufacturings") OR
+("laminated object manufacturinges") OR
+("laser cladding") OR
+("laser claddings") OR
+("laser claddinges") OR
+("laser consolidation") OR
+("laser consolidations") OR
+("laser consolidationes") OR
+("laser direct casting") OR
+("laser direct castings") OR
+("laser direct castinges") OR
+("laser engineered net shaping") OR
+("laser engineered net shapings") OR
+("laser engineered net shapinges") OR
+("laser freeform fabrication") OR
+("laser freeform fabrications") OR
+("laser freeform fabricationes") OR
+("laser metal deposition") OR
+("laser metal depositions") OR
+("laser metal depositiones") OR
+("laser-based metal deposition") OR
+("laser-based metal depositions") OR
+("laser-based metal depositiones") OR
+("laserbased metal deposition") OR
+("laserbased metal depositions") OR
+("laserbased metal depositiones") OR
+("layer manufacturing") OR
+("layer manufacturings") OR
+("layer manufacturinges") OR
+("layered manufacturing") OR
+("layered manufacturings") OR
+("layered manufacturinges") OR
+("material extrusion") OR
+("material extrusions") OR
+("material extrusiones") OR
+("material jet*") OR
+("material jetting") OR
+("material jettings") OR
+("material jettinges") OR
+("multi-jet modeling") OR
+("multi-jet modelings") OR
+("multi-jet modelinges") OR
+("multijet modeling") OR
+("multijet modelings") OR
+("multijet modelinges") OR
+("multi-jet modelling") OR
+("multi-jet modellings") OR
+("multi-jet modellinges") OR
+("multijet modelling") OR
+("multijet modellings") OR
+("multijet modellinges") OR
+("plastic jet printing") OR
+("plastic jet printings") OR
+("plastic jet printinges") OR
+("powder bed fusion") OR
+("powder bed fusions") OR
+("powder bed fusiones") OR
+("rapid manufactur*") OR
+("rapid prototyping") OR
+("rapid prototypings") OR
+("rapid prototypinges") OR
+("rapid tooling") OR
+("rapid toolings") OR
+("rapid toolinges") OR
+("robocasting") OR
+("robocastings") OR
+("robocastinges") OR
+("selective heat sintering") OR
+("selective heat sinterings") OR
+("selective heat sinteringes") OR
+("selective laser deposition") OR
+("selective laser depositions") OR
+("selective laser depositiones") OR
+("selective laser manufactur*") OR
+("selective laser melt*") OR
+("selective laser melting") OR
+("selective laser meltings") OR
+("selective laser meltinges") OR
+("selective laser sinter*") OR
+("selective laser sintering") OR
+("selective laser sinterings") OR
+("selective laser sinteringes") OR
+("sheet lamination") OR
+("sheet laminations") OR
+("sheet laminationes") OR
+("stereolithograph*") OR
+("stereolithography") OR
+("stereolithographies") OR
+("thermojet") OR
+("thermojets") OR
+("thermojetes") OR
+("thin-film photopolymerisation") OR
+("thin-film photopolymerisations") OR
+("thin-film photopolymerisationes") OR
+("thinfilm photopolymerisation") OR
+("thinfilm photopolymerisations") OR
+("thinfilm photopolymerisationes") OR
+("thin-film photopolymerization") OR
+("thin-film photopolymerizations") OR
+("thin-film photopolymerizationes") OR
+("thinfilm photopolymerization") OR
+("thinfilm photopolymerizations") OR
+("thinfilm photopolymerizationes") OR
+("three-d print*") OR
+("threed print*") OR
+("three-dimensional print*") OR
+("threedimensional print*") OR
+("two-photon polymerisation") OR
+("two-photon polymerisations") OR
+("two-photon polymerisationes") OR
+("twophoton polymerisation") OR
+("twophoton polymerisations") OR
+("twophoton polymerisationes") OR
+("two-photon polymerization") OR
+("two-photon polymerizations") OR
+("two-photon polymerizationes") OR
+("twophoton polymerization") OR
+("twophoton polymerizations") OR
+("twophoton polymerizationes") OR
+("ultrasonic consolidation") OR
+("ultrasonic consolidations") OR
+("ultrasonic consolidationes") OR
+("vat photopolymerisation") OR
+("vat photopolymerisations") OR
+("vat photopolymerisationes") OR
+("vat photopolymerization") OR
+("vat photopolymerizations") OR
+("vat photopolymerizationes") OR
+("voxeljet") OR
+("voxeljets") OR
+("voxeljetes")
+)

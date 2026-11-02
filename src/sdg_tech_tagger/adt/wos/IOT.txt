@@ -1,0 +1,5 @@
+TS = (
+("connected device*") OR ("connected home*") OR ("cyber-physical system*") OR ("human-machine interface*") OR ("hyper connectivity") OR ("industrial internet of things") OR ("intelligent factor*") OR ("internet of everything") OR
+("internet of things") OR ("iot") OR ("machine-to-enterprise") OR ("machine-to-human") OR ("machine-to-machine") OR ("pervasive sensing") OR ("sensor network*") OR ("smart device*") OR ("smart factor*") OR ("smart home*") OR
+("smart sensor*") OR ("wearable*") OR ("wireless body area network*") OR ("wireless sensor network*")
+)

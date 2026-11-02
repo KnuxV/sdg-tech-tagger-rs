@@ -1,0 +1,87 @@
+TS = (
+("3-d print*") OR
+("3-dimensional print*") OR
+("3d bioprint*") OR
+("3d concrete print*") OR
+("3d fabrication") OR
+("3d food print*") OR
+("3d manufacturing") OR
+("3d print*") OR
+("3d prototyping") OR
+("3dp") OR
+("4d print*") OR
+("additive fabrication") OR
+("additive layer manufacturing") OR
+("additive manufactur*") OR
+("additive manufacturing") OR
+("additively manufactur*") OR
+("binder jet*") OR
+("binder jetting") OR
+("bio-print*") OR
+("bioprint*") OR
+("composite filament fabrication") OR
+("continuous liquid interface production") OR
+("digital light processing") OR
+("direct digital manufacturing") OR
+("direct energy deposition") OR
+("direct ink writing") OR
+("direct metal deposition") OR
+("direct metal laser sintering") OR
+("directed energy deposition") OR
+("directed light fabrication") OR
+("electron-beam freeform fabrication") OR
+("electron-beam melt*") OR
+("electron-beam melting") OR
+("free-form fabrication") OR
+("freeform fabrication") OR
+("fused deposition modeling") OR
+("fused deposition modelling") OR
+("fused filament fabrication") OR
+("fused layer modeling") OR
+("fused layer modelling") OR
+("generative printing") OR
+("inkjet print*") OR
+("laminat* object manufactur*") OR
+("laminated object manufacturing") OR
+("laser cladding") OR
+("laser consolidation") OR
+("laser direct casting") OR
+("laser engineered net shaping") OR
+("laser freeform fabrication") OR
+("laser metal deposition") OR
+("laser-based metal deposition") OR
+("layer manufacturing") OR
+("layered manufacturing") OR
+("material extrusion") OR
+("material jet*") OR
+("material jetting") OR
+("multi-jet modeling") OR
+("multi-jet modelling") OR
+("plastic jet printing") OR
+("powder bed fusion") OR
+("rapid manufactur*") OR
+("rapid prototyping") OR
+("rapid tooling") OR
+("robocasting") OR
+("selective heat sintering") OR
+("selective laser deposition") OR
+("selective laser manufactur*") OR
+("selective laser melt*") OR
+("selective laser melting") OR
+("selective laser sinter*") OR
+("selective laser sintering") OR
+("sheet lamination") OR
+("stereolithograph*") OR
+("stereolithography") OR
+("thermojet") OR
+("thin-film photopolymerisation") OR
+("thin-film photopolymerization") OR
+("three-d print*") OR
+("three-dimensional print*") OR
+("two-photon polymerisation") OR
+("two-photon polymerization") OR
+("ultrasonic consolidation") OR
+("vat photopolymerisation") OR
+("vat photopolymerization") OR
+("voxeljet")
+)

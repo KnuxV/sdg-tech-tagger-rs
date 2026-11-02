@@ -1,0 +1,18 @@
+[package]
+name = "sdg_tech_tagger_native"
+version = "0.1.0"
+edition = "2021"
+description = "The Rust core of sdg_tech_tagger: corpustools' engine rules and text2sdg's four systems"
+license = "GPL-3.0-only"
+publish = false
+
+[lib]
+name = "sdg_tech_tagger_native"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = "0.29"
+tantivy = "0.26.2"
+icu_segmenter = "2.3.0"
+rayon = "1.12"
+regex = "1.13"

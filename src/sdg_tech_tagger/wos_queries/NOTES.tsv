@@ -1,0 +1,102 @@
+system	sdg	line	code	piece
+aurora	SDG-01	12	chain	(("disaster*" NEAR/3 "risk reduction*") AND ("risk reduction*" NEAR/3 "strateg*"))
+aurora	SDG-01	13	chain	(("poverty" NEAR/3 "develop*") AND ("develop*" NEAR/3 ("cooperat*" OR "assistan*")))
+aurora	SDG-01	14	chain	(("poverty" NEAR/3 "develop*") AND ("develop*" NEAR/3 ("program*" OR "polic*")))
+aurora	SDG-01	15	chain	(("government*" NEAR/3 "spending*") AND ("spending*" NEAR/3 ("education*" OR "health*" OR "social protection")))
+aurora	SDG-01	18	chain	(("government*" NEAR/3 "spending*") AND ("spending*" NEAR/3 ("women" OR "poor and vulnerable")))
+aurora	SDG-02	2	chain	(("access" NEAR/3 ("food*" OR "nutrition*")) AND (("food*" OR "nutrition*") NEAR/3 ("poor" OR "child*" OR "infant*")))
+aurora	SDG-02	7	chain	((("agriculture*" OR "food*") NEAR/3 "sustainab*") AND ("sustainab*" NEAR/3 "intensificat*"))
+aurora	SDG-02	11	nested-proximity	("agricultur*" NEAR/3 ("world" NEAR/3 "market"))
+aurora	SDG-02	16	chain	(("food*" NEAR/3 "commodit*") AND ("commodit*" NEAR/3 "market*"))
+aurora	SDG-03	1	nested-proximity	(("reduce" OR "end" OR "ending" OR "ratio") NEAR/3 ("maternal" NEAR/3 ("mortality" OR "death*")))
+aurora	SDG-03	2	nested-proximity	(("reduce" OR "end" OR "ending" OR "prevent*" OR "ratio*") NEAR/3 (("neonatal" OR "under-five" OR ("under" NEAR/2 ("5" OR "five")) OR "before fifth") NEAR/3 ("mortality" OR "death*")))
+aurora	SDG-03	2	nested-proximity	(("neonatal" OR "under-five" OR ("under" NEAR/2 ("5" OR "five")) OR "before fifth") NEAR/3 ("mortality" OR "death*"))
+aurora	SDG-03	7	nested-proximity	((("abuse" OR "harmful use" OR "addict*") NEAR/3 ("substance*" OR "drug*" OR "alcohol")) NEAR/3 ("prevention" OR "treatment"))
+aurora	SDG-03	10	nested-proximity	((("road" NEAR/3 "traffic") OR "drunk driv*") NEAR/3 ("injur*" OR "death*" OR "accident*" OR "trauma*"))
+aurora	SDG-03	16	chain	((("mortality" OR "death*" OR "illness*") NEAR/3 ("poison*" OR "pollut*" OR "contaminat*")) AND (("poison*" OR "pollut*" OR "contaminat*") NEAR/3 ("air" OR "water" OR "soil" OR "hazardous chemical*")))
+aurora	SDG-03	17	chain	((("mortality" OR "death*" OR "illness*") NEAR/6 ("unsafe" OR "inadequate")) AND (("unsafe" OR "inadequate") NEAR/3 ("water" OR "sanitation")))
+aurora	SDG-03	18	chain	((("mortality" OR "death*" OR "illness*") NEAR/3 "uninten*") AND ("uninten*" NEAR/3 "poison*"))
+aurora	SDG-03	19	chain	(("smoking" NEAR/3 ("cessation" OR "quit*")) AND (("cessation" OR "quit*") NEAR/3 ("health" OR "benefit*")))
+aurora	SDG-03	20	chain	((("tobacco" OR "smoking") NEAR/3 "age") AND ("age" NEAR/3 ("prevalen*" OR "number*")))
+aurora	SDG-03	23	chain	(("access*" NEAR/3 "essential") AND ("essential" NEAR/3 ("medicine*" OR "vaccin*")))
+aurora	SDG-03	24	nested-proximity	(("develop*" NEAR/3 "assist*") NEAR/3 ("medical research" OR "health sector*"))
+aurora	SDG-03	27	nested-proximity	((("early" NEAR/3 "warning") OR ("risk" NEAR/3 "reduction") OR ("risk" NEAR/3 "management")) NEAR/3 "health")
+aurora	SDG-04	5	chain	((("equal" OR "equit*") NEAR/3 "access") AND ("access" NEAR/3 ("tertiary education" OR "university" OR "vocational education")))
+aurora	SDG-04	12	chain	((("sustainab*" OR "global citizenship") NEAR/3 "education") AND ("education" NEAR/3 ("program*" OR "curricul*" OR "policy" OR "policies")))
+aurora	SDG-04	14	chain	(("school*" NEAR/3 "access") AND ("access" NEAR/3 ("electricity" OR "internet" OR "computer*")))
+aurora	SDG-05	18	chain	((("own" OR "informed") NEAR/3 "decision") AND ("decision" NEAR/3 ("sexual" OR "contracepti*" OR "reproducti*" OR "family planning" OR "parenting plan*" OR "abortion")))
+aurora	SDG-06	1	nested-proximity	(("drinking" NEAR/3 "water") NEAR/3 ("access*" OR "afford*" OR "safe*" OR "secur*"))
+aurora	SDG-06	7	chain	(("reduc*" NEAR/3 "water*") AND ("water*" NEAR/3 ("pollution" OR "contamination")))
+aurora	SDG-06	8	chain	(("increase*" NEAR/3 "water*") AND ("water*" NEAR/3 ("safe* reus*" OR "recycl*")))
+aurora	SDG-06	11	chain	(("efficien*" NEAR/3 ("water*" OR "freshwater*")) AND (("water*" OR "freshwater*") NEAR/3 ("use" OR "supply*" OR "availab*")))
+aurora	SDG-06	16	nested-proximity	(("water*" OR "sanitation*") NEAR/3 ("development*" NEAR/3 ("assist*" OR "support*" OR "program*")))
+aurora	SDG-06	17	nested-proximity	(("water*" OR "sanitation*") NEAR/3 ("local" NEAR/3 ("communit*" OR "administrat*")))
+aurora	SDG-07	1	chain	(("access" NEAR/3 ("affordable" OR "reliable" OR "modern")) AND (("affordable" OR "reliable" OR "modern") NEAR/3 ("energy" OR "electricity")))
+aurora	SDG-07	2	nested-proximity	(("share" OR "increas*" OR "promot*") NEAR/3 (("renewable" OR "alternative" OR "clean") NEAR/3 ("energy" OR "fuel")))
+aurora	SDG-07	3	nested-proximity	(("share" OR "increas*" OR "promot*") NEAR/3 ("energy" NEAR/3 ("conversion" OR "transition")))
+aurora	SDG-07	5	chain	(("improv*" NEAR/3 "energy") AND ("energy" NEAR/3 "efficiency"))
+aurora	SDG-08	1	nested-proximity	(("economic" NEAR/3 "growth*") NEAR/3 ("per capita" OR "sustain"))
+aurora	SDG-08	2	nested-proximity	(("economic" NEAR/3 "growth*") NEAR/3 ("develop* countr*" OR "least developed countr*" OR "small island*"))
+aurora	SDG-08	12	chain	(("domestic" NEAR/3 "material*") AND ("material*" NEAR/3 "consumption*"))
+aurora	SDG-08	16	chain	((("equal*" OR "inequal*") NEAR/3 "pay*") AND ("pay*" NEAR/3 "work*"))
+aurora	SDG-09	3	chain	(("rural" NEAR/3 "population*") AND ("population*" NEAR/3 "road*"))
+aurora	SDG-09	6	chain	(("share" NEAR/3 ("employment" OR "GDP" OR "gross domestic product")) AND (("employment" OR "GDP" OR "gross domestic product") NEAR/3 "industr*"))
+aurora	SDG-09	7	nested-proximity	(("manufacturing" NEAR/3 "value") NEAR/3 ("per capita" OR "GDP" OR "gross domestic product"))
+aurora	SDG-09	12	chain	(("increas*" NEAR/3 "resource*") AND ("resource*" NEAR/3 "efficien*"))
+aurora	SDG-10	2	nested-proximity	(("income*" NEAR/3 ("equal*" OR "inequal*" OR "distribution")) NEAR/3 ("poorest" OR "disadvantaged" OR "marginali*"))
+aurora	SDG-10	5	chain	(("reduc*" NEAR/3 ("equality" OR "inequalit*")) AND (("equality" OR "inequalit*") NEAR/3 ("legislati*" OR "law*" OR "polic*" OR "action*" OR "practice*")))
+aurora	SDG-10	7	chain	(("opportun*" NEAR/3 "equal*") AND ("equal*" NEAR/3 ("legislati*" OR "law*" OR "polic*" OR "action*" OR "practice*")))
+aurora	SDG-11	3	chain	(("population" NEAR/3 "living") AND ("living" NEAR/3 ("slum" OR "slums")))
+aurora	SDG-11	5	chain	(("access" NEAR/3 ("safe" OR "affordab*" OR "public" OR "urban")) AND (("safe" OR "affordab*" OR "public" OR "urban") NEAR/3 "transport*"))
+aurora	SDG-11	9	chain	((("urban" OR "city") NEAR/3 ("planning" OR "management")) AND (("planning" OR "management") NEAR/3 "participat*"))
+aurora	SDG-11	11	nested-proximity	("disaster*" NEAR/3 (("number" NEAR/3 ("death*" OR "people")) OR "missing person*" OR "human loss*"))
+aurora	SDG-11	14	nested-proximity	(("safe" OR "inclusive" OR "access*") NEAR/3 (("green" OR "public") NEAR/3 "space*"))
+aurora	SDG-11	15	nested-proximity	(("city" OR "cities" OR "urban" OR "municipalit*") NEAR/3 (("green" OR "public") NEAR/3 "space*"))
+aurora	SDG-11	16	nested-proximity	(("city" OR "cities" OR "urban" OR "municipalit*") NEAR/3 ("victim*" NEAR/3 (("physical" OR "sexual") NEAR/3 "harass*")))
+aurora	SDG-11	16	nested-proximity	("victim*" NEAR/3 (("physical" OR "sexual") NEAR/3 "harass*"))
+aurora	SDG-11	17	nested-proximity	(("city" OR "cities" OR "urban" OR "regional" OR "national") NEAR/3 ("development" NEAR/3 "plan*"))
+aurora	SDG-11	19	chain	(("reduc*" NEAR/3 "Disaster*") AND ("Disaster*" NEAR/3 "risk*"))
+aurora	SDG-12	11	chain	((("prevent*" OR "reduc*") NEAR/3 ("chemical*" OR "waste*")) AND (("chemical*" OR "waste*") NEAR/3 ("recycl*" OR "reuse" OR "reusing" OR "air" OR "water" OR "soil")))
+aurora	SDG-12	13	nested-proximity	("tons" NEAR/3 ("material*" NEAR/3 "recycle*"))
+aurora	SDG-12	17	chain	((("sustainab*" OR "global citizenship") NEAR/3 "education") AND ("education" NEAR/3 ("program*" OR "curricul*" OR "policy" OR "policies")))
+aurora	SDG-13	3	chain	(("reduc*" NEAR/3 "disaster*") AND ("disaster*" NEAR/3 "risk*"))
+aurora	SDG-13	4	nested-proximity	("disaster*" NEAR/3 (("number" NEAR/3 ("death*" OR "people")) OR "missing person*" OR "human loss*"))
+aurora	SDG-15	11	chain	((("halt*" OR "combat*" OR "reduc*") NEAR/3 ("degrad*" OR "loss*" OR "destruction" OR "fragmentation")) AND (("degrad*" OR "loss*" OR "destruction" OR "fragmentation") NEAR/3 ("habitat" OR "land" OR "woodland*" OR "forest*")))
+aurora	SDG-15	12	chain	((("halt*" OR "combat*" OR "reduc*") NEAR/3 "loss*") AND ("loss*" NEAR/3 "biodiversity"))
+aurora	SDG-15	13	chain	(("prevent*" NEAR/3 "extinction") AND ("extinction" NEAR/3 "species"))
+aurora	SDG-15	17	chain	(("invas*" NEAR/3 ("alien" OR "nonnative" OR "non-native" OR "nonindigenous" OR "non-indigenous")) AND (("alien" OR "nonnative" OR "non-native" OR "nonindigenous" OR "non-indigenous") NEAR/3 ("species" OR "animal*" OR "plant*")))
+aurora	SDG-15	18	chain	(("protect*" NEAR/3 ("threaten*" OR "endanger*")) AND (("threaten*" OR "endanger*") NEAR/3 ("species" OR "animal*" OR "plant*")))
+aurora	SDG-16	2	chain	(("violen*" NEAR/3 "related") AND ("related" NEAR/3 "death*"))
+aurora	SDG-16	7	chain	((("end" OR "ending" OR "reduc*") NEAR/3 ("abus*" OR "exploit*" OR "traffick*" OR "violen*" OR "tortur*" OR "neglect*")) AND (("abus*" OR "exploit*" OR "traffick*" OR "violen*" OR "tortur*" OR "neglect*") NEAR/3 "child*"))
+aurora	SDG-16	24	chain	((("people*" OR "women" OR "men") NEAR/3 ("participat*" OR "position*")) AND (("participat*" OR "position*") NEAR/3 ("institution*" OR "government*" OR "municipal*" OR "judiciary" OR "public service*" OR "legislature" OR "parliament*")))
+aurora	SDG-16	29	chain	(("public*" NEAR/3 "access*") AND ("access*" NEAR/3 "information*"))
+aurora	SDG-17	41	chain	(("national" NEAR/3 "plan*") AND ("plan*" NEAR/3 "Statistic*"))
+aurora	SDG-17	43	chain	((("develop* countr*" OR "least developed countr*" OR "small island*") NEAR/3 ("data*" OR "statistic*")) AND (("data*" OR "statistic*") NEAR/3 ("capacity*" OR "strengthen*" OR "budget*" OR "money" OR "dollar*" OR "resource*")))
+elsevier	SDG-05	1	braces-wildcard	girl* AND violence
+elsevier	SDG-10	1	braces-wildcard	economic marginali?ation
+elsevier	SDG-10	1	braces-wildcard	discriminatory law*
+elsevier	SDG-11	1	braces-wildcard	pollutant*
+elsevier	SDG-15	1	left-truncation	*forest*
+auckland	SDG-01	1	braces-wildcard	micro-financ*
+auckland	SDG-01	1	braces-wildcard	microfinanc*
+auckland	SDG-04	1	non-ascii	māori and pacific admission scheme
+auckland	SDG-04	1	non-ascii	te whāriki
+auckland	SDG-13	1	non-ascii	la niã
+auckland	SDG-13	1	non-ascii	el niño-southern oscillation
+auckland	SDG-13	1	non-ascii	el niño/southern oscillation
+auckland	SDG-13	1	non-ascii	el niño southern oscillation
+auckland	SDG-13	1	non-ascii	el niño
+auckland	SDG-15	1	left-truncation	*forest*
+auckland	SDG-15	1	left-truncation	*forest*
+siris	SDG-05	133	non-ascii	women’s participation
+siris	SDG-07	14	non-ascii	aluminium–air battery
+siris	SDG-07	25	parenthesis	biological hydrogen production (algae)
+siris	SDG-07	131	non-ascii	lithium–air battery
+siris	SDG-07	136	non-ascii	metal–air electrochemical cell
+siris	SDG-09	5	non-ascii	actor–network theory
+siris	SDG-09	27	non-ascii	build–operate–transfer
+siris	SDG-13	96	non-ascii	cyclonic niño
+siris	SDG-13	111	non-ascii	el niño
+siris	SDG-13	191	non-ascii	ice–albedo feedback
+siris	SDG-14	138	parenthesis	sole (fish)
+siris	SDG-14	148	parenthesis	thunnus (subgenus)

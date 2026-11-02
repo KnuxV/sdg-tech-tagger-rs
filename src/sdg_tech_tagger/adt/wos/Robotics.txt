@@ -1,0 +1,3 @@
+TS = (
+("autonomous car*") OR ("autonomous underwater vehicle*") OR ("autonomous vehicle*") OR ("auv") OR ("chatbot*") OR ("cybernetics") OR ("drone*") OR ("humanoid robot*") OR ("manipulator*") OR ("mobile manipulator*") OR ("mobile robot*") OR ("robot*") OR ("robotic*") OR ("self-driving car*") OR ("self-driving vehicle*") OR ("uav") OR ("ugv") OR ("uncrewed vehicle*") OR ("unmanned aerial vehicle*") OR ("unmanned air vehicle*") OR ("unmanned aircraft system*") OR ("unmanned ground vehicle*") OR ("unmanned spacecraft") OR ("unmanned underwater vehicles*") OR ("unmanned vehicle*")
+)

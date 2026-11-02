@@ -1,0 +1,457 @@
+TS = (
+("5g") OR
+("5gs") OR
+("5ges") OR
+("5g networks") OR
+("5g networkss") OR
+("5g networkses") OR
+("5th generation mobile") OR
+("5th generation mobiles") OR
+("5th generation mobilees") OR
+("6g") OR
+("6gs") OR
+("6ges") OR
+("6th generation mobile") OR
+("6th generation mobiles") OR
+("6th generation mobilees") OR
+("amazon web services") OR
+("amazon web servicess") OR
+("amazon web serviceses") OR
+("anything as a service") OR
+("anything as a services") OR
+("anything as a servicees") OR
+("apache cassandra") OR
+("apache cassandras") OR
+("apache cassandraes") OR
+("apache hive") OR
+("apache hives") OR
+("apache hivees") OR
+("apache kafka") OR
+("apache kafkas") OR
+("apache kafkaes") OR
+("apache spark") OR
+("apache sparks") OR
+("apache sparkes") OR
+("aws") OR
+("awss") OR
+("awses") OR
+("b5g") OR
+("b5gs") OR
+("b5ges") OR
+("bigtable") OR
+("bigtables") OR
+("bigtablees") OR
+("cloud application*") OR
+("cloud architecture*") OR
+("cloud broker") OR
+("cloud brokers") OR
+("cloud brokeres") OR
+("cloud client") OR
+("cloud clients") OR
+("cloud clientes") OR
+("cloud computing") OR
+("cloud computings") OR
+("cloud computinges") OR
+("cloud environment*") OR
+("cloud infrastructure*") OR
+("cloud migration") OR
+("cloud migrations") OR
+("cloud migrationes") OR
+("cloud optimizer") OR
+("cloud optimizers") OR
+("cloud optimizeres") OR
+("cloud platform*") OR
+("cloud portfolio") OR
+("cloud portfolios") OR
+("cloud portfolioes") OR
+("cloud provider") OR
+("cloud providers") OR
+("cloud provideres") OR
+("cloud resource*") OR
+("cloud securit*") OR
+("cloud server*") OR
+("cloud service*") OR
+("cloud software") OR
+("cloud softwares") OR
+("cloud softwarees") OR
+("cloud solution*") OR
+("cloud sourcing") OR
+("cloud sourcings") OR
+("cloud sourcinges") OR
+("cloud storage") OR
+("cloud storages") OR
+("cloud storagees") OR
+("cloud technolog*") OR
+("cloud-based") OR
+("cloud-baseds") OR
+("cloud-basedes") OR
+("cloudbased") OR
+("cloudbaseds") OR
+("cloudbasedes") OR
+("cloud-edge") OR
+("cloud-edges") OR
+("cloud-edgees") OR
+("cloudedge") OR
+("cloudedges") OR
+("cloudedgees") OR
+("cloud-native") OR
+("cloud-natives") OR
+("cloud-nativees") OR
+("cloudnative") OR
+("cloudnatives") OR
+("cloudnativees") OR
+("cloudera") OR
+("clouderas") OR
+("clouderaes") OR
+("cloudlet*") OR
+("cluster comput*") OR
+("cluster computing") OR
+("cluster computings") OR
+("cluster computinges") OR
+("cluster server*") OR
+("community cloud*") OR
+("computation offloading") OR
+("computation offloadings") OR
+("computation offloadinges") OR
+("compute-in-memory") OR
+("compute-in-memories") OR
+("compute-inmemory") OR
+("compute-inmemories") OR
+("computein-memory") OR
+("computein-memories") OR
+("computeinmemory") OR
+("computeinmemories") OR
+("computing continuum") OR
+("computing continuums") OR
+("computing continuumes") OR
+("computing-in-memory") OR
+("computing-in-memories") OR
+("computing-inmemory") OR
+("computing-inmemories") OR
+("computingin-memory") OR
+("computingin-memories") OR
+("computinginmemory") OR
+("computinginmemories") OR
+("concurrent comput*") OR
+("cyberinfrastructure*") OR
+("data warehous*") OR
+("data-center*") OR
+("datacenter*") OR
+("data-centre*") OR
+("datacentre*") OR
+("data-intensive comput*") OR
+("dataintensive comput*") OR
+("decentralized computing") OR
+("decentralized computings") OR
+("decentralized computinges") OR
+("dew computing") OR
+("dew computings") OR
+("dew computinges") OR
+("distributed comput*") OR
+("distributed computing") OR
+("distributed computings") OR
+("distributed computinges") OR
+("distributed file system*") OR
+("docker") OR
+("dockers") OR
+("dockeres") OR
+("dynamic cloud*") OR
+("edge ai") OR
+("edge ais") OR
+("edge aies") OR
+("edge computing") OR
+("edge computings") OR
+("edge computinges") OR
+("edge device*") OR
+("edge intelligence") OR
+("edge intelligences") OR
+("edge intelligencees") OR
+("edge node*") OR
+("edge server*") OR
+("edge-cloud") OR
+("edge-clouds") OR
+("edge-cloudes") OR
+("edgecloud") OR
+("edgeclouds") OR
+("edgecloudes") OR
+("elastic-search") OR
+("elastic-searchs") OR
+("elastic-searches") OR
+("elasticsearch") OR
+("elasticsearchs") OR
+("elasticsearches") OR
+("embb") OR
+("embbs") OR
+("embbes") OR
+("exascale") OR
+("exascales") OR
+("exascalees") OR
+("federated cloud*") OR
+("field programmable gate array*") OR
+("fifth generation mobile") OR
+("fifth generation mobiles") OR
+("fifth generation mobilees") OR
+("fog computing") OR
+("fog computings") OR
+("fog computinges") OR
+("fog node*") OR
+("fpga*") OR
+("google cloud") OR
+("google clouds") OR
+("google cloudes") OR
+("google earth engine") OR
+("google earth engines") OR
+("google earth enginees") OR
+("gpu*") OR
+("graphics processing unit*") OR
+("grid comput*") OR
+("grid computing") OR
+("grid computings") OR
+("grid computinges") OR
+("hadoop") OR
+("hadoops") OR
+("hadoopes") OR
+("hardware acceleration") OR
+("hardware accelerations") OR
+("hardware accelerationes") OR
+("hardware accelerator*") OR
+("hbase") OR
+("hbases") OR
+("hbasees") OR
+("high performance comput*") OR
+("hybrid cloud*") OR
+("hypervisor*") OR
+("imt-2020") OR
+("imt2020") OR
+("imt-2030") OR
+("imt2030") OR
+("in-memory computing") OR
+("in-memory computings") OR
+("in-memory computinges") OR
+("inmemory computing") OR
+("inmemory computings") OR
+("inmemory computinges") OR
+("infrastructure as a service") OR
+("infrastructure as a services") OR
+("infrastructure as a servicees") OR
+("inter-cloud") OR
+("inter-clouds") OR
+("inter-cloudes") OR
+("intercloud") OR
+("interclouds") OR
+("intercloudes") OR
+("inter-cloud computing") OR
+("inter-cloud computings") OR
+("inter-cloud computinges") OR
+("intercloud computing") OR
+("intercloud computings") OR
+("intercloud computinges") OR
+("kubernetes") OR
+("kubernetess") OR
+("kuberneteses") OR
+("mapreduce") OR
+("mapreduces") OR
+("mapreducees") OR
+("massively parallel processing") OR
+("massively parallel processings") OR
+("massively parallel processinges") OR
+("memristor*") OR
+("microservice*") OR
+("microsoft azure") OR
+("microsoft azures") OR
+("microsoft azurees") OR
+("mist computing") OR
+("mist computings") OR
+("mist computinges") OR
+("mobile edge") OR
+("mobile edges") OR
+("mobile edgees") OR
+("multi-access edge") OR
+("multi-access edges") OR
+("multi-access edgees") OR
+("multiaccess edge") OR
+("multiaccess edges") OR
+("multiaccess edgees") OR
+("multi-cloud*") OR
+("multicloud*") OR
+("multi-core comput*") OR
+("multicore comput*") OR
+("multi-core cpu*") OR
+("multicore cpu*") OR
+("multi-core processor*") OR
+("multicore processor*") OR
+("multitenan*") OR
+("network slicing") OR
+("network slicings") OR
+("network slicinges") OR
+("neuromorphic") OR
+("neuromorphics") OR
+("neuromorphices") OR
+("neuromorphic comput*") OR
+("nosql") OR
+("nosqls") OR
+("nosqles") OR
+("on-demand computing") OR
+("on-demand computings") OR
+("on-demand computinges") OR
+("ondemand computing") OR
+("ondemand computings") OR
+("ondemand computinges") OR
+("openstack") OR
+("openstacks") OR
+("openstackes") OR
+("optical comput*") OR
+("parallel comput*") OR
+("parallel computing") OR
+("parallel computings") OR
+("parallel computinges") OR
+("parallel processing") OR
+("parallel processings") OR
+("parallel processinges") OR
+("photonic comput*") OR
+("platform as a service") OR
+("platform as a services") OR
+("platform as a servicees") OR
+("private cloud*") OR
+("public cloud*") OR
+("quantum algorithm*") OR
+("quantum annealer*") OR
+("quantum annealing") OR
+("quantum annealings") OR
+("quantum annealinges") OR
+("quantum bit*") OR
+("quantum circuit*") OR
+("quantum comput*") OR
+("quantum device*") OR
+("quantum error correction") OR
+("quantum error corrections") OR
+("quantum error correctiones") OR
+("quantum hardware") OR
+("quantum hardwares") OR
+("quantum hardwarees") OR
+("quantum processor*") OR
+("quantum simulat*") OR
+("quantum software") OR
+("quantum softwares") OR
+("quantum softwarees") OR
+("quantum supremacy") OR
+("quantum supremacies") OR
+("qubit*") OR
+("real-time comput*") OR
+("realtime comput*") OR
+("server cluster*") OR
+("server farm*") OR
+("serverless") OR
+("serverlesss") OR
+("serverlesses") OR
+("sixth generation mobile") OR
+("sixth generation mobiles") OR
+("sixth generation mobilees") OR
+("software as a service") OR
+("software as a services") OR
+("software as a servicees") OR
+("software-defined network*") OR
+("softwaredefined network*") OR
+("splunk") OR
+("splunks") OR
+("splunkes") OR
+("supercomput*") OR
+("system-on-a-chip") OR
+("system-on-a-chips") OR
+("system-on-a-chipes") OR
+("system-on-achip") OR
+("system-on-achips") OR
+("system-on-achipes") OR
+("system-ona-chip") OR
+("system-ona-chips") OR
+("system-ona-chipes") OR
+("system-onachip") OR
+("system-onachips") OR
+("system-onachipes") OR
+("systemon-a-chip") OR
+("systemon-a-chips") OR
+("systemon-a-chipes") OR
+("systemon-achip") OR
+("systemon-achips") OR
+("systemon-achipes") OR
+("systemona-chip") OR
+("systemona-chips") OR
+("systemona-chipes") OR
+("systemonachip") OR
+("systemonachips") OR
+("systemonachipes") OR
+("system-on-chip") OR
+("system-on-chips") OR
+("system-on-chipes") OR
+("system-onchip") OR
+("system-onchips") OR
+("system-onchipes") OR
+("systemon-chip") OR
+("systemon-chips") OR
+("systemon-chipes") OR
+("systemonchip") OR
+("systemonchips") OR
+("systemonchipes") OR
+("systems-on-a-chip") OR
+("systems-on-a-chips") OR
+("systems-on-a-chipes") OR
+("systems-on-achip") OR
+("systems-on-achips") OR
+("systems-on-achipes") OR
+("systems-ona-chip") OR
+("systems-ona-chips") OR
+("systems-ona-chipes") OR
+("systems-onachip") OR
+("systems-onachips") OR
+("systems-onachipes") OR
+("systemson-a-chip") OR
+("systemson-a-chips") OR
+("systemson-a-chipes") OR
+("systemson-achip") OR
+("systemson-achips") OR
+("systemson-achipes") OR
+("systemsona-chip") OR
+("systemsona-chips") OR
+("systemsona-chipes") OR
+("systemsonachip") OR
+("systemsonachips") OR
+("systemsonachipes") OR
+("systems-on-chip") OR
+("systems-on-chips") OR
+("systems-on-chipes") OR
+("systems-onchip") OR
+("systems-onchips") OR
+("systems-onchipes") OR
+("systemson-chip") OR
+("systemson-chips") OR
+("systemson-chipes") OR
+("systemsonchip") OR
+("systemsonchips") OR
+("systemsonchipes") OR
+("task offloading") OR
+("task offloadings") OR
+("task offloadinges") OR
+("tensor processing unit*") OR
+("tinyml") OR
+("tinymls") OR
+("tinymles") OR
+("urllc") OR
+("urllcs") OR
+("urllces") OR
+("utility computing") OR
+("utility computings") OR
+("utility computinges") OR
+("virtual machine*") OR
+("virtualisation") OR
+("virtualisations") OR
+("virtualisationes") OR
+("virtualization") OR
+("virtualizations") OR
+("virtualizationes") OR
+("vmware") OR
+("vmwares") OR
+("vmwarees") OR
+("xaas") OR
+("xaass") OR
+("xaases")
+)

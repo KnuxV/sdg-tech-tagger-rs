@@ -1,0 +1,11 @@
+# The Rust side of the package is one crate, rust/, built by maturin into the
+# extension sdg_tech_tagger._native. This workspace lets the Rust checks run
+# from the repository root.
+[workspace]
+members = ["rust"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1

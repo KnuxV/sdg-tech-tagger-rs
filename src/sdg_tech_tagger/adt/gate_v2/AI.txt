@@ -1,0 +1,380 @@
+TS = (
+("action recognition") OR
+("activation function*") OR
+("active learning") OR
+("activity recognition") OR
+("actor-critic algorithm*") OR
+("adaboost*") OR
+("adaptive boosting") OR
+("adversarial learning") OR
+("adversarial network") OR
+("ai") OR
+("albert") OR
+("alphafold") OR
+("anfis") OR
+("ann") OR
+("anomaly detection") OR
+("ant colony algorithm*") OR
+("ant colony optimisation") OR
+("ant colony optimization") OR
+("ant colony system*") OR
+("artificial bee colony") OR
+("artificial general intelligence") OR
+("artificial intellig*") OR
+("artificial intelligen*") OR
+("artificial neural network") OR
+("association rule*") OR
+("attention mechanism*") OR
+("autoencoder") OR
+("autoencoder*") OR
+("automated reasoning") OR
+("autonomous weapon*") OR
+("back-propagation") OR
+("back-propagation algorithm*") OR
+("back-propagation learning") OR
+("back-propagation net*") OR
+("backpropagation") OR
+("backpropagation algorithm*") OR
+("backpropagation learning") OR
+("backpropagation net*") OR
+("bayesian learning") OR
+("bayesian network") OR
+("bidirectional encoder representations from transformer") OR
+("big data") OR
+("boltzmann machine*") OR
+("boosting algorithm*") OR
+("bp learning") OR
+("bp network*") OR
+("brownboost") OR
+("business intelligence") OR
+("case-based reasoning") OR
+("catboost") OR
+("character recognition") OR
+("chat-bot*") OR
+("chatgpt") OR
+("classification algorithm*") OR
+("classification tree*") OR
+("cnn") OR
+("co-training") OR
+("cognitive comput*") OR
+("collaborative filtering") OR
+("committee machine*") OR
+("community detection") OR
+("computation* intelligen*") OR
+("computer vision") OR
+("computer-aided diagnosis") OR
+("concept* drift") OR
+("conditional random field*") OR
+("connectionis*") OR
+("continual learning") OR
+("contrastive learning") OR
+("conversational agent*") OR
+("convolution* net*") OR
+("convolutional neural network") OR
+("dall-e") OR
+("data analytics") OR
+("data mining") OR
+("data science") OR
+("decision forest*") OR
+("decision tree*") OR
+("deep belief net*") OR
+("deep belief network") OR
+("deep convolutional neural network") OR
+("deep generative model") OR
+("deep learning") OR
+("deep net*") OR
+("deep neural network") OR
+("denoising diffusion probabilistic model*") OR
+("dictionary learning") OR
+("differential evolution") OR
+("differential evolution algorithm") OR
+("diffusion model") OR
+("dnn") OR
+("echo state* net*") OR
+("emotion recognition") OR
+("ensemble learning") OR
+("evolutionary algorithm") OR
+("evolutionary computation") OR
+("expert system*") OR
+("extreme learning machine*") OR
+("extreme machine learning") OR
+("face detection") OR
+("face recognition") OR
+("facial expression recognition") OR
+("facial recognition") OR
+("feature engineering") OR
+("feature extraction") OR
+("feature learning") OR
+("feature selection") OR
+("federated learning") OR
+("feed-forward net*") OR
+("feedforward net*") OR
+("few-shot") OR
+("foundation model*") OR
+("fuzzy inference") OR
+("fuzzy logic") OR
+("genai") OR
+("generalisation error*") OR
+("generalization error*") OR
+("generative adversarial net*") OR
+("generative adversarial network") OR
+("generative adversarial network*") OR
+("generative ai") OR
+("generative artificial intelligence") OR
+("generative model") OR
+("generative modeling") OR
+("generative modelling") OR
+("generative pre-trained transformer") OR
+("genetic algorithm") OR
+("genetic programming") OR
+("gesture recognition") OR
+("github copilot") OR
+("gnn") OR
+("gpt-2") OR
+("gpt-3") OR
+("gpt-3.5") OR
+("gpt-4") OR
+("gpt-4.0") OR
+("gpt-4o") OR
+("gpt4") OR
+("gradient boost*") OR
+("gradient boosting") OR
+("gradient tree boosting") OR
+("grammatical inference") OR
+("graph convolutional") OR
+("graph learning") OR
+("graph* kernel*") OR
+("graphical model*") OR
+("gravitational search algorithm") OR
+("handwriting recognition") OR
+("hebbian learning") OR
+("hidden markov model*") OR
+("hierarchical clustering") OR
+("hopfield net*") OR
+("hypergraph* learning") OR
+("image classification") OR
+("image model") OR
+("image recognition") OR
+("image retrieval") OR
+("image segmentation") OR
+("incremental learning") OR
+("inductive logic programming") OR
+("information extraction") OR
+("information retrieval") OR
+("instance-based learning") OR
+("instruction model") OR
+("intelligent agent*") OR
+("intelligent algorithm*") OR
+("intelligent machine*") OR
+("k-means") OR
+("k-nearest neighbo*") OR
+("keras") OR
+("kernel learning") OR
+("kernel machine") OR
+("knn") OR
+("knowledge representation") OR
+("knowledge-based system*") OR
+("label propagation") OR
+("language model") OR
+("language model*") OR
+("large action model") OR
+("large language model") OR
+("large-scale data*") OR
+("latent dirichlet allocation") OR
+("latent semantic analysis") OR
+("lazy learning") OR
+("learning algorithm*") OR
+("learning automata") OR
+("learning automaton") OR
+("learning model*") OR
+("learning to rank*") OR
+("learning-based") OR
+("lightgbm") OR
+("link prediction") OR
+("liquid state machine*") OR
+("llm") OR
+("logitboost") OR
+("long short term memory") OR
+("long short-term memory") OR
+("lpboost") OR
+("lstm") OR
+("machine intelligence") OR
+("machine learning") OR
+("machine translation") OR
+("machine vision") OR
+("machine* intelligen*") OR
+("machine* learning") OR
+("machine-learned ranking") OR
+("madaboost") OR
+("madboost") OR
+("manifold learning") OR
+("manifold regularisation") OR
+("manifold regularization") OR
+("markovian") OR
+("masked language model") OR
+("massive data*") OR
+("memetic algorithm") OR
+("meta-learning") OR
+("metric learning") OR
+("mixture of expert*") OR
+("multi* class classification") OR
+("multi* instance learning") OR
+("multi* kernel* learning") OR
+("multi* label classification") OR
+("multi* label learning") OR
+("multi* task learning") OR
+("multi-agent learning") OR
+("multi-agent system*") OR
+("multi-layer perceptron") OR
+("multiagent learning") OR
+("multiclass classification") OR
+("multiinstance learning") OR
+("multikernel* learning") OR
+("multilabel classification") OR
+("multilabel learning") OR
+("multilayer perceptron*") OR
+("multilingual language model") OR
+("multimodal large language model") OR
+("multitask learning") OR
+("naive bayes") OR
+("naive bayes* classifi*") OR
+("named entity recognition") OR
+("natural language generation") OR
+("natural language processing") OR
+("natural language understanding") OR
+("nearest neighbo* algorithm*") OR
+("nearest neighbo* classif*") OR
+("nearest neighbor algorithm") OR
+("nearest neighbour algorithm") OR
+("neocognitron*") OR
+("neural gas") OR
+("neural model*") OR
+("neural net*") OR
+("neural network") OR
+("neural radiance field*") OR
+("neural turing machine") OR
+("neuro dynamic programming") OR
+("neuro fuzzy") OR
+("neuro-computing") OR
+("neuro-evolution") OR
+("neuro-robotic*") OR
+("neurocomputing") OR
+("neurodynamic programming") OR
+("neuroevolution") OR
+("neurofuzzy") OR
+("neurorobotic*") OR
+("nlp") OR
+("object detection") OR
+("object identification") OR
+("object recognition") OR
+("one class classifi*") OR
+("one-shot learning") OR
+("pac learning") OR
+("particle swarm") OR
+("particle swarm optimisation") OR
+("particle swarm optimization") OR
+("pattern recognition") OR
+("pcnn") OR
+("pedestrian detection") OR
+("perceptron*") OR
+("policy gradient methods") OR
+("pose estimation") OR
+("predictive analytics") OR
+("probabl* approximate* correct learning") OR
+("prompt engineering") OR
+("pulse coupled neural net*") OR
+("pytorch") OR
+("q learning") OR
+("q-learning") OR
+("question answering") OR
+("radial basis function net*") OR
+("random forest") OR
+("random forest*") OR
+("rankboost") OR
+("rbf net*") OR
+("rbfnn*") OR
+("recommendation system*") OR
+("recommender system*") OR
+("recurrent neural network") OR
+("regression tree") OR
+("reinforced learning") OR
+("reinforcement learning") OR
+("relational learning") OR
+("relevance vector* machine*") OR
+("representation learning") OR
+("reservoir computing") OR
+("resnet*") OR
+("retrieval augmented generation") OR
+("rnn") OR
+("roberta") OR
+("robot* learning") OR
+("robotic process automation") OR
+("rule learning") OR
+("rule* induction") OR
+("rule-based learning") OR
+("rule-based system*") OR
+("self-organising map") OR
+("self-organizing map") OR
+("semantic search") OR
+("semantic segmentation") OR
+("semantic web") OR
+("semi-supervised learning") OR
+("sentiment analysis") OR
+("similarity learning") OR
+("small language model") OR
+("sparse representation") OR
+("spectral clustering") OR
+("speech processing") OR
+("speech recognition") OR
+("speech synthesis") OR
+("speech to text") OR
+("statistical language model") OR
+("statistical learning") OR
+("statistical relation* learning") OR
+("statistical relational learning") OR
+("stochastic block model") OR
+("stochastic gradient") OR
+("string kernel*") OR
+("supervised learning") OR
+("support vector machine") OR
+("support vector regression") OR
+("support* vector* machine*") OR
+("support* vector* regression") OR
+("svm") OR
+("swarm intelligence") OR
+("swarm optimisation") OR
+("swarm optimization") OR
+("task-based generative model") OR
+("temporal difference learning") OR
+("tensorflow") OR
+("text classification") OR
+("text mining") OR
+("text to speech") OR
+("text-to-image generation") OR
+("text-to-image model") OR
+("text-to-image prompt") OR
+("text-to-video model") OR
+("tinyml") OR
+("topic model*") OR
+("totalboost") OR
+("training algorithm*") OR
+("transductive learning") OR
+("transfer learning") OR
+("transformer") OR
+("transformer network*") OR
+("u-net") OR
+("unsupervised learning") OR
+("variational inference") OR
+("vector machine") OR
+("virtual assistant*") OR
+("vision transformer") OR
+("voice recognition") OR
+("wasserstein gan") OR
+("word embedding*") OR
+("word2vec") OR
+("xai") OR
+("xgboost") OR
+("xgboost*") OR
+("yolo*") OR
+("zero-shot")
+)

@@ -1,0 +1,28 @@
+TS = (
+("4ir") OR
+("4th industrial revolution") OR
+("cloud manufacturing") OR
+("digital manufacturing") OR
+("digital technolog*") OR
+("digital transformation") OR
+("digital twin*") OR
+("digitalisation") OR
+("digitalization") OR
+("factories of the future") OR
+("factory of the future") OR
+("fourth industrial revolution") OR
+("i4.0") OR
+("industrial revolution 4.0") OR
+("industrie 4.0") OR
+("industry 4.0") OR
+("industry 5.0") OR
+("industry4.0") OR
+("intelligent city") OR
+("intelligent manufacturing") OR
+("precision agriculture") OR
+("smart agricultur*") OR
+("smart cit*") OR
+("smart farming") OR
+("smart manufacturing") OR
+("society 5.0")
+)

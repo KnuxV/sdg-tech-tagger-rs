@@ -1,0 +1,49 @@
+TS = (
+("altcoin") OR
+("altcoin*") OR
+("bitcoin") OR
+("bitcoin*") OR
+("block-chain") OR
+("blockchain*") OR
+("cbdc") OR
+("central bank digital currenc*") OR
+("consensus algorithm*") OR
+("consensus mechanism*") OR
+("crypto market*") OR
+("crypto-asset*") OR
+("crypto-currenc*") OR
+("cryptoasset*") OR
+("cryptocurrenc*") OR
+("decentralised application*") OR
+("decentralised autonomous organisation*") OR
+("decentralised financ*") OR
+("decentralised ledger*") OR
+("decentralized application*") OR
+("decentralized autonomous organization*") OR
+("decentralized financ*") OR
+("decentralized ledger*") OR
+("digital asset*") OR
+("digital currenc*") OR
+("distributed ledger*") OR
+("ethereum") OR
+("hyperledger") OR
+("initial coin offering*") OR
+("layer 2 scaling solution*") OR
+("non-fungible token*") OR
+("optimistic rollup*") OR
+("permissioned") OR
+("permissionless") OR
+("private blockchain*") OR
+("proof of authority") OR
+("proof-of-stake") OR
+("proof-of-work") OR
+("public blockchain*") OR
+("smart contract*") OR
+("stablecoin*") OR
+("tokenomics") OR
+("virtual currenc*") OR
+("web 3.0") OR
+("web3") OR
+("zk-rollup*") OR
+("zk-snark*")
+)

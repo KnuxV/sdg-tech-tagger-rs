@@ -1,0 +1,57 @@
+TS = (
+("4ir") OR
+("4irs") OR
+("4ires") OR
+("4th industrial revolution") OR
+("4th industrial revolutions") OR
+("4th industrial revolutiones") OR
+("cloud manufacturing") OR
+("cloud manufacturings") OR
+("cloud manufacturinges") OR
+("digital manufacturing") OR
+("digital manufacturings") OR
+("digital manufacturinges") OR
+("digital technolog*") OR
+("digital transformation") OR
+("digital transformations") OR
+("digital transformationes") OR
+("digital twin*") OR
+("digitalisation") OR
+("digitalisations") OR
+("digitalisationes") OR
+("digitalization") OR
+("digitalizations") OR
+("digitalizationes") OR
+("factories of the future") OR
+("factories of the futures") OR
+("factories of the futurees") OR
+("factory of the future") OR
+("factory of the futures") OR
+("factory of the futurees") OR
+("fourth industrial revolution") OR
+("fourth industrial revolutions") OR
+("fourth industrial revolutiones") OR
+("i4.0") OR
+("industrial revolution 4.0") OR
+("industrie 4.0") OR
+("industry 4.0") OR
+("industry 5.0") OR
+("industry4.0") OR
+("intelligent city") OR
+("intelligent cities") OR
+("intelligent manufacturing") OR
+("intelligent manufacturings") OR
+("intelligent manufacturinges") OR
+("precision agriculture") OR
+("precision agricultures") OR
+("precision agriculturees") OR
+("smart agricultur*") OR
+("smart cit*") OR
+("smart farming") OR
+("smart farmings") OR
+("smart farminges") OR
+("smart manufacturing") OR
+("smart manufacturings") OR
+("smart manufacturinges") OR
+("society 5.0")
+)

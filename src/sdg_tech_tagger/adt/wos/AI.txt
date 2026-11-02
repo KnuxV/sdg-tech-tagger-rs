@@ -1,0 +1,24 @@
+TS = (
+("artificial intellig*") OR ("automated reasoning") OR ("backpropagation") OR ("computer vision") OR ("data mining") OR ("data science") OR ("deep learning") OR ("expert system*") OR ("face detection") OR ("feature extraction") OR
+("generative adversarial network*") OR ("gesture recognition") OR ("image classification") OR ("image recognition") OR ("image segmentation") OR ("information retrieval") OR ("intelligent machine*") OR
+("kernel machine") OR ("knowledge representation") OR ("machine intelligence") OR ("machine learning") OR ("machine translation") OR ("meta-learning") OR ("multilayer perceptron*") OR
+("natural language processing") OR ("neural net*") OR ("object detection") OR ("object identification") OR ("object recognition") OR ("pattern recognition") OR ("pose estimation") OR
+("reinforcement learning") OR ("semantic search") OR ("semi-supervised learning") OR ("sentiment analysis") OR ("speech recognition") OR ("statistical learning") OR ("supervised learning") OR
+("text classification") OR ("transfer learning") OR ("transformer network*") OR ("unsupervised learning") OR ("voice recognition") OR ("tensorflow") OR ("keras") OR ("pytorch") OR
+("artificial realit*") OR ("augmented realit*") OR ("computer-mediated realit*") OR ("mixed realit*") OR ("virtual realit*") OR ("neural network") OR
+("albert") OR ("genetic algorithm") OR ("transformer") OR ("convolutional neural network") OR ("artificial neural network") OR ("vector machine") OR ("support vector machine") OR
+("random forest") OR ("deep neural network") OR ("evolutionary algorithm") OR ("generative adversarial network") OR ("k-means") OR
+("language model") OR ("recurrent neural network") OR ("diffusion model") OR ("markovian") OR ("bayesian network") OR ("adversarial network") OR ("autoencoder") OR ("generative model") OR
+("deep convolutional neural network") OR ("gradient boosting") OR ("support vector regression") OR ("xgboost") OR ("regression tree") OR ("genetic programming") OR ("large language model") OR
+("latent dirichlet allocation") OR ("word2vec") OR ("ensemble learning") OR ("stochastic gradient") OR ("q-learning") OR ("multi-layer perceptron") OR ("roberta") OR ("differential evolution algorithm") OR
+("long short term memory") OR ("vision transformer") OR ("image model") OR ("bayesian learning") OR ("natural language understanding") OR ("variational inference") OR ("swarm optimisation") OR ("particle swarm optimisation") OR
+("deep belief network") OR ("deep generative model") OR ("latent semantic analysis") OR ("generative artificial intelligence") OR ("memetic algorithm") OR ("kernel learning") OR ("natural language generation") OR
+("gravitational search algorithm") OR ("hebbian learning") OR ("bidirectional encoder representations from transformer") OR ("adaptive boosting") OR ("relational learning") OR ("instruction model") OR ("stochastic block model") OR
+("masked language model") OR ("wasserstein gan") OR ("generative pre-trained transformer") OR ("statistical language model") OR ("temporal difference learning") OR ("instance-based learning") OR ("nearest neighbour algorithm") OR
+("policy gradient methods") OR ("multilingual language model") OR ("statistical relational learning") OR ("logitboost") OR ("text-to-image model") OR ("gradient tree boosting") OR ("retrieval augmented generation") OR
+("multimodal large language model") OR ("extreme machine learning") OR ("neural turing machine") OR ("task-based generative model") OR ("rankboost") OR ("small language model") OR ("lpboost") OR
+("text-to-video model") OR ("madboost") OR ("brownboost") OR ("totalboost") OR ("large action model") OR
+("apache spark") OR ("apache cassandra") OR ("big data") OR ("data center*") OR ("data centre*") OR
+("hadoop") OR ("large-scale data*") OR ("mapreduce") OR ("massive data*") OR ("apache kafka") OR
+("hbase") OR ("bigtable") OR ("docker") OR ("apache hive") OR ("distributed file system*")
+)

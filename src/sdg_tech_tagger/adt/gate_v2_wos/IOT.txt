@@ -1,0 +1,287 @@
+TS = (
+("aiot") OR
+("aiots") OR
+("aiotes") OR
+("ambient assisted living") OR
+("ambient assisted livings") OR
+("ambient assisted livinges") OR
+("ambient intelligence") OR
+("ambient intelligences") OR
+("ambient intelligencees") OR
+("arduino") OR
+("arduinos") OR
+("arduinoes") OR
+("artificial intelligence of things") OR
+("artificial intelligence of thingss") OR
+("artificial intelligence of thingses") OR
+("bluetooth low energy") OR
+("bluetooth low energies") OR
+("body area network*") OR
+("car-to-car") OR
+("car-to-cars") OR
+("car-to-cares") OR
+("car-tocar") OR
+("car-tocars") OR
+("car-tocares") OR
+("carto-car") OR
+("carto-cars") OR
+("carto-cares") OR
+("cartocar") OR
+("cartocars") OR
+("cartocares") OR
+("cloud of things") OR
+("cloud of thingss") OR
+("cloud of thingses") OR
+("connected car") OR
+("connected cars") OR
+("connected cares") OR
+("connected device*") OR
+("connected home*") OR
+("connected object*") OR
+("connected vehicle*") OR
+("cyber-physical") OR
+("cyber-physicals") OR
+("cyber-physicales") OR
+("cyberphysical") OR
+("cyberphysicals") OR
+("cyberphysicales") OR
+("cyber-physical system*") OR
+("cyberphysical system*") OR
+("d2d communication*") OR
+("device-to-device communication*") OR
+("device-todevice communication*") OR
+("deviceto-device communication*") OR
+("devicetodevice communication*") OR
+("device-to-device d2d") OR
+("device-to-device d2ds") OR
+("device-to-device d2des") OR
+("device-todevice d2d") OR
+("device-todevice d2ds") OR
+("device-todevice d2des") OR
+("deviceto-device d2d") OR
+("deviceto-device d2ds") OR
+("deviceto-device d2des") OR
+("devicetodevice d2d") OR
+("devicetodevice d2ds") OR
+("devicetodevice d2des") OR
+("esp32") OR
+("fitness tracker*") OR
+("home automation") OR
+("home automations") OR
+("home automationes") OR
+("human-machine interface*") OR
+("humanmachine interface*") OR
+("hyper connectivity") OR
+("hyper connectivities") OR
+("iiot") OR
+("iiots") OR
+("iiotes") OR
+("industrial internet") OR
+("industrial internets") OR
+("industrial internetes") OR
+("industrial internet of things") OR
+("industrial internet of thingss") OR
+("industrial internet of thingses") OR
+("intelligent building*") OR
+("intelligent factor*") OR
+("intelligent transport* system*") OR
+("inter-vehicle communication*") OR
+("intervehicle communication*") OR
+("internet of energy") OR
+("internet of energies") OR
+("internet of everything") OR
+("internet of everythings") OR
+("internet of everythinges") OR
+("internet of medical things") OR
+("internet of medical thingss") OR
+("internet of medical thingses") OR
+("internet of things") OR
+("internet of thingss") OR
+("internet of thingses") OR
+("internet of underwater things") OR
+("internet of underwater thingss") OR
+("internet of underwater thingses") OR
+("internet of vehicles") OR
+("internet of vehicless") OR
+("internet of vehicleses") OR
+("iomt") OR
+("iomts") OR
+("iomtes") OR
+("iot") OR
+("iots") OR
+("iotes") OR
+("lorawan") OR
+("lorawans") OR
+("lorawanes") OR
+("low power wide area") OR
+("low power wide areas") OR
+("low power wide areaes") OR
+("lpwa") OR
+("lpwas") OR
+("lpwaes") OR
+("lpwan") OR
+("lpwans") OR
+("lpwanes") OR
+("m2m") OR
+("m2ms") OR
+("m2mes") OR
+("machine type communication*") OR
+("machine-to-enterprise") OR
+("machine-to-enterprises") OR
+("machine-to-enterprisees") OR
+("machine-toenterprise") OR
+("machine-toenterprises") OR
+("machine-toenterprisees") OR
+("machineto-enterprise") OR
+("machineto-enterprises") OR
+("machineto-enterprisees") OR
+("machinetoenterprise") OR
+("machinetoenterprises") OR
+("machinetoenterprisees") OR
+("machine-to-human") OR
+("machine-to-humans") OR
+("machine-to-humanes") OR
+("machine-tohuman") OR
+("machine-tohumans") OR
+("machine-tohumanes") OR
+("machineto-human") OR
+("machineto-humans") OR
+("machineto-humanes") OR
+("machinetohuman") OR
+("machinetohumans") OR
+("machinetohumanes") OR
+("machine-to-machine") OR
+("machine-to-machines") OR
+("machine-to-machinees") OR
+("machine-tomachine") OR
+("machine-tomachines") OR
+("machine-tomachinees") OR
+("machineto-machine") OR
+("machineto-machines") OR
+("machineto-machinees") OR
+("machinetomachine") OR
+("machinetomachines") OR
+("machinetomachinees") OR
+("mmtc") OR
+("mmtcs") OR
+("mmtces") OR
+("mqtt") OR
+("mqtts") OR
+("mqttes") OR
+("near field communication") OR
+("near field communications") OR
+("near field communicationes") OR
+("networked device*") OR
+("pervasive comput*") OR
+("pervasive sensing") OR
+("pervasive sensings") OR
+("pervasive sensinges") OR
+("predictive maintenance") OR
+("predictive maintenances") OR
+("predictive maintenancees") OR
+("radio frequency identification") OR
+("radio frequency identifications") OR
+("radio frequency identificationes") OR
+("raspberry pi") OR
+("raspberry pis") OR
+("raspberry pies") OR
+("remote monitoring") OR
+("remote monitorings") OR
+("remote monitoringes") OR
+("rfid") OR
+("rfids") OR
+("rfides") OR
+("sensor network*") OR
+("sensor node*") OR
+("sigfox") OR
+("sigfoxs") OR
+("sigfoxes") OR
+("smart building*") OR
+("smart device*") OR
+("smart dust") OR
+("smart dusts") OR
+("smart dustes") OR
+("smart environment*") OR
+("smart factor*") OR
+("smart grid*") OR
+("smart health") OR
+("smart healths") OR
+("smart healthes") OR
+("smart home*") OR
+("smart house") OR
+("smart houses") OR
+("smart housees") OR
+("smart meter*") OR
+("smart office") OR
+("smart offices") OR
+("smart officees") OR
+("smart sensor*") OR
+("smart-watch*") OR
+("smartwatch*") OR
+("ubiquitous computing") OR
+("ubiquitous computings") OR
+("ubiquitous computinges") OR
+("ubiquitous sensing") OR
+("ubiquitous sensings") OR
+("ubiquitous sensinges") OR
+("v2i") OR
+("v2is") OR
+("v2ies") OR
+("v2v") OR
+("v2vs") OR
+("v2ves") OR
+("v2x") OR
+("v2xs") OR
+("v2xes") OR
+("vanet*") OR
+("vehicle-to-everything") OR
+("vehicle-to-everythings") OR
+("vehicle-to-everythinges") OR
+("vehicle-toeverything") OR
+("vehicle-toeverythings") OR
+("vehicle-toeverythinges") OR
+("vehicleto-everything") OR
+("vehicleto-everythings") OR
+("vehicleto-everythinges") OR
+("vehicletoeverything") OR
+("vehicletoeverythings") OR
+("vehicletoeverythinges") OR
+("vehicle-to-infrastructure") OR
+("vehicle-to-infrastructures") OR
+("vehicle-to-infrastructurees") OR
+("vehicle-toinfrastructure") OR
+("vehicle-toinfrastructures") OR
+("vehicle-toinfrastructurees") OR
+("vehicleto-infrastructure") OR
+("vehicleto-infrastructures") OR
+("vehicleto-infrastructurees") OR
+("vehicletoinfrastructure") OR
+("vehicletoinfrastructures") OR
+("vehicletoinfrastructurees") OR
+("vehicle-to-vehicle") OR
+("vehicle-to-vehicles") OR
+("vehicle-to-vehiclees") OR
+("vehicle-tovehicle") OR
+("vehicle-tovehicles") OR
+("vehicle-tovehiclees") OR
+("vehicleto-vehicle") OR
+("vehicleto-vehicles") OR
+("vehicleto-vehiclees") OR
+("vehicletovehicle") OR
+("vehicletovehicles") OR
+("vehicletovehiclees") OR
+("vehicular network*") OR
+("wearable*") OR
+("web of things") OR
+("web of thingss") OR
+("web of thingses") OR
+("wireless body area network*") OR
+("wireless sensor network*") OR
+("wireless sensor*") OR
+("wsn") OR
+("wsns") OR
+("wsnes") OR
+("zigbee") OR
+("zigbees") OR
+("zigbeees")
+)

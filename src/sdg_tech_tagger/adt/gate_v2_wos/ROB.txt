@@ -1,0 +1,148 @@
+TS = (
+("aerial vehicle*") OR
+("agv") OR
+("agvs") OR
+("agves") OR
+("automated car") OR
+("automated cars") OR
+("automated cares") OR
+("automated driving") OR
+("automated drivings") OR
+("automated drivinges") OR
+("automated guided vehicle*") OR
+("automated vehicle*") OR
+("autonomous aerial system*") OR
+("autonomous aircraft") OR
+("autonomous aircrafts") OR
+("autonomous aircraftes") OR
+("autonomous car*") OR
+("autonomous driving") OR
+("autonomous drivings") OR
+("autonomous drivinges") OR
+("autonomous flight") OR
+("autonomous flights") OR
+("autonomous flightes") OR
+("autonomous mobile") OR
+("autonomous mobiles") OR
+("autonomous mobilees") OR
+("autonomous navigation") OR
+("autonomous navigations") OR
+("autonomous navigationes") OR
+("autonomous ship*") OR
+("autonomous surface") OR
+("autonomous surfaces") OR
+("autonomous surfacees") OR
+("autonomous underwater vehicle*") OR
+("autonomous vehicle*") OR
+("autonomous vessel*") OR
+("auv") OR
+("auvs") OR
+("auves") OR
+("cobot*") OR
+("collision avoidance") OR
+("collision avoidances") OR
+("collision avoidancees") OR
+("cybernetics") OR
+("cyberneticss") OR
+("cyberneticses") OR
+("driverless") OR
+("driverlesss") OR
+("driverlesses") OR
+("driving automation") OR
+("driving automations") OR
+("driving automationes") OR
+("drone*") OR
+("end effector*") OR
+("exoskeleton*") OR
+("hexacopter*") OR
+("humanoid robot*") OR
+("low altitude platform*") OR
+("manipulator*") OR
+("microrobot*") OR
+("mobile manipulator*") OR
+("mobile robot*") OR
+("motion planning") OR
+("motion plannings") OR
+("motion planninges") OR
+("multi-rotor*") OR
+("multirotor*") OR
+("multicopter*") OR
+("nanorobot*") OR
+("obstacle avoidance") OR
+("obstacle avoidances") OR
+("obstacle avoidancees") OR
+("quad-rotor*") OR
+("quadrotor*") OR
+("quadcopter*") OR
+("remotely operated underwater vehicle*") OR
+("remotely operated vehicle*") OR
+("remotely piloted aircraft*") OR
+("robo-taxi*") OR
+("robotaxi*") OR
+("robot*") OR
+("robotic*") OR
+("rpas") OR
+("rpass") OR
+("rpases") OR
+("self-driving") OR
+("self-drivings") OR
+("self-drivinges") OR
+("selfdriving") OR
+("selfdrivings") OR
+("selfdrivinges") OR
+("self-driving car*") OR
+("selfdriving car*") OR
+("self-driving vehicle*") OR
+("selfdriving vehicle*") OR
+("simultaneous localisation and mapping") OR
+("simultaneous localisation and mappings") OR
+("simultaneous localisation and mappinges") OR
+("simultaneous localization and mapping") OR
+("simultaneous localization and mappings") OR
+("simultaneous localization and mappinges") OR
+("tele-operat*") OR
+("teleoperat*") OR
+("telerobot*") OR
+("trajectory planning") OR
+("trajectory plannings") OR
+("trajectory planninges") OR
+("trajectory tracking") OR
+("trajectory trackings") OR
+("trajectory trackinges") OR
+("uas") OR
+("uass") OR
+("uases") OR
+("uav") OR
+("uavs") OR
+("uaves") OR
+("uav*") OR
+("ugv") OR
+("ugvs") OR
+("ugves") OR
+("ugv*") OR
+("uncrewed") OR
+("uncreweds") OR
+("uncrewedes") OR
+("uncrewed aerial*") OR
+("uncrewed vehicle*") OR
+("unmanned") OR
+("unmanneds") OR
+("unmannedes") OR
+("unmanned aerial system*") OR
+("unmanned aerial vehicle*") OR
+("unmanned air vehicle*") OR
+("unmanned aircraft system*") OR
+("unmanned ground vehicle*") OR
+("unmanned spacecraft") OR
+("unmanned spacecrafts") OR
+("unmanned spacecraftes") OR
+("unmanned surface ve*") OR
+("unmanned underwater vehicle*") OR
+("unmanned underwater vehicles*") OR
+("unmanned vehicle*") OR
+("unoccupied aerial*") OR
+("uuv*") OR
+("visual servoing") OR
+("visual servoings") OR
+("visual servoinges")
+)

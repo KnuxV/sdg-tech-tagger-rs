@@ -1,0 +1,42 @@
+{
+  "upload_type": "software",
+  "title": "sdg-tech-tagger-rs: tagging texts with SDGs and digital technologies by published queries",
+  "version": "0.1.0",
+  "description": "<p>A Rust port, with a Python interface, of the R package text2sdg for its four SDG query systems (Aurora, Elsevier, SIRIS, Auckland), in a mode that returns what text2sdg 1.1.2 returns and a mode with corrections that restore the published queries; two versions of a set of queries on advanced digital technologies (the simplified query of a Nature Communications paper, and gate v2); and both written as Web of Science queries, with a recipe for OpenAlex. The queries are the work of others: see CREDITS.md and cite them.</p>",
+  "creators": [
+    {
+      "name": "Michoud, Kevin",
+      "affiliation": "TODO (Kevin): affiliation"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "access_right": "open",
+  "keywords": [
+    "sustainable development goals",
+    "SDG",
+    "text2sdg",
+    "Aurora",
+    "Elsevier",
+    "SIRIS",
+    "Auckland",
+    "digital technologies",
+    "Web of Science",
+    "OpenAlex",
+    "bibliometrics"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.32614/CRAN.package.text2sdg", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "software"},
+    {"identifier": "10.32614/CRAN.package.corpustools", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "software"},
+    {"identifier": "10.32614/RJ-2024-005", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
+    {"identifier": "10.1007/s11625-024-01516-3", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
+    {"identifier": "10.5281/zenodo.3817445", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.5281/zenodo.3817444", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.17632/87txkw7khs.1", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.5281/zenodo.4118028", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.21203/rs.3.rs-2544385/v2", "relation": "references", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"identifier": "https://www.sdgmapping.auckland.ac.nz/", "relation": "isDerivedFrom", "scheme": "url", "resource_type": "dataset"},
+    {"identifier": "10.1787/9789264312012-en", "relation": "references", "scheme": "doi", "resource_type": "publication-report"},
+    {"identifier": "10.1787/5f65ff7e-en", "relation": "references", "scheme": "doi", "resource_type": "publication-workingpaper"}
+  ],
+  "notes": "Code under GPL-3.0; data files under CC BY 4.0, except SIRIS-derived files (CC BY-SA 4.0) and the query tables exported from text2sdg (GPL-3.0). See LICENSE-DATA.md."
+}

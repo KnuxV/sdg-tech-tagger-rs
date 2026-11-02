@@ -1,0 +1,81 @@
+TS = (
+("aerial vehicle*") OR
+("agv") OR
+("automated car") OR
+("automated driving") OR
+("automated guided vehicle*") OR
+("automated vehicle*") OR
+("autonomous aerial system*") OR
+("autonomous aircraft") OR
+("autonomous car*") OR
+("autonomous driving") OR
+("autonomous flight") OR
+("autonomous mobile") OR
+("autonomous navigation") OR
+("autonomous ship*") OR
+("autonomous surface") OR
+("autonomous underwater vehicle*") OR
+("autonomous vehicle*") OR
+("autonomous vessel*") OR
+("auv") OR
+("cobot*") OR
+("collision avoidance") OR
+("cybernetics") OR
+("driverless") OR
+("driving automation") OR
+("drone*") OR
+("end effector*") OR
+("exoskeleton*") OR
+("hexacopter*") OR
+("humanoid robot*") OR
+("low altitude platform*") OR
+("manipulator*") OR
+("microrobot*") OR
+("mobile manipulator*") OR
+("mobile robot*") OR
+("motion planning") OR
+("multi-rotor*") OR
+("multicopter*") OR
+("nanorobot*") OR
+("obstacle avoidance") OR
+("quad-rotor*") OR
+("quadcopter*") OR
+("remotely operated underwater vehicle*") OR
+("remotely operated vehicle*") OR
+("remotely piloted aircraft*") OR
+("robo-taxi*") OR
+("robot*") OR
+("robotic*") OR
+("rpas") OR
+("self-driving") OR
+("self-driving car*") OR
+("self-driving vehicle*") OR
+("simultaneous localisation and mapping") OR
+("simultaneous localization and mapping") OR
+("tele-operat*") OR
+("telerobot*") OR
+("trajectory planning") OR
+("trajectory tracking") OR
+("uas") OR
+("uav") OR
+("uav*") OR
+("ugv") OR
+("ugv*") OR
+("uncrewed") OR
+("uncrewed aerial*") OR
+("uncrewed vehicle*") OR
+("unmanned") OR
+("unmanned aerial system*") OR
+("unmanned aerial vehicle*") OR
+("unmanned air vehicle*") OR
+("unmanned aircraft system*") OR
+("unmanned ground vehicle*") OR
+("unmanned spacecraft") OR
+("unmanned surface ve*") OR
+("unmanned underwater vehicle*") OR
+("unmanned underwater vehicles*") OR
+("unmanned vehicle*") OR
+("unoccupied aerial*") OR
+("uuv*") OR
+("visual servoing")
+)

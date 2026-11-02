@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.idea/
+
+# The published originals, if downloaded to run the tests that rebuild the
+# Web of Science files from them (CREDITS.md says where each comes from).
+/published/
+
+# Search indexes are built, never committed.
+*.tantivy/
+index/
+
+# Rust build output.
+target/
+
+# The extension that maturin builds into the package for an editable install.
+src/sdg_tech_tagger/*.so

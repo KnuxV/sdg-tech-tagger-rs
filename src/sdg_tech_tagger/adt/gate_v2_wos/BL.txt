@@ -1,0 +1,96 @@
+TS = (
+("altcoin") OR
+("altcoins") OR
+("altcoines") OR
+("altcoin*") OR
+("bitcoin") OR
+("bitcoins") OR
+("bitcoines") OR
+("bitcoin*") OR
+("block-chain") OR
+("block-chains") OR
+("block-chaines") OR
+("blockchain") OR
+("blockchains") OR
+("blockchaines") OR
+("blockchain*") OR
+("cbdc") OR
+("cbdcs") OR
+("cbdces") OR
+("central bank digital currenc*") OR
+("consensus algorithm*") OR
+("consensus mechanism*") OR
+("crypto market*") OR
+("crypto-asset*") OR
+("cryptoasset*") OR
+("crypto-currenc*") OR
+("cryptocurrenc*") OR
+("decentralised application*") OR
+("decentralised autonomous organisation*") OR
+("decentralised financ*") OR
+("decentralised ledger*") OR
+("decentralized application*") OR
+("decentralized autonomous organization*") OR
+("decentralized financ*") OR
+("decentralized ledger*") OR
+("digital asset*") OR
+("digital currenc*") OR
+("distributed ledger*") OR
+("ethereum") OR
+("ethereums") OR
+("ethereumes") OR
+("hyperledger") OR
+("hyperledgers") OR
+("hyperledgeres") OR
+("initial coin offering*") OR
+("layer 2 scaling solution*") OR
+("non-fungible token*") OR
+("nonfungible token*") OR
+("optimistic rollup*") OR
+("permissioned") OR
+("permissioneds") OR
+("permissionedes") OR
+("permissionless") OR
+("permissionlesss") OR
+("permissionlesses") OR
+("private blockchain*") OR
+("proof of authority") OR
+("proof of authorities") OR
+("proof-of-stake") OR
+("proof-of-stakes") OR
+("proof-of-stakees") OR
+("proof-ofstake") OR
+("proof-ofstakes") OR
+("proof-ofstakees") OR
+("proofof-stake") OR
+("proofof-stakes") OR
+("proofof-stakees") OR
+("proofofstake") OR
+("proofofstakes") OR
+("proofofstakees") OR
+("proof-of-work") OR
+("proof-of-works") OR
+("proof-of-workes") OR
+("proof-ofwork") OR
+("proof-ofworks") OR
+("proof-ofworkes") OR
+("proofof-work") OR
+("proofof-works") OR
+("proofof-workes") OR
+("proofofwork") OR
+("proofofworks") OR
+("proofofworkes") OR
+("public blockchain*") OR
+("smart contract*") OR
+("stablecoin*") OR
+("tokenomics") OR
+("tokenomicss") OR
+("tokenomicses") OR
+("virtual currenc*") OR
+("web 3.0") OR
+("web3") OR
+("zk-rollup*") OR
+("zkrollup*") OR
+("zk-snark*") OR
+("zksnark*")
+)

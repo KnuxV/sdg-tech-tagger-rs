@@ -1,0 +1,82 @@
+[project]
+name = "sdg-tech-tagger-rs"
+version = "0.1.0"
+description = "Tag texts with sustainable development goals and advanced digital technologies by published queries: a Rust port of text2sdg, with Web of Science forms of the queries."
+readme = "README.md"
+authors = [
+    { name = "Kevin Michoud", email = "kmichoud@unistra.fr" }
+]
+# GPL-3.0-only or GPL-3.0-or-later is not decided yet; see LICENSE-DATA.md for
+# the data files, which are under their own licences.
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "LICENSE-DATA.md", "CREDITS.md", "LICENSES/*", "THIRD_PARTY_LICENSES.md"]
+requires-python = ">=3.13"
+dependencies = [
+    "polars>=1.34.0",
+]
+keywords = [
+    "sustainable development goals",
+    "SDG",
+    "text2sdg",
+    "Aurora",
+    "Elsevier",
+    "SIRIS",
+    "Auckland",
+    "digital technologies",
+    "Web of Science",
+    "OpenAlex",
+    "bibliometrics",
+    "query",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Rust",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+sdg-tech-tagger = "sdg_tech_tagger.command:main"
+
+# The package is a Rust extension (rust/) with a Python interface (src/),
+# built by maturin. The abi3 feature gives one wheel for Python 3.13 and later.
+[build-system]
+requires = ["maturin>=1.9,<2"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "src"
+module-name = "sdg_tech_tagger._native"
+manifest-path = "rust/Cargo.toml"
+features = ["pyo3/extension-module", "pyo3/abi3-py313"]
+
+[tool.uv]
+# uv rebuilds the extension when one of these changes.
+cache-keys = [
+    { file = "pyproject.toml" },
+    { file = "Cargo.toml" },
+    { file = "Cargo.lock" },
+    { file = "rust/Cargo.toml" },
+    { file = "rust/src/**/*.rs" },
+]
+
+[dependency-groups]
+dev = [
+    # Only the tests that rebuild the Web of Science files from published/ use it.
+    "openpyxl>=3.1.5",
+    "pytest>=8.3.0",
+    "ruff>=0.16.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+# rust/target/ is build output.
+extend-exclude = ["rust/target"]

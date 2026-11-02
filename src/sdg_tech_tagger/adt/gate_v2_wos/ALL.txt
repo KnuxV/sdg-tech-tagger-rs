@@ -1,0 +1,2315 @@
+TS = (
+("action recognition") OR
+("action recognitions") OR
+("action recognitiones") OR
+("activation function*") OR
+("active learning") OR
+("active learnings") OR
+("active learninges") OR
+("activity recognition") OR
+("activity recognitions") OR
+("activity recognitiones") OR
+("actor-critic algorithm*") OR
+("actorcritic algorithm*") OR
+("adaboost*") OR
+("adaptive boosting") OR
+("adaptive boostings") OR
+("adaptive boostinges") OR
+("adversarial learning") OR
+("adversarial learnings") OR
+("adversarial learninges") OR
+("adversarial network") OR
+("adversarial networks") OR
+("adversarial networkes") OR
+("ai") OR
+("albert") OR
+("alberts") OR
+("albertes") OR
+("alphafold") OR
+("alphafolds") OR
+("alphafoldes") OR
+("anfis") OR
+("anfiss") OR
+("anfises") OR
+("ann") OR
+("anns") OR
+("annes") OR
+("anomaly detection") OR
+("anomaly detections") OR
+("anomaly detectiones") OR
+("ant colony algorithm*") OR
+("ant colony optimisation") OR
+("ant colony optimisations") OR
+("ant colony optimisationes") OR
+("ant colony optimization") OR
+("ant colony optimizations") OR
+("ant colony optimizationes") OR
+("ant colony system*") OR
+("artificial bee colony") OR
+("artificial bee colonies") OR
+("artificial general intelligence") OR
+("artificial general intelligences") OR
+("artificial general intelligencees") OR
+("artificial intellig*") OR
+("artificial intelligen*") OR
+("artificial neural network") OR
+("artificial neural networks") OR
+("artificial neural networkes") OR
+("association rule*") OR
+("attention mechanism*") OR
+("autoencoder") OR
+("autoencoders") OR
+("autoencoderes") OR
+("autoencoder*") OR
+("automated reasoning") OR
+("automated reasonings") OR
+("automated reasoninges") OR
+("autonomous weapon*") OR
+("back-propagation") OR
+("back-propagations") OR
+("back-propagationes") OR
+("backpropagation") OR
+("backpropagations") OR
+("backpropagationes") OR
+("back-propagation algorithm*") OR
+("backpropagation algorithm*") OR
+("back-propagation learning") OR
+("back-propagation learnings") OR
+("back-propagation learninges") OR
+("backpropagation learning") OR
+("backpropagation learnings") OR
+("backpropagation learninges") OR
+("back-propagation net*") OR
+("backpropagation net*") OR
+("bayesian learning") OR
+("bayesian learnings") OR
+("bayesian learninges") OR
+("bayesian network") OR
+("bayesian networks") OR
+("bayesian networkes") OR
+("bidirectional encoder representations from transformer") OR
+("bidirectional encoder representations from transformers") OR
+("bidirectional encoder representations from transformeres") OR
+("big data") OR
+("big datas") OR
+("big dataes") OR
+("boltzmann machine*") OR
+("boosting algorithm*") OR
+("bp learning") OR
+("bp learnings") OR
+("bp learninges") OR
+("bp network*") OR
+("brownboost") OR
+("brownboosts") OR
+("brownboostes") OR
+("business intelligence") OR
+("business intelligences") OR
+("business intelligencees") OR
+("case-based reasoning") OR
+("case-based reasonings") OR
+("case-based reasoninges") OR
+("casebased reasoning") OR
+("casebased reasonings") OR
+("casebased reasoninges") OR
+("catboost") OR
+("catboosts") OR
+("catboostes") OR
+("character recognition") OR
+("character recognitions") OR
+("character recognitiones") OR
+("chat-bot*") OR
+("chatbot*") OR
+("chatgpt") OR
+("chatgpts") OR
+("chatgptes") OR
+("classification algorithm*") OR
+("classification tree*") OR
+("cnn") OR
+("cnns") OR
+("cnnes") OR
+("co-training") OR
+("co-trainings") OR
+("co-traininges") OR
+("cotraining") OR
+("cotrainings") OR
+("cotraininges") OR
+("cognitive comput*") OR
+("collaborative filtering") OR
+("collaborative filterings") OR
+("collaborative filteringes") OR
+("committee machine*") OR
+("community detection") OR
+("community detections") OR
+("community detectiones") OR
+("computation* intelligen*") OR
+("computer vision") OR
+("computer visions") OR
+("computer visiones") OR
+("computer-aided diagnosis") OR
+("computer-aided diagnosiss") OR
+("computer-aided diagnosises") OR
+("computeraided diagnosis") OR
+("computeraided diagnosiss") OR
+("computeraided diagnosises") OR
+("concept* drift") OR
+("concept* drifts") OR
+("concept* driftes") OR
+("conditional random field*") OR
+("connectionis*") OR
+("continual learning") OR
+("continual learnings") OR
+("continual learninges") OR
+("contrastive learning") OR
+("contrastive learnings") OR
+("contrastive learninges") OR
+("conversational agent*") OR
+("convolution* net*") OR
+("convolutional neural network") OR
+("convolutional neural networks") OR
+("convolutional neural networkes") OR
+("dall-e") OR
+("dall-es") OR
+("dall-ees") OR
+("dalle") OR
+("dalles") OR
+("dallees") OR
+("data analytics") OR
+("data analyticss") OR
+("data analyticses") OR
+("data mining") OR
+("data minings") OR
+("data mininges") OR
+("data science") OR
+("data sciences") OR
+("data sciencees") OR
+("decision forest*") OR
+("decision tree*") OR
+("deep belief net*") OR
+("deep belief network") OR
+("deep belief networks") OR
+("deep belief networkes") OR
+("deep convolutional neural network") OR
+("deep convolutional neural networks") OR
+("deep convolutional neural networkes") OR
+("deep generative model") OR
+("deep generative models") OR
+("deep generative modeles") OR
+("deep learning") OR
+("deep learnings") OR
+("deep learninges") OR
+("deep net*") OR
+("deep neural network") OR
+("deep neural networks") OR
+("deep neural networkes") OR
+("denoising diffusion probabilistic model*") OR
+("dictionary learning") OR
+("dictionary learnings") OR
+("dictionary learninges") OR
+("differential evolution") OR
+("differential evolutions") OR
+("differential evolutiones") OR
+("differential evolution algorithm") OR
+("differential evolution algorithms") OR
+("differential evolution algorithmes") OR
+("diffusion model") OR
+("diffusion models") OR
+("diffusion modeles") OR
+("dnn") OR
+("dnns") OR
+("dnnes") OR
+("echo state* net*") OR
+("emotion recognition") OR
+("emotion recognitions") OR
+("emotion recognitiones") OR
+("ensemble learning") OR
+("ensemble learnings") OR
+("ensemble learninges") OR
+("evolutionary algorithm") OR
+("evolutionary algorithms") OR
+("evolutionary algorithmes") OR
+("evolutionary computation") OR
+("evolutionary computations") OR
+("evolutionary computationes") OR
+("expert system*") OR
+("extreme learning machine*") OR
+("extreme machine learning") OR
+("extreme machine learnings") OR
+("extreme machine learninges") OR
+("face detection") OR
+("face detections") OR
+("face detectiones") OR
+("face recognition") OR
+("face recognitions") OR
+("face recognitiones") OR
+("facial expression recognition") OR
+("facial expression recognitions") OR
+("facial expression recognitiones") OR
+("facial recognition") OR
+("facial recognitions") OR
+("facial recognitiones") OR
+("feature engineering") OR
+("feature engineerings") OR
+("feature engineeringes") OR
+("feature extraction") OR
+("feature extractions") OR
+("feature extractiones") OR
+("feature learning") OR
+("feature learnings") OR
+("feature learninges") OR
+("feature selection") OR
+("feature selections") OR
+("feature selectiones") OR
+("federated learning") OR
+("federated learnings") OR
+("federated learninges") OR
+("feed-forward net*") OR
+("feedforward net*") OR
+("few-shot") OR
+("few-shots") OR
+("few-shotes") OR
+("fewshot") OR
+("fewshots") OR
+("fewshotes") OR
+("foundation model*") OR
+("fuzzy inference") OR
+("fuzzy inferences") OR
+("fuzzy inferencees") OR
+("fuzzy logic") OR
+("fuzzy logics") OR
+("fuzzy logices") OR
+("genai") OR
+("genais") OR
+("genaies") OR
+("generalisation error*") OR
+("generalization error*") OR
+("generative adversarial net*") OR
+("generative adversarial network") OR
+("generative adversarial networks") OR
+("generative adversarial networkes") OR
+("generative adversarial network*") OR
+("generative ai") OR
+("generative ais") OR
+("generative aies") OR
+("generative artificial intelligence") OR
+("generative artificial intelligences") OR
+("generative artificial intelligencees") OR
+("generative model") OR
+("generative models") OR
+("generative modeles") OR
+("generative modeling") OR
+("generative modelings") OR
+("generative modelinges") OR
+("generative modelling") OR
+("generative modellings") OR
+("generative modellinges") OR
+("generative pre-trained transformer") OR
+("generative pre-trained transformers") OR
+("generative pre-trained transformeres") OR
+("generative pretrained transformer") OR
+("generative pretrained transformers") OR
+("generative pretrained transformeres") OR
+("genetic algorithm") OR
+("genetic algorithms") OR
+("genetic algorithmes") OR
+("genetic programming") OR
+("genetic programmings") OR
+("genetic programminges") OR
+("gesture recognition") OR
+("gesture recognitions") OR
+("gesture recognitiones") OR
+("github copilot") OR
+("github copilots") OR
+("github copilotes") OR
+("gnn") OR
+("gnns") OR
+("gnnes") OR
+("gpt-2") OR
+("gpt2") OR
+("gpt-3") OR
+("gpt3") OR
+("gpt-3.5") OR
+("gpt3.5") OR
+("gpt-4") OR
+("gpt4") OR
+("gpt-4.0") OR
+("gpt4.0") OR
+("gpt-4o") OR
+("gpt-4os") OR
+("gpt-4oes") OR
+("gpt4o") OR
+("gpt4os") OR
+("gpt4oes") OR
+("gradient boost*") OR
+("gradient boosting") OR
+("gradient boostings") OR
+("gradient boostinges") OR
+("gradient tree boosting") OR
+("gradient tree boostings") OR
+("gradient tree boostinges") OR
+("grammatical inference") OR
+("grammatical inferences") OR
+("grammatical inferencees") OR
+("graph convolutional") OR
+("graph convolutionals") OR
+("graph convolutionales") OR
+("graph learning") OR
+("graph learnings") OR
+("graph learninges") OR
+("graph* kernel*") OR
+("graphical model*") OR
+("gravitational search algorithm") OR
+("gravitational search algorithms") OR
+("gravitational search algorithmes") OR
+("handwriting recognition") OR
+("handwriting recognitions") OR
+("handwriting recognitiones") OR
+("hebbian learning") OR
+("hebbian learnings") OR
+("hebbian learninges") OR
+("hidden markov model*") OR
+("hierarchical clustering") OR
+("hierarchical clusterings") OR
+("hierarchical clusteringes") OR
+("hopfield net*") OR
+("hypergraph* learning") OR
+("hypergraph* learnings") OR
+("hypergraph* learninges") OR
+("image classification") OR
+("image classifications") OR
+("image classificationes") OR
+("image model") OR
+("image models") OR
+("image modeles") OR
+("image recognition") OR
+("image recognitions") OR
+("image recognitiones") OR
+("image retrieval") OR
+("image retrievals") OR
+("image retrievales") OR
+("image segmentation") OR
+("image segmentations") OR
+("image segmentationes") OR
+("incremental learning") OR
+("incremental learnings") OR
+("incremental learninges") OR
+("inductive logic programming") OR
+("inductive logic programmings") OR
+("inductive logic programminges") OR
+("information extraction") OR
+("information extractions") OR
+("information extractiones") OR
+("information retrieval") OR
+("information retrievals") OR
+("information retrievales") OR
+("instance-based learning") OR
+("instance-based learnings") OR
+("instance-based learninges") OR
+("instancebased learning") OR
+("instancebased learnings") OR
+("instancebased learninges") OR
+("instruction model") OR
+("instruction models") OR
+("instruction modeles") OR
+("intelligent agent*") OR
+("intelligent algorithm*") OR
+("intelligent machine*") OR
+("k-means") OR
+("k-meanss") OR
+("k-meanses") OR
+("kmeans") OR
+("kmeanss") OR
+("kmeanses") OR
+("k-nearest neighbo*") OR
+("knearest neighbo*") OR
+("keras") OR
+("kerass") OR
+("kerases") OR
+("kernel learning") OR
+("kernel learnings") OR
+("kernel learninges") OR
+("kernel machine") OR
+("kernel machines") OR
+("kernel machinees") OR
+("knn") OR
+("knns") OR
+("knnes") OR
+("knowledge representation") OR
+("knowledge representations") OR
+("knowledge representationes") OR
+("knowledge-based system*") OR
+("knowledgebased system*") OR
+("label propagation") OR
+("label propagations") OR
+("label propagationes") OR
+("language model") OR
+("language models") OR
+("language modeles") OR
+("language model*") OR
+("large action model") OR
+("large action models") OR
+("large action modeles") OR
+("large language model") OR
+("large language models") OR
+("large language modeles") OR
+("large-scale data*") OR
+("largescale data*") OR
+("latent dirichlet allocation") OR
+("latent dirichlet allocations") OR
+("latent dirichlet allocationes") OR
+("latent semantic analysis") OR
+("latent semantic analysiss") OR
+("latent semantic analysises") OR
+("lazy learning") OR
+("lazy learnings") OR
+("lazy learninges") OR
+("learning algorithm*") OR
+("learning automata") OR
+("learning automatas") OR
+("learning automataes") OR
+("learning automaton") OR
+("learning automatons") OR
+("learning automatones") OR
+("learning model*") OR
+("learning to rank*") OR
+("learning-based") OR
+("learning-baseds") OR
+("learning-basedes") OR
+("learningbased") OR
+("learningbaseds") OR
+("learningbasedes") OR
+("lightgbm") OR
+("lightgbms") OR
+("lightgbmes") OR
+("link prediction") OR
+("link predictions") OR
+("link predictiones") OR
+("liquid state machine*") OR
+("llm") OR
+("llms") OR
+("llmes") OR
+("logitboost") OR
+("logitboosts") OR
+("logitboostes") OR
+("long short term memory") OR
+("long short term memories") OR
+("long short-term memory") OR
+("long short-term memories") OR
+("long shortterm memory") OR
+("long shortterm memories") OR
+("lpboost") OR
+("lpboosts") OR
+("lpboostes") OR
+("lstm") OR
+("lstms") OR
+("lstmes") OR
+("machine intelligence") OR
+("machine intelligences") OR
+("machine intelligencees") OR
+("machine learning") OR
+("machine learnings") OR
+("machine learninges") OR
+("machine translation") OR
+("machine translations") OR
+("machine translationes") OR
+("machine vision") OR
+("machine visions") OR
+("machine visiones") OR
+("machine* intelligen*") OR
+("machine* learning") OR
+("machine* learnings") OR
+("machine* learninges") OR
+("machine-learned ranking") OR
+("machine-learned rankings") OR
+("machine-learned rankinges") OR
+("machinelearned ranking") OR
+("machinelearned rankings") OR
+("machinelearned rankinges") OR
+("madaboost") OR
+("madaboosts") OR
+("madaboostes") OR
+("madboost") OR
+("madboosts") OR
+("madboostes") OR
+("manifold learning") OR
+("manifold learnings") OR
+("manifold learninges") OR
+("manifold regularisation") OR
+("manifold regularisations") OR
+("manifold regularisationes") OR
+("manifold regularization") OR
+("manifold regularizations") OR
+("manifold regularizationes") OR
+("markovian") OR
+("markovians") OR
+("markovianes") OR
+("masked language model") OR
+("masked language models") OR
+("masked language modeles") OR
+("massive data*") OR
+("memetic algorithm") OR
+("memetic algorithms") OR
+("memetic algorithmes") OR
+("meta-learning") OR
+("meta-learnings") OR
+("meta-learninges") OR
+("metalearning") OR
+("metalearnings") OR
+("metalearninges") OR
+("metric learning") OR
+("metric learnings") OR
+("metric learninges") OR
+("mixture of expert*") OR
+("multi* class classification") OR
+("multi* class classifications") OR
+("multi* class classificationes") OR
+("multi* instance learning") OR
+("multi* instance learnings") OR
+("multi* instance learninges") OR
+("multi* kernel* learning") OR
+("multi* kernel* learnings") OR
+("multi* kernel* learninges") OR
+("multi* label classification") OR
+("multi* label classifications") OR
+("multi* label classificationes") OR
+("multi* label learning") OR
+("multi* label learnings") OR
+("multi* label learninges") OR
+("multi* task learning") OR
+("multi* task learnings") OR
+("multi* task learninges") OR
+("multi-agent learning") OR
+("multi-agent learnings") OR
+("multi-agent learninges") OR
+("multiagent learning") OR
+("multiagent learnings") OR
+("multiagent learninges") OR
+("multi-agent system*") OR
+("multiagent system*") OR
+("multi-layer perceptron") OR
+("multi-layer perceptrons") OR
+("multi-layer perceptrones") OR
+("multilayer perceptron") OR
+("multilayer perceptrons") OR
+("multilayer perceptrones") OR
+("multiclass classification") OR
+("multiclass classifications") OR
+("multiclass classificationes") OR
+("multiinstance learning") OR
+("multiinstance learnings") OR
+("multiinstance learninges") OR
+("multikernel* learning") OR
+("multikernel* learnings") OR
+("multikernel* learninges") OR
+("multilabel classification") OR
+("multilabel classifications") OR
+("multilabel classificationes") OR
+("multilabel learning") OR
+("multilabel learnings") OR
+("multilabel learninges") OR
+("multilayer perceptron*") OR
+("multilingual language model") OR
+("multilingual language models") OR
+("multilingual language modeles") OR
+("multimodal large language model") OR
+("multimodal large language models") OR
+("multimodal large language modeles") OR
+("multitask learning") OR
+("multitask learnings") OR
+("multitask learninges") OR
+("naive bayes") OR
+("naive bayess") OR
+("naive bayeses") OR
+("naive bayes* classifi*") OR
+("named entity recognition") OR
+("named entity recognitions") OR
+("named entity recognitiones") OR
+("natural language generation") OR
+("natural language generations") OR
+("natural language generationes") OR
+("natural language processing") OR
+("natural language processings") OR
+("natural language processinges") OR
+("natural language understanding") OR
+("natural language understandings") OR
+("natural language understandinges") OR
+("nearest neighbo* algorithm*") OR
+("nearest neighbo* classif*") OR
+("nearest neighbor algorithm") OR
+("nearest neighbor algorithms") OR
+("nearest neighbor algorithmes") OR
+("nearest neighbour algorithm") OR
+("nearest neighbour algorithms") OR
+("nearest neighbour algorithmes") OR
+("neocognitron*") OR
+("neural gas") OR
+("neural gass") OR
+("neural gases") OR
+("neural model*") OR
+("neural net*") OR
+("neural network") OR
+("neural networks") OR
+("neural networkes") OR
+("neural radiance field*") OR
+("neural turing machine") OR
+("neural turing machines") OR
+("neural turing machinees") OR
+("neuro dynamic programming") OR
+("neuro dynamic programmings") OR
+("neuro dynamic programminges") OR
+("neuro fuzzy") OR
+("neuro fuzzies") OR
+("neuro-computing") OR
+("neuro-computings") OR
+("neuro-computinges") OR
+("neurocomputing") OR
+("neurocomputings") OR
+("neurocomputinges") OR
+("neuro-evolution") OR
+("neuro-evolutions") OR
+("neuro-evolutiones") OR
+("neuroevolution") OR
+("neuroevolutions") OR
+("neuroevolutiones") OR
+("neuro-robotic*") OR
+("neurorobotic*") OR
+("neurodynamic programming") OR
+("neurodynamic programmings") OR
+("neurodynamic programminges") OR
+("neurofuzzy") OR
+("neurofuzzies") OR
+("nlp") OR
+("nlps") OR
+("nlpes") OR
+("object detection") OR
+("object detections") OR
+("object detectiones") OR
+("object identification") OR
+("object identifications") OR
+("object identificationes") OR
+("object recognition") OR
+("object recognitions") OR
+("object recognitiones") OR
+("one class classifi*") OR
+("one-shot learning") OR
+("one-shot learnings") OR
+("one-shot learninges") OR
+("oneshot learning") OR
+("oneshot learnings") OR
+("oneshot learninges") OR
+("pac learning") OR
+("pac learnings") OR
+("pac learninges") OR
+("particle swarm") OR
+("particle swarms") OR
+("particle swarmes") OR
+("particle swarm optimisation") OR
+("particle swarm optimisations") OR
+("particle swarm optimisationes") OR
+("particle swarm optimization") OR
+("particle swarm optimizations") OR
+("particle swarm optimizationes") OR
+("pattern recognition") OR
+("pattern recognitions") OR
+("pattern recognitiones") OR
+("pcnn") OR
+("pcnns") OR
+("pcnnes") OR
+("pedestrian detection") OR
+("pedestrian detections") OR
+("pedestrian detectiones") OR
+("perceptron*") OR
+("policy gradient methods") OR
+("policy gradient methodss") OR
+("policy gradient methodses") OR
+("pose estimation") OR
+("pose estimations") OR
+("pose estimationes") OR
+("predictive analytics") OR
+("predictive analyticss") OR
+("predictive analyticses") OR
+("probabl* approximate* correct learning") OR
+("probabl* approximate* correct learnings") OR
+("probabl* approximate* correct learninges") OR
+("prompt engineering") OR
+("prompt engineerings") OR
+("prompt engineeringes") OR
+("pulse coupled neural net*") OR
+("pytorch") OR
+("pytorchs") OR
+("pytorches") OR
+("q learning") OR
+("q learnings") OR
+("q learninges") OR
+("q-learning") OR
+("q-learnings") OR
+("q-learninges") OR
+("qlearning") OR
+("qlearnings") OR
+("qlearninges") OR
+("question answering") OR
+("question answerings") OR
+("question answeringes") OR
+("radial basis function net*") OR
+("random forest") OR
+("random forests") OR
+("random forestes") OR
+("random forest*") OR
+("rankboost") OR
+("rankboosts") OR
+("rankboostes") OR
+("rbf net*") OR
+("rbfnn*") OR
+("recommendation system*") OR
+("recommender system*") OR
+("recurrent neural network") OR
+("recurrent neural networks") OR
+("recurrent neural networkes") OR
+("regression tree") OR
+("regression trees") OR
+("regression treees") OR
+("reinforced learning") OR
+("reinforced learnings") OR
+("reinforced learninges") OR
+("reinforcement learning") OR
+("reinforcement learnings") OR
+("reinforcement learninges") OR
+("relational learning") OR
+("relational learnings") OR
+("relational learninges") OR
+("relevance vector* machine*") OR
+("representation learning") OR
+("representation learnings") OR
+("representation learninges") OR
+("reservoir computing") OR
+("reservoir computings") OR
+("reservoir computinges") OR
+("resnet*") OR
+("retrieval augmented generation") OR
+("retrieval augmented generations") OR
+("retrieval augmented generationes") OR
+("rnn") OR
+("rnns") OR
+("rnnes") OR
+("roberta") OR
+("robertas") OR
+("robertaes") OR
+("robot* learning") OR
+("robot* learnings") OR
+("robot* learninges") OR
+("robotic process automation") OR
+("robotic process automations") OR
+("robotic process automationes") OR
+("rule learning") OR
+("rule learnings") OR
+("rule learninges") OR
+("rule* induction") OR
+("rule* inductions") OR
+("rule* inductiones") OR
+("rule-based learning") OR
+("rule-based learnings") OR
+("rule-based learninges") OR
+("rulebased learning") OR
+("rulebased learnings") OR
+("rulebased learninges") OR
+("rule-based system*") OR
+("rulebased system*") OR
+("self-organising map") OR
+("self-organising maps") OR
+("self-organising mapes") OR
+("selforganising map") OR
+("selforganising maps") OR
+("selforganising mapes") OR
+("self-organizing map") OR
+("self-organizing maps") OR
+("self-organizing mapes") OR
+("selforganizing map") OR
+("selforganizing maps") OR
+("selforganizing mapes") OR
+("semantic search") OR
+("semantic searchs") OR
+("semantic searches") OR
+("semantic segmentation") OR
+("semantic segmentations") OR
+("semantic segmentationes") OR
+("semantic web") OR
+("semantic webs") OR
+("semantic webes") OR
+("semi-supervised learning") OR
+("semi-supervised learnings") OR
+("semi-supervised learninges") OR
+("semisupervised learning") OR
+("semisupervised learnings") OR
+("semisupervised learninges") OR
+("sentiment analysis") OR
+("sentiment analysiss") OR
+("sentiment analysises") OR
+("similarity learning") OR
+("similarity learnings") OR
+("similarity learninges") OR
+("small language model") OR
+("small language models") OR
+("small language modeles") OR
+("sparse representation") OR
+("sparse representations") OR
+("sparse representationes") OR
+("spectral clustering") OR
+("spectral clusterings") OR
+("spectral clusteringes") OR
+("speech processing") OR
+("speech processings") OR
+("speech processinges") OR
+("speech recognition") OR
+("speech recognitions") OR
+("speech recognitiones") OR
+("speech synthesis") OR
+("speech synthesiss") OR
+("speech synthesises") OR
+("speech to text") OR
+("speech to texts") OR
+("speech to textes") OR
+("statistical language model") OR
+("statistical language models") OR
+("statistical language modeles") OR
+("statistical learning") OR
+("statistical learnings") OR
+("statistical learninges") OR
+("statistical relation* learning") OR
+("statistical relation* learnings") OR
+("statistical relation* learninges") OR
+("statistical relational learning") OR
+("statistical relational learnings") OR
+("statistical relational learninges") OR
+("stochastic block model") OR
+("stochastic block models") OR
+("stochastic block modeles") OR
+("stochastic gradient") OR
+("stochastic gradients") OR
+("stochastic gradientes") OR
+("string kernel*") OR
+("supervised learning") OR
+("supervised learnings") OR
+("supervised learninges") OR
+("support vector machine") OR
+("support vector machines") OR
+("support vector machinees") OR
+("support vector regression") OR
+("support vector regressions") OR
+("support vector regressiones") OR
+("support* vector* machine*") OR
+("support* vector* regression") OR
+("support* vector* regressions") OR
+("support* vector* regressiones") OR
+("svm") OR
+("svms") OR
+("svmes") OR
+("swarm intelligence") OR
+("swarm intelligences") OR
+("swarm intelligencees") OR
+("swarm optimisation") OR
+("swarm optimisations") OR
+("swarm optimisationes") OR
+("swarm optimization") OR
+("swarm optimizations") OR
+("swarm optimizationes") OR
+("task-based generative model") OR
+("task-based generative models") OR
+("task-based generative modeles") OR
+("taskbased generative model") OR
+("taskbased generative models") OR
+("taskbased generative modeles") OR
+("temporal difference learning") OR
+("temporal difference learnings") OR
+("temporal difference learninges") OR
+("tensorflow") OR
+("tensorflows") OR
+("tensorflowes") OR
+("text classification") OR
+("text classifications") OR
+("text classificationes") OR
+("text mining") OR
+("text minings") OR
+("text mininges") OR
+("text to speech") OR
+("text to speechs") OR
+("text to speeches") OR
+("text-to-image generation") OR
+("text-to-image generations") OR
+("text-to-image generationes") OR
+("text-toimage generation") OR
+("text-toimage generations") OR
+("text-toimage generationes") OR
+("textto-image generation") OR
+("textto-image generations") OR
+("textto-image generationes") OR
+("texttoimage generation") OR
+("texttoimage generations") OR
+("texttoimage generationes") OR
+("text-to-image model") OR
+("text-to-image models") OR
+("text-to-image modeles") OR
+("text-toimage model") OR
+("text-toimage models") OR
+("text-toimage modeles") OR
+("textto-image model") OR
+("textto-image models") OR
+("textto-image modeles") OR
+("texttoimage model") OR
+("texttoimage models") OR
+("texttoimage modeles") OR
+("text-to-image prompt") OR
+("text-to-image prompts") OR
+("text-to-image promptes") OR
+("text-toimage prompt") OR
+("text-toimage prompts") OR
+("text-toimage promptes") OR
+("textto-image prompt") OR
+("textto-image prompts") OR
+("textto-image promptes") OR
+("texttoimage prompt") OR
+("texttoimage prompts") OR
+("texttoimage promptes") OR
+("text-to-video model") OR
+("text-to-video models") OR
+("text-to-video modeles") OR
+("text-tovideo model") OR
+("text-tovideo models") OR
+("text-tovideo modeles") OR
+("textto-video model") OR
+("textto-video models") OR
+("textto-video modeles") OR
+("texttovideo model") OR
+("texttovideo models") OR
+("texttovideo modeles") OR
+("tinyml") OR
+("tinymls") OR
+("tinymles") OR
+("topic model*") OR
+("totalboost") OR
+("totalboosts") OR
+("totalboostes") OR
+("training algorithm*") OR
+("transductive learning") OR
+("transductive learnings") OR
+("transductive learninges") OR
+("transfer learning") OR
+("transfer learnings") OR
+("transfer learninges") OR
+("transformer") OR
+("transformers") OR
+("transformeres") OR
+("transformer network*") OR
+("u-net") OR
+("u-nets") OR
+("u-netes") OR
+("unet") OR
+("unets") OR
+("unetes") OR
+("unsupervised learning") OR
+("unsupervised learnings") OR
+("unsupervised learninges") OR
+("variational inference") OR
+("variational inferences") OR
+("variational inferencees") OR
+("vector machine") OR
+("vector machines") OR
+("vector machinees") OR
+("virtual assistant*") OR
+("vision transformer") OR
+("vision transformers") OR
+("vision transformeres") OR
+("voice recognition") OR
+("voice recognitions") OR
+("voice recognitiones") OR
+("wasserstein gan") OR
+("wasserstein gans") OR
+("wasserstein ganes") OR
+("word embedding*") OR
+("word2vec") OR
+("word2vecs") OR
+("word2veces") OR
+("xai") OR
+("xais") OR
+("xaies") OR
+("xgboost") OR
+("xgboosts") OR
+("xgboostes") OR
+("xgboost*") OR
+("yolo*") OR
+("zero-shot") OR
+("zero-shots") OR
+("zero-shotes") OR
+("zeroshot") OR
+("zeroshots") OR
+("zeroshotes") OR
+("aiot") OR
+("aiots") OR
+("aiotes") OR
+("ambient assisted living") OR
+("ambient assisted livings") OR
+("ambient assisted livinges") OR
+("ambient intelligence") OR
+("ambient intelligences") OR
+("ambient intelligencees") OR
+("arduino") OR
+("arduinos") OR
+("arduinoes") OR
+("artificial intelligence of things") OR
+("artificial intelligence of thingss") OR
+("artificial intelligence of thingses") OR
+("bluetooth low energy") OR
+("bluetooth low energies") OR
+("body area network*") OR
+("car-to-car") OR
+("car-to-cars") OR
+("car-to-cares") OR
+("car-tocar") OR
+("car-tocars") OR
+("car-tocares") OR
+("carto-car") OR
+("carto-cars") OR
+("carto-cares") OR
+("cartocar") OR
+("cartocars") OR
+("cartocares") OR
+("cloud of things") OR
+("cloud of thingss") OR
+("cloud of thingses") OR
+("connected car") OR
+("connected cars") OR
+("connected cares") OR
+("connected device*") OR
+("connected home*") OR
+("connected object*") OR
+("connected vehicle*") OR
+("cyber-physical") OR
+("cyber-physicals") OR
+("cyber-physicales") OR
+("cyberphysical") OR
+("cyberphysicals") OR
+("cyberphysicales") OR
+("cyber-physical system*") OR
+("cyberphysical system*") OR
+("d2d communication*") OR
+("device-to-device communication*") OR
+("device-todevice communication*") OR
+("deviceto-device communication*") OR
+("devicetodevice communication*") OR
+("device-to-device d2d") OR
+("device-to-device d2ds") OR
+("device-to-device d2des") OR
+("device-todevice d2d") OR
+("device-todevice d2ds") OR
+("device-todevice d2des") OR
+("deviceto-device d2d") OR
+("deviceto-device d2ds") OR
+("deviceto-device d2des") OR
+("devicetodevice d2d") OR
+("devicetodevice d2ds") OR
+("devicetodevice d2des") OR
+("esp32") OR
+("fitness tracker*") OR
+("home automation") OR
+("home automations") OR
+("home automationes") OR
+("human-machine interface*") OR
+("humanmachine interface*") OR
+("hyper connectivity") OR
+("hyper connectivities") OR
+("iiot") OR
+("iiots") OR
+("iiotes") OR
+("industrial internet") OR
+("industrial internets") OR
+("industrial internetes") OR
+("industrial internet of things") OR
+("industrial internet of thingss") OR
+("industrial internet of thingses") OR
+("intelligent building*") OR
+("intelligent factor*") OR
+("intelligent transport* system*") OR
+("inter-vehicle communication*") OR
+("intervehicle communication*") OR
+("internet of energy") OR
+("internet of energies") OR
+("internet of everything") OR
+("internet of everythings") OR
+("internet of everythinges") OR
+("internet of medical things") OR
+("internet of medical thingss") OR
+("internet of medical thingses") OR
+("internet of things") OR
+("internet of thingss") OR
+("internet of thingses") OR
+("internet of underwater things") OR
+("internet of underwater thingss") OR
+("internet of underwater thingses") OR
+("internet of vehicles") OR
+("internet of vehicless") OR
+("internet of vehicleses") OR
+("iomt") OR
+("iomts") OR
+("iomtes") OR
+("iot") OR
+("iots") OR
+("iotes") OR
+("lorawan") OR
+("lorawans") OR
+("lorawanes") OR
+("low power wide area") OR
+("low power wide areas") OR
+("low power wide areaes") OR
+("lpwa") OR
+("lpwas") OR
+("lpwaes") OR
+("lpwan") OR
+("lpwans") OR
+("lpwanes") OR
+("m2m") OR
+("m2ms") OR
+("m2mes") OR
+("machine type communication*") OR
+("machine-to-enterprise") OR
+("machine-to-enterprises") OR
+("machine-to-enterprisees") OR
+("machine-toenterprise") OR
+("machine-toenterprises") OR
+("machine-toenterprisees") OR
+("machineto-enterprise") OR
+("machineto-enterprises") OR
+("machineto-enterprisees") OR
+("machinetoenterprise") OR
+("machinetoenterprises") OR
+("machinetoenterprisees") OR
+("machine-to-human") OR
+("machine-to-humans") OR
+("machine-to-humanes") OR
+("machine-tohuman") OR
+("machine-tohumans") OR
+("machine-tohumanes") OR
+("machineto-human") OR
+("machineto-humans") OR
+("machineto-humanes") OR
+("machinetohuman") OR
+("machinetohumans") OR
+("machinetohumanes") OR
+("machine-to-machine") OR
+("machine-to-machines") OR
+("machine-to-machinees") OR
+("machine-tomachine") OR
+("machine-tomachines") OR
+("machine-tomachinees") OR
+("machineto-machine") OR
+("machineto-machines") OR
+("machineto-machinees") OR
+("machinetomachine") OR
+("machinetomachines") OR
+("machinetomachinees") OR
+("mmtc") OR
+("mmtcs") OR
+("mmtces") OR
+("mqtt") OR
+("mqtts") OR
+("mqttes") OR
+("near field communication") OR
+("near field communications") OR
+("near field communicationes") OR
+("networked device*") OR
+("pervasive comput*") OR
+("pervasive sensing") OR
+("pervasive sensings") OR
+("pervasive sensinges") OR
+("predictive maintenance") OR
+("predictive maintenances") OR
+("predictive maintenancees") OR
+("radio frequency identification") OR
+("radio frequency identifications") OR
+("radio frequency identificationes") OR
+("raspberry pi") OR
+("raspberry pis") OR
+("raspberry pies") OR
+("remote monitoring") OR
+("remote monitorings") OR
+("remote monitoringes") OR
+("rfid") OR
+("rfids") OR
+("rfides") OR
+("sensor network*") OR
+("sensor node*") OR
+("sigfox") OR
+("sigfoxs") OR
+("sigfoxes") OR
+("smart building*") OR
+("smart device*") OR
+("smart dust") OR
+("smart dusts") OR
+("smart dustes") OR
+("smart environment*") OR
+("smart factor*") OR
+("smart grid*") OR
+("smart health") OR
+("smart healths") OR
+("smart healthes") OR
+("smart home*") OR
+("smart house") OR
+("smart houses") OR
+("smart housees") OR
+("smart meter*") OR
+("smart office") OR
+("smart offices") OR
+("smart officees") OR
+("smart sensor*") OR
+("smart-watch*") OR
+("smartwatch*") OR
+("ubiquitous computing") OR
+("ubiquitous computings") OR
+("ubiquitous computinges") OR
+("ubiquitous sensing") OR
+("ubiquitous sensings") OR
+("ubiquitous sensinges") OR
+("v2i") OR
+("v2is") OR
+("v2ies") OR
+("v2v") OR
+("v2vs") OR
+("v2ves") OR
+("v2x") OR
+("v2xs") OR
+("v2xes") OR
+("vanet*") OR
+("vehicle-to-everything") OR
+("vehicle-to-everythings") OR
+("vehicle-to-everythinges") OR
+("vehicle-toeverything") OR
+("vehicle-toeverythings") OR
+("vehicle-toeverythinges") OR
+("vehicleto-everything") OR
+("vehicleto-everythings") OR
+("vehicleto-everythinges") OR
+("vehicletoeverything") OR
+("vehicletoeverythings") OR
+("vehicletoeverythinges") OR
+("vehicle-to-infrastructure") OR
+("vehicle-to-infrastructures") OR
+("vehicle-to-infrastructurees") OR
+("vehicle-toinfrastructure") OR
+("vehicle-toinfrastructures") OR
+("vehicle-toinfrastructurees") OR
+("vehicleto-infrastructure") OR
+("vehicleto-infrastructures") OR
+("vehicleto-infrastructurees") OR
+("vehicletoinfrastructure") OR
+("vehicletoinfrastructures") OR
+("vehicletoinfrastructurees") OR
+("vehicle-to-vehicle") OR
+("vehicle-to-vehicles") OR
+("vehicle-to-vehiclees") OR
+("vehicle-tovehicle") OR
+("vehicle-tovehicles") OR
+("vehicle-tovehiclees") OR
+("vehicleto-vehicle") OR
+("vehicleto-vehicles") OR
+("vehicleto-vehiclees") OR
+("vehicletovehicle") OR
+("vehicletovehicles") OR
+("vehicletovehiclees") OR
+("vehicular network*") OR
+("wearable*") OR
+("web of things") OR
+("web of thingss") OR
+("web of thingses") OR
+("wireless body area network*") OR
+("wireless sensor network*") OR
+("wireless sensor*") OR
+("wsn") OR
+("wsns") OR
+("wsnes") OR
+("zigbee") OR
+("zigbees") OR
+("zigbeees") OR
+("5g") OR
+("5gs") OR
+("5ges") OR
+("5g networks") OR
+("5g networkss") OR
+("5g networkses") OR
+("5th generation mobile") OR
+("5th generation mobiles") OR
+("5th generation mobilees") OR
+("6g") OR
+("6gs") OR
+("6ges") OR
+("6th generation mobile") OR
+("6th generation mobiles") OR
+("6th generation mobilees") OR
+("amazon web services") OR
+("amazon web servicess") OR
+("amazon web serviceses") OR
+("anything as a service") OR
+("anything as a services") OR
+("anything as a servicees") OR
+("apache cassandra") OR
+("apache cassandras") OR
+("apache cassandraes") OR
+("apache hive") OR
+("apache hives") OR
+("apache hivees") OR
+("apache kafka") OR
+("apache kafkas") OR
+("apache kafkaes") OR
+("apache spark") OR
+("apache sparks") OR
+("apache sparkes") OR
+("aws") OR
+("awss") OR
+("awses") OR
+("b5g") OR
+("b5gs") OR
+("b5ges") OR
+("bigtable") OR
+("bigtables") OR
+("bigtablees") OR
+("cloud application*") OR
+("cloud architecture*") OR
+("cloud broker") OR
+("cloud brokers") OR
+("cloud brokeres") OR
+("cloud client") OR
+("cloud clients") OR
+("cloud clientes") OR
+("cloud computing") OR
+("cloud computings") OR
+("cloud computinges") OR
+("cloud environment*") OR
+("cloud infrastructure*") OR
+("cloud migration") OR
+("cloud migrations") OR
+("cloud migrationes") OR
+("cloud optimizer") OR
+("cloud optimizers") OR
+("cloud optimizeres") OR
+("cloud platform*") OR
+("cloud portfolio") OR
+("cloud portfolios") OR
+("cloud portfolioes") OR
+("cloud provider") OR
+("cloud providers") OR
+("cloud provideres") OR
+("cloud resource*") OR
+("cloud securit*") OR
+("cloud server*") OR
+("cloud service*") OR
+("cloud software") OR
+("cloud softwares") OR
+("cloud softwarees") OR
+("cloud solution*") OR
+("cloud sourcing") OR
+("cloud sourcings") OR
+("cloud sourcinges") OR
+("cloud storage") OR
+("cloud storages") OR
+("cloud storagees") OR
+("cloud technolog*") OR
+("cloud-based") OR
+("cloud-baseds") OR
+("cloud-basedes") OR
+("cloudbased") OR
+("cloudbaseds") OR
+("cloudbasedes") OR
+("cloud-edge") OR
+("cloud-edges") OR
+("cloud-edgees") OR
+("cloudedge") OR
+("cloudedges") OR
+("cloudedgees") OR
+("cloud-native") OR
+("cloud-natives") OR
+("cloud-nativees") OR
+("cloudnative") OR
+("cloudnatives") OR
+("cloudnativees") OR
+("cloudera") OR
+("clouderas") OR
+("clouderaes") OR
+("cloudlet*") OR
+("cluster comput*") OR
+("cluster computing") OR
+("cluster computings") OR
+("cluster computinges") OR
+("cluster server*") OR
+("community cloud*") OR
+("computation offloading") OR
+("computation offloadings") OR
+("computation offloadinges") OR
+("compute-in-memory") OR
+("compute-in-memories") OR
+("compute-inmemory") OR
+("compute-inmemories") OR
+("computein-memory") OR
+("computein-memories") OR
+("computeinmemory") OR
+("computeinmemories") OR
+("computing continuum") OR
+("computing continuums") OR
+("computing continuumes") OR
+("computing-in-memory") OR
+("computing-in-memories") OR
+("computing-inmemory") OR
+("computing-inmemories") OR
+("computingin-memory") OR
+("computingin-memories") OR
+("computinginmemory") OR
+("computinginmemories") OR
+("concurrent comput*") OR
+("cyberinfrastructure*") OR
+("data warehous*") OR
+("data-center*") OR
+("datacenter*") OR
+("data-centre*") OR
+("datacentre*") OR
+("data-intensive comput*") OR
+("dataintensive comput*") OR
+("decentralized computing") OR
+("decentralized computings") OR
+("decentralized computinges") OR
+("dew computing") OR
+("dew computings") OR
+("dew computinges") OR
+("distributed comput*") OR
+("distributed computing") OR
+("distributed computings") OR
+("distributed computinges") OR
+("distributed file system*") OR
+("docker") OR
+("dockers") OR
+("dockeres") OR
+("dynamic cloud*") OR
+("edge ai") OR
+("edge ais") OR
+("edge aies") OR
+("edge computing") OR
+("edge computings") OR
+("edge computinges") OR
+("edge device*") OR
+("edge intelligence") OR
+("edge intelligences") OR
+("edge intelligencees") OR
+("edge node*") OR
+("edge server*") OR
+("edge-cloud") OR
+("edge-clouds") OR
+("edge-cloudes") OR
+("edgecloud") OR
+("edgeclouds") OR
+("edgecloudes") OR
+("elastic-search") OR
+("elastic-searchs") OR
+("elastic-searches") OR
+("elasticsearch") OR
+("elasticsearchs") OR
+("elasticsearches") OR
+("embb") OR
+("embbs") OR
+("embbes") OR
+("exascale") OR
+("exascales") OR
+("exascalees") OR
+("federated cloud*") OR
+("field programmable gate array*") OR
+("fifth generation mobile") OR
+("fifth generation mobiles") OR
+("fifth generation mobilees") OR
+("fog computing") OR
+("fog computings") OR
+("fog computinges") OR
+("fog node*") OR
+("fpga*") OR
+("google cloud") OR
+("google clouds") OR
+("google cloudes") OR
+("google earth engine") OR
+("google earth engines") OR
+("google earth enginees") OR
+("gpu*") OR
+("graphics processing unit*") OR
+("grid comput*") OR
+("grid computing") OR
+("grid computings") OR
+("grid computinges") OR
+("hadoop") OR
+("hadoops") OR
+("hadoopes") OR
+("hardware acceleration") OR
+("hardware accelerations") OR
+("hardware accelerationes") OR
+("hardware accelerator*") OR
+("hbase") OR
+("hbases") OR
+("hbasees") OR
+("high performance comput*") OR
+("hybrid cloud*") OR
+("hypervisor*") OR
+("imt-2020") OR
+("imt2020") OR
+("imt-2030") OR
+("imt2030") OR
+("in-memory computing") OR
+("in-memory computings") OR
+("in-memory computinges") OR
+("inmemory computing") OR
+("inmemory computings") OR
+("inmemory computinges") OR
+("infrastructure as a service") OR
+("infrastructure as a services") OR
+("infrastructure as a servicees") OR
+("inter-cloud") OR
+("inter-clouds") OR
+("inter-cloudes") OR
+("intercloud") OR
+("interclouds") OR
+("intercloudes") OR
+("inter-cloud computing") OR
+("inter-cloud computings") OR
+("inter-cloud computinges") OR
+("intercloud computing") OR
+("intercloud computings") OR
+("intercloud computinges") OR
+("kubernetes") OR
+("kubernetess") OR
+("kuberneteses") OR
+("mapreduce") OR
+("mapreduces") OR
+("mapreducees") OR
+("massively parallel processing") OR
+("massively parallel processings") OR
+("massively parallel processinges") OR
+("memristor*") OR
+("microservice*") OR
+("microsoft azure") OR
+("microsoft azures") OR
+("microsoft azurees") OR
+("mist computing") OR
+("mist computings") OR
+("mist computinges") OR
+("mobile edge") OR
+("mobile edges") OR
+("mobile edgees") OR
+("multi-access edge") OR
+("multi-access edges") OR
+("multi-access edgees") OR
+("multiaccess edge") OR
+("multiaccess edges") OR
+("multiaccess edgees") OR
+("multi-cloud*") OR
+("multicloud*") OR
+("multi-core comput*") OR
+("multicore comput*") OR
+("multi-core cpu*") OR
+("multicore cpu*") OR
+("multi-core processor*") OR
+("multicore processor*") OR
+("multitenan*") OR
+("network slicing") OR
+("network slicings") OR
+("network slicinges") OR
+("neuromorphic") OR
+("neuromorphics") OR
+("neuromorphices") OR
+("neuromorphic comput*") OR
+("nosql") OR
+("nosqls") OR
+("nosqles") OR
+("on-demand computing") OR
+("on-demand computings") OR
+("on-demand computinges") OR
+("ondemand computing") OR
+("ondemand computings") OR
+("ondemand computinges") OR
+("openstack") OR
+("openstacks") OR
+("openstackes") OR
+("optical comput*") OR
+("parallel comput*") OR
+("parallel computing") OR
+("parallel computings") OR
+("parallel computinges") OR
+("parallel processing") OR
+("parallel processings") OR
+("parallel processinges") OR
+("photonic comput*") OR
+("platform as a service") OR
+("platform as a services") OR
+("platform as a servicees") OR
+("private cloud*") OR
+("public cloud*") OR
+("quantum algorithm*") OR
+("quantum annealer*") OR
+("quantum annealing") OR
+("quantum annealings") OR
+("quantum annealinges") OR
+("quantum bit*") OR
+("quantum circuit*") OR
+("quantum comput*") OR
+("quantum device*") OR
+("quantum error correction") OR
+("quantum error corrections") OR
+("quantum error correctiones") OR
+("quantum hardware") OR
+("quantum hardwares") OR
+("quantum hardwarees") OR
+("quantum processor*") OR
+("quantum simulat*") OR
+("quantum software") OR
+("quantum softwares") OR
+("quantum softwarees") OR
+("quantum supremacy") OR
+("quantum supremacies") OR
+("qubit*") OR
+("real-time comput*") OR
+("realtime comput*") OR
+("server cluster*") OR
+("server farm*") OR
+("serverless") OR
+("serverlesss") OR
+("serverlesses") OR
+("sixth generation mobile") OR
+("sixth generation mobiles") OR
+("sixth generation mobilees") OR
+("software as a service") OR
+("software as a services") OR
+("software as a servicees") OR
+("software-defined network*") OR
+("softwaredefined network*") OR
+("splunk") OR
+("splunks") OR
+("splunkes") OR
+("supercomput*") OR
+("system-on-a-chip") OR
+("system-on-a-chips") OR
+("system-on-a-chipes") OR
+("system-on-achip") OR
+("system-on-achips") OR
+("system-on-achipes") OR
+("system-ona-chip") OR
+("system-ona-chips") OR
+("system-ona-chipes") OR
+("system-onachip") OR
+("system-onachips") OR
+("system-onachipes") OR
+("systemon-a-chip") OR
+("systemon-a-chips") OR
+("systemon-a-chipes") OR
+("systemon-achip") OR
+("systemon-achips") OR
+("systemon-achipes") OR
+("systemona-chip") OR
+("systemona-chips") OR
+("systemona-chipes") OR
+("systemonachip") OR
+("systemonachips") OR
+("systemonachipes") OR
+("system-on-chip") OR
+("system-on-chips") OR
+("system-on-chipes") OR
+("system-onchip") OR
+("system-onchips") OR
+("system-onchipes") OR
+("systemon-chip") OR
+("systemon-chips") OR
+("systemon-chipes") OR
+("systemonchip") OR
+("systemonchips") OR
+("systemonchipes") OR
+("systems-on-a-chip") OR
+("systems-on-a-chips") OR
+("systems-on-a-chipes") OR
+("systems-on-achip") OR
+("systems-on-achips") OR
+("systems-on-achipes") OR
+("systems-ona-chip") OR
+("systems-ona-chips") OR
+("systems-ona-chipes") OR
+("systems-onachip") OR
+("systems-onachips") OR
+("systems-onachipes") OR
+("systemson-a-chip") OR
+("systemson-a-chips") OR
+("systemson-a-chipes") OR
+("systemson-achip") OR
+("systemson-achips") OR
+("systemson-achipes") OR
+("systemsona-chip") OR
+("systemsona-chips") OR
+("systemsona-chipes") OR
+("systemsonachip") OR
+("systemsonachips") OR
+("systemsonachipes") OR
+("systems-on-chip") OR
+("systems-on-chips") OR
+("systems-on-chipes") OR
+("systems-onchip") OR
+("systems-onchips") OR
+("systems-onchipes") OR
+("systemson-chip") OR
+("systemson-chips") OR
+("systemson-chipes") OR
+("systemsonchip") OR
+("systemsonchips") OR
+("systemsonchipes") OR
+("task offloading") OR
+("task offloadings") OR
+("task offloadinges") OR
+("tensor processing unit*") OR
+("urllc") OR
+("urllcs") OR
+("urllces") OR
+("utility computing") OR
+("utility computings") OR
+("utility computinges") OR
+("virtual machine*") OR
+("virtualisation") OR
+("virtualisations") OR
+("virtualisationes") OR
+("virtualization") OR
+("virtualizations") OR
+("virtualizationes") OR
+("vmware") OR
+("vmwares") OR
+("vmwarees") OR
+("xaas") OR
+("xaass") OR
+("xaases") OR
+("altcoin") OR
+("altcoins") OR
+("altcoines") OR
+("altcoin*") OR
+("bitcoin") OR
+("bitcoins") OR
+("bitcoines") OR
+("bitcoin*") OR
+("block-chain") OR
+("block-chains") OR
+("block-chaines") OR
+("blockchain") OR
+("blockchains") OR
+("blockchaines") OR
+("blockchain*") OR
+("cbdc") OR
+("cbdcs") OR
+("cbdces") OR
+("central bank digital currenc*") OR
+("consensus algorithm*") OR
+("consensus mechanism*") OR
+("crypto market*") OR
+("crypto-asset*") OR
+("cryptoasset*") OR
+("crypto-currenc*") OR
+("cryptocurrenc*") OR
+("decentralised application*") OR
+("decentralised autonomous organisation*") OR
+("decentralised financ*") OR
+("decentralised ledger*") OR
+("decentralized application*") OR
+("decentralized autonomous organization*") OR
+("decentralized financ*") OR
+("decentralized ledger*") OR
+("digital asset*") OR
+("digital currenc*") OR
+("distributed ledger*") OR
+("ethereum") OR
+("ethereums") OR
+("ethereumes") OR
+("hyperledger") OR
+("hyperledgers") OR
+("hyperledgeres") OR
+("initial coin offering*") OR
+("layer 2 scaling solution*") OR
+("non-fungible token*") OR
+("nonfungible token*") OR
+("optimistic rollup*") OR
+("permissioned") OR
+("permissioneds") OR
+("permissionedes") OR
+("permissionless") OR
+("permissionlesss") OR
+("permissionlesses") OR
+("private blockchain*") OR
+("proof of authority") OR
+("proof of authorities") OR
+("proof-of-stake") OR
+("proof-of-stakes") OR
+("proof-of-stakees") OR
+("proof-ofstake") OR
+("proof-ofstakes") OR
+("proof-ofstakees") OR
+("proofof-stake") OR
+("proofof-stakes") OR
+("proofof-stakees") OR
+("proofofstake") OR
+("proofofstakes") OR
+("proofofstakees") OR
+("proof-of-work") OR
+("proof-of-works") OR
+("proof-of-workes") OR
+("proof-ofwork") OR
+("proof-ofworks") OR
+("proof-ofworkes") OR
+("proofof-work") OR
+("proofof-works") OR
+("proofof-workes") OR
+("proofofwork") OR
+("proofofworks") OR
+("proofofworkes") OR
+("public blockchain*") OR
+("smart contract*") OR
+("stablecoin*") OR
+("tokenomics") OR
+("tokenomicss") OR
+("tokenomicses") OR
+("virtual currenc*") OR
+("web 3.0") OR
+("web3") OR
+("zk-rollup*") OR
+("zkrollup*") OR
+("zk-snark*") OR
+("zksnark*") OR
+("aerial vehicle*") OR
+("agv") OR
+("agvs") OR
+("agves") OR
+("automated car") OR
+("automated cars") OR
+("automated cares") OR
+("automated driving") OR
+("automated drivings") OR
+("automated drivinges") OR
+("automated guided vehicle*") OR
+("automated vehicle*") OR
+("autonomous aerial system*") OR
+("autonomous aircraft") OR
+("autonomous aircrafts") OR
+("autonomous aircraftes") OR
+("autonomous car*") OR
+("autonomous driving") OR
+("autonomous drivings") OR
+("autonomous drivinges") OR
+("autonomous flight") OR
+("autonomous flights") OR
+("autonomous flightes") OR
+("autonomous mobile") OR
+("autonomous mobiles") OR
+("autonomous mobilees") OR
+("autonomous navigation") OR
+("autonomous navigations") OR
+("autonomous navigationes") OR
+("autonomous ship*") OR
+("autonomous surface") OR
+("autonomous surfaces") OR
+("autonomous surfacees") OR
+("autonomous underwater vehicle*") OR
+("autonomous vehicle*") OR
+("autonomous vessel*") OR
+("auv") OR
+("auvs") OR
+("auves") OR
+("cobot*") OR
+("collision avoidance") OR
+("collision avoidances") OR
+("collision avoidancees") OR
+("cybernetics") OR
+("cyberneticss") OR
+("cyberneticses") OR
+("driverless") OR
+("driverlesss") OR
+("driverlesses") OR
+("driving automation") OR
+("driving automations") OR
+("driving automationes") OR
+("drone*") OR
+("end effector*") OR
+("exoskeleton*") OR
+("hexacopter*") OR
+("humanoid robot*") OR
+("low altitude platform*") OR
+("manipulator*") OR
+("microrobot*") OR
+("mobile manipulator*") OR
+("mobile robot*") OR
+("motion planning") OR
+("motion plannings") OR
+("motion planninges") OR
+("multi-rotor*") OR
+("multirotor*") OR
+("multicopter*") OR
+("nanorobot*") OR
+("obstacle avoidance") OR
+("obstacle avoidances") OR
+("obstacle avoidancees") OR
+("quad-rotor*") OR
+("quadrotor*") OR
+("quadcopter*") OR
+("remotely operated underwater vehicle*") OR
+("remotely operated vehicle*") OR
+("remotely piloted aircraft*") OR
+("robo-taxi*") OR
+("robotaxi*") OR
+("robot*") OR
+("robotic*") OR
+("rpas") OR
+("rpass") OR
+("rpases") OR
+("self-driving") OR
+("self-drivings") OR
+("self-drivinges") OR
+("selfdriving") OR
+("selfdrivings") OR
+("selfdrivinges") OR
+("self-driving car*") OR
+("selfdriving car*") OR
+("self-driving vehicle*") OR
+("selfdriving vehicle*") OR
+("simultaneous localisation and mapping") OR
+("simultaneous localisation and mappings") OR
+("simultaneous localisation and mappinges") OR
+("simultaneous localization and mapping") OR
+("simultaneous localization and mappings") OR
+("simultaneous localization and mappinges") OR
+("tele-operat*") OR
+("teleoperat*") OR
+("telerobot*") OR
+("trajectory planning") OR
+("trajectory plannings") OR
+("trajectory planninges") OR
+("trajectory tracking") OR
+("trajectory trackings") OR
+("trajectory trackinges") OR
+("uas") OR
+("uass") OR
+("uases") OR
+("uav") OR
+("uavs") OR
+("uaves") OR
+("uav*") OR
+("ugv") OR
+("ugvs") OR
+("ugves") OR
+("ugv*") OR
+("uncrewed") OR
+("uncreweds") OR
+("uncrewedes") OR
+("uncrewed aerial*") OR
+("uncrewed vehicle*") OR
+("unmanned") OR
+("unmanneds") OR
+("unmannedes") OR
+("unmanned aerial system*") OR
+("unmanned aerial vehicle*") OR
+("unmanned air vehicle*") OR
+("unmanned aircraft system*") OR
+("unmanned ground vehicle*") OR
+("unmanned spacecraft") OR
+("unmanned spacecrafts") OR
+("unmanned spacecraftes") OR
+("unmanned surface ve*") OR
+("unmanned underwater vehicle*") OR
+("unmanned underwater vehicles*") OR
+("unmanned vehicle*") OR
+("unoccupied aerial*") OR
+("uuv*") OR
+("visual servoing") OR
+("visual servoings") OR
+("visual servoinges") OR
+("3-d print*") OR
+("3d print*") OR
+("3-dimensional print*") OR
+("3dimensional print*") OR
+("3d bioprint*") OR
+("3d concrete print*") OR
+("3d fabrication") OR
+("3d fabrications") OR
+("3d fabricationes") OR
+("3d food print*") OR
+("3d manufacturing") OR
+("3d manufacturings") OR
+("3d manufacturinges") OR
+("3d prototyping") OR
+("3d prototypings") OR
+("3d prototypinges") OR
+("3dp") OR
+("3dps") OR
+("3dpes") OR
+("4d print*") OR
+("additive fabrication") OR
+("additive fabrications") OR
+("additive fabricationes") OR
+("additive layer manufacturing") OR
+("additive layer manufacturings") OR
+("additive layer manufacturinges") OR
+("additive manufactur*") OR
+("additive manufacturing") OR
+("additive manufacturings") OR
+("additive manufacturinges") OR
+("additively manufactur*") OR
+("binder jet*") OR
+("binder jetting") OR
+("binder jettings") OR
+("binder jettinges") OR
+("bio-print*") OR
+("bioprint*") OR
+("composite filament fabrication") OR
+("composite filament fabrications") OR
+("composite filament fabricationes") OR
+("continuous liquid interface production") OR
+("continuous liquid interface productions") OR
+("continuous liquid interface productiones") OR
+("digital light processing") OR
+("digital light processings") OR
+("digital light processinges") OR
+("direct digital manufacturing") OR
+("direct digital manufacturings") OR
+("direct digital manufacturinges") OR
+("direct energy deposition") OR
+("direct energy depositions") OR
+("direct energy depositiones") OR
+("direct ink writing") OR
+("direct ink writings") OR
+("direct ink writinges") OR
+("direct metal deposition") OR
+("direct metal depositions") OR
+("direct metal depositiones") OR
+("direct metal laser sintering") OR
+("direct metal laser sinterings") OR
+("direct metal laser sinteringes") OR
+("directed energy deposition") OR
+("directed energy depositions") OR
+("directed energy depositiones") OR
+("directed light fabrication") OR
+("directed light fabrications") OR
+("directed light fabricationes") OR
+("electron-beam freeform fabrication") OR
+("electron-beam freeform fabrications") OR
+("electron-beam freeform fabricationes") OR
+("electronbeam freeform fabrication") OR
+("electronbeam freeform fabrications") OR
+("electronbeam freeform fabricationes") OR
+("electron-beam melt*") OR
+("electronbeam melt*") OR
+("electron-beam melting") OR
+("electron-beam meltings") OR
+("electron-beam meltinges") OR
+("electronbeam melting") OR
+("electronbeam meltings") OR
+("electronbeam meltinges") OR
+("free-form fabrication") OR
+("free-form fabrications") OR
+("free-form fabricationes") OR
+("freeform fabrication") OR
+("freeform fabrications") OR
+("freeform fabricationes") OR
+("fused deposition modeling") OR
+("fused deposition modelings") OR
+("fused deposition modelinges") OR
+("fused deposition modelling") OR
+("fused deposition modellings") OR
+("fused deposition modellinges") OR
+("fused filament fabrication") OR
+("fused filament fabrications") OR
+("fused filament fabricationes") OR
+("fused layer modeling") OR
+("fused layer modelings") OR
+("fused layer modelinges") OR
+("fused layer modelling") OR
+("fused layer modellings") OR
+("fused layer modellinges") OR
+("generative printing") OR
+("generative printings") OR
+("generative printinges") OR
+("inkjet print*") OR
+("laminat* object manufactur*") OR
+("laminated object manufacturing") OR
+("laminated object manufacturings") OR
+("laminated object manufacturinges") OR
+("laser cladding") OR
+("laser claddings") OR
+("laser claddinges") OR
+("laser consolidation") OR
+("laser consolidations") OR
+("laser consolidationes") OR
+("laser direct casting") OR
+("laser direct castings") OR
+("laser direct castinges") OR
+("laser engineered net shaping") OR
+("laser engineered net shapings") OR
+("laser engineered net shapinges") OR
+("laser freeform fabrication") OR
+("laser freeform fabrications") OR
+("laser freeform fabricationes") OR
+("laser metal deposition") OR
+("laser metal depositions") OR
+("laser metal depositiones") OR
+("laser-based metal deposition") OR
+("laser-based metal depositions") OR
+("laser-based metal depositiones") OR
+("laserbased metal deposition") OR
+("laserbased metal depositions") OR
+("laserbased metal depositiones") OR
+("layer manufacturing") OR
+("layer manufacturings") OR
+("layer manufacturinges") OR
+("layered manufacturing") OR
+("layered manufacturings") OR
+("layered manufacturinges") OR
+("material extrusion") OR
+("material extrusions") OR
+("material extrusiones") OR
+("material jet*") OR
+("material jetting") OR
+("material jettings") OR
+("material jettinges") OR
+("multi-jet modeling") OR
+("multi-jet modelings") OR
+("multi-jet modelinges") OR
+("multijet modeling") OR
+("multijet modelings") OR
+("multijet modelinges") OR
+("multi-jet modelling") OR
+("multi-jet modellings") OR
+("multi-jet modellinges") OR
+("multijet modelling") OR
+("multijet modellings") OR
+("multijet modellinges") OR
+("plastic jet printing") OR
+("plastic jet printings") OR
+("plastic jet printinges") OR
+("powder bed fusion") OR
+("powder bed fusions") OR
+("powder bed fusiones") OR
+("rapid manufactur*") OR
+("rapid prototyping") OR
+("rapid prototypings") OR
+("rapid prototypinges") OR
+("rapid tooling") OR
+("rapid toolings") OR
+("rapid toolinges") OR
+("robocasting") OR
+("robocastings") OR
+("robocastinges") OR
+("selective heat sintering") OR
+("selective heat sinterings") OR
+("selective heat sinteringes") OR
+("selective laser deposition") OR
+("selective laser depositions") OR
+("selective laser depositiones") OR
+("selective laser manufactur*") OR
+("selective laser melt*") OR
+("selective laser melting") OR
+("selective laser meltings") OR
+("selective laser meltinges") OR
+("selective laser sinter*") OR
+("selective laser sintering") OR
+("selective laser sinterings") OR
+("selective laser sinteringes") OR
+("sheet lamination") OR
+("sheet laminations") OR
+("sheet laminationes") OR
+("stereolithograph*") OR
+("stereolithography") OR
+("stereolithographies") OR
+("thermojet") OR
+("thermojets") OR
+("thermojetes") OR
+("thin-film photopolymerisation") OR
+("thin-film photopolymerisations") OR
+("thin-film photopolymerisationes") OR
+("thinfilm photopolymerisation") OR
+("thinfilm photopolymerisations") OR
+("thinfilm photopolymerisationes") OR
+("thin-film photopolymerization") OR
+("thin-film photopolymerizations") OR
+("thin-film photopolymerizationes") OR
+("thinfilm photopolymerization") OR
+("thinfilm photopolymerizations") OR
+("thinfilm photopolymerizationes") OR
+("three-d print*") OR
+("threed print*") OR
+("three-dimensional print*") OR
+("threedimensional print*") OR
+("two-photon polymerisation") OR
+("two-photon polymerisations") OR
+("two-photon polymerisationes") OR
+("twophoton polymerisation") OR
+("twophoton polymerisations") OR
+("twophoton polymerisationes") OR
+("two-photon polymerization") OR
+("two-photon polymerizations") OR
+("two-photon polymerizationes") OR
+("twophoton polymerization") OR
+("twophoton polymerizations") OR
+("twophoton polymerizationes") OR
+("ultrasonic consolidation") OR
+("ultrasonic consolidations") OR
+("ultrasonic consolidationes") OR
+("vat photopolymerisation") OR
+("vat photopolymerisations") OR
+("vat photopolymerisationes") OR
+("vat photopolymerization") OR
+("vat photopolymerizations") OR
+("vat photopolymerizationes") OR
+("voxeljet") OR
+("voxeljets") OR
+("voxeljetes") OR
+("4ir") OR
+("4irs") OR
+("4ires") OR
+("4th industrial revolution") OR
+("4th industrial revolutions") OR
+("4th industrial revolutiones") OR
+("cloud manufacturing") OR
+("cloud manufacturings") OR
+("cloud manufacturinges") OR
+("digital manufacturing") OR
+("digital manufacturings") OR
+("digital manufacturinges") OR
+("digital technolog*") OR
+("digital transformation") OR
+("digital transformations") OR
+("digital transformationes") OR
+("digital twin*") OR
+("digitalisation") OR
+("digitalisations") OR
+("digitalisationes") OR
+("digitalization") OR
+("digitalizations") OR
+("digitalizationes") OR
+("factories of the future") OR
+("factories of the futures") OR
+("factories of the futurees") OR
+("factory of the future") OR
+("factory of the futures") OR
+("factory of the futurees") OR
+("fourth industrial revolution") OR
+("fourth industrial revolutions") OR
+("fourth industrial revolutiones") OR
+("i4.0") OR
+("industrial revolution 4.0") OR
+("industrie 4.0") OR
+("industry 4.0") OR
+("industry 5.0") OR
+("industry4.0") OR
+("intelligent city") OR
+("intelligent cities") OR
+("intelligent manufacturing") OR
+("intelligent manufacturings") OR
+("intelligent manufacturinges") OR
+("precision agriculture") OR
+("precision agricultures") OR
+("precision agriculturees") OR
+("smart agricultur*") OR
+("smart cit*") OR
+("smart farming") OR
+("smart farmings") OR
+("smart farminges") OR
+("smart manufacturing") OR
+("smart manufacturings") OR
+("smart manufacturinges") OR
+("society 5.0")
+)

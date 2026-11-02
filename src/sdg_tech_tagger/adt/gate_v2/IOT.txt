@@ -1,0 +1,94 @@
+TS = (
+("aiot") OR
+("ambient assisted living") OR
+("ambient intelligence") OR
+("arduino") OR
+("artificial intelligence of things") OR
+("bluetooth low energy") OR
+("body area network*") OR
+("car-to-car") OR
+("cloud of things") OR
+("connected car") OR
+("connected device*") OR
+("connected home*") OR
+("connected object*") OR
+("connected vehicle*") OR
+("cyber-physical") OR
+("cyber-physical system*") OR
+("d2d communication*") OR
+("device-to-device communication*") OR
+("device-to-device d2d") OR
+("esp32") OR
+("fitness tracker*") OR
+("home automation") OR
+("human-machine interface*") OR
+("hyper connectivity") OR
+("iiot") OR
+("industrial internet") OR
+("industrial internet of things") OR
+("intelligent building*") OR
+("intelligent factor*") OR
+("intelligent transport* system*") OR
+("inter-vehicle communication*") OR
+("internet of energy") OR
+("internet of everything") OR
+("internet of medical things") OR
+("internet of things") OR
+("internet of underwater things") OR
+("internet of vehicles") OR
+("iomt") OR
+("iot") OR
+("lorawan") OR
+("low power wide area") OR
+("lpwa") OR
+("lpwan") OR
+("m2m") OR
+("machine type communication*") OR
+("machine-to-enterprise") OR
+("machine-to-human") OR
+("machine-to-machine") OR
+("mmtc") OR
+("mqtt") OR
+("near field communication") OR
+("networked device*") OR
+("pervasive comput*") OR
+("pervasive sensing") OR
+("predictive maintenance") OR
+("radio frequency identification") OR
+("raspberry pi") OR
+("remote monitoring") OR
+("rfid") OR
+("sensor network*") OR
+("sensor node*") OR
+("sigfox") OR
+("smart building*") OR
+("smart device*") OR
+("smart dust") OR
+("smart environment*") OR
+("smart factor*") OR
+("smart grid*") OR
+("smart health") OR
+("smart home*") OR
+("smart house") OR
+("smart meter*") OR
+("smart office") OR
+("smart sensor*") OR
+("smart-watch*") OR
+("ubiquitous computing") OR
+("ubiquitous sensing") OR
+("v2i") OR
+("v2v") OR
+("v2x") OR
+("vanet*") OR
+("vehicle-to-everything") OR
+("vehicle-to-infrastructure") OR
+("vehicle-to-vehicle") OR
+("vehicular network*") OR
+("wearable*") OR
+("web of things") OR
+("wireless body area network*") OR
+("wireless sensor network*") OR
+("wireless sensor*") OR
+("wsn") OR
+("zigbee")
+)
