@@ -69,14 +69,16 @@ sdg-tech-tagger --documents IN.parquet --out OUT.parquet \
 
 ### Agreement with text2sdg
 
-On 2,000 OpenAlex works drawn at random from a sample of 300,001 works (articles and reviews, 2019 to 2024), texts never used to develop the port, the R package text2sdg 1.1.2 and this package return the same firings with the same matched words:
+On a random sample of 300,001 OpenAlex works (articles and reviews, 2019 to 2024), texts never used to develop the port, the R package text2sdg 1.1.2 and this package return the same firings with the same matched words, but for ten Auckland firings:
 
-| mode                                       | firings, R | firings, this package | on one side only | same matched words |
-| ------------------------------------------ | ---------- | --------------------- | ---------------- | ------------------ |
-| compatible                                 | 2,746      | 2,746                 | 0                | 2,746              |
-| corrected (R with the corrections applied) | 2,729      | 2,729                 | 0                | 2,729              |
+| mode                                       | firings, R | firings, this package | R only | this package only | same matched words |
+| ------------------------------------------ | ---------- | --------------------- | ------ | ----------------- | ------------------ |
+| compatible                                 | 389,935    | 389,932               | 3      | 0                 | 389,925            |
+| corrected (R with the corrections applied) | 387,795    | 387,792               | 3      | 0                 | 387,785            |
 
-The port labelled all 300,001 works in about 20 seconds on 8 threads; text2sdg, at its speed on the 2,000, would take an estimated 5 hours on one core.
+The ten differ on Korean text in which Latin letters or digits are glued to Hangul (`COVID-19로`): the two packages cut such text into words differently, so text2sdg sometimes matches a word this package does not. Seven works of the sample were left out: text2sdg stops with an error on a text holding the character U+FFFE, which this package reads. Every firing, from both, is in the data record [sdg-tech-tagger-rs-data](https://github.com/KnuxV/sdg-tech-tagger-rs-data).
+
+This package labelled all 300,001 works in about 20 seconds on 8 threads; text2sdg took about 2 hours 25 minutes in compatible mode, split over five processes.
 
 ## Technologies in Python (ADTs)
 
