@@ -9,7 +9,13 @@ Each comes in three forms: a Python program (text in, tags out), queries for the
 
 ## Install
 
-From source for now (a PyPI release will follow), from a clone of the repository or from the source archive of the Zenodo record. It needs Python 3.13 or later and a Rust toolchain.
+From PyPI, with Python 3.13 or later. Wheels are built for Linux (x86_64 and aarch64), macOS (Intel and Apple silicon) and Windows (x64).
+
+```bash
+pip install sdg-tech-tagger-rs     # or: uv add sdg-tech-tagger-rs
+```
+
+The package imports as `sdg_tech_tagger`. On another platform, pip builds it from the source distribution, which needs a Rust toolchain. From a clone of the repository:
 
 ```bash
 git clone https://github.com/KnuxV/sdg-tech-tagger-rs

@@ -1,0 +1,180 @@
+# Builds the wheels and the source distribution, tests each wheel, and
+# publishes them.
+#
+# - On a pull request or a push to main: build and test only.
+# - On a published GitHub release: build, test, publish to PyPI.
+# - Run by hand (Actions > Release > Run workflow): build, test, and publish
+#   to TestPyPI, to try a release before the real one.
+#
+# Publishing uses PyPI's trusted publishing: no token is stored. PyPI and
+# TestPyPI each need a trusted publisher for this repository, workflow
+# `release.yml`, environment `pypi` or `testpypi`.
+#
+# The extension is built for the stable ABI of Python 3.13 (abi3), so one
+# wheel per platform serves every Python from 3.13 on.
+#
+# Adapted from `maturin generate-ci github` (maturin 1.15.0).
+
+name: Release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linux:
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: ubuntu-22.04
+            target: x86_64
+          - runner: ubuntu-22.04-arm
+            target: aarch64
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Build wheel
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release --out dist
+          sccache: ${{ github.event_name != 'release' }}
+          manylinux: auto
+      - name: Upload wheel
+        uses: actions/upload-artifact@v6
+        with:
+          name: wheels-linux-${{ matrix.platform.target }}
+          path: dist
+      - uses: astral-sh/setup-uv@v7
+      - name: Test the wheel
+        shell: bash
+        run: |
+          set -e
+          uv venv --python 3.13 .venv
+          source .venv/bin/activate
+          uv pip install sdg-tech-tagger-rs --no-index --find-links dist --no-deps
+          uv pip install polars pytest openpyxl
+          pytest -q
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          architecture: x64
+      - name: Build wheel
+        uses: PyO3/maturin-action@v1
+        with:
+          target: x64
+          args: --release --out dist
+          sccache: ${{ github.event_name != 'release' }}
+      - name: Upload wheel
+        uses: actions/upload-artifact@v6
+        with:
+          name: wheels-windows-x64
+          path: dist
+      - uses: astral-sh/setup-uv@v7
+      - name: Test the wheel
+        shell: bash
+        run: |
+          set -e
+          uv venv --python 3.13 .venv
+          source .venv/Scripts/activate
+          uv pip install sdg-tech-tagger-rs --no-index --find-links dist --no-deps
+          uv pip install polars pytest openpyxl
+          pytest -q
+
+  macos:
+    runs-on: ${{ matrix.platform.runner }}
+    strategy:
+      matrix:
+        platform:
+          - runner: macos-15-intel
+            target: x86_64
+          - runner: macos-latest
+            target: aarch64
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Build wheel
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release --out dist
+          sccache: ${{ github.event_name != 'release' }}
+      - name: Upload wheel
+        uses: actions/upload-artifact@v6
+        with:
+          name: wheels-macos-${{ matrix.platform.target }}
+          path: dist
+      - uses: astral-sh/setup-uv@v7
+      - name: Test the wheel
+        run: |
+          set -e
+          uv venv --python 3.13 .venv
+          source .venv/bin/activate
+          uv pip install sdg-tech-tagger-rs --no-index --find-links dist --no-deps
+          uv pip install polars pytest openpyxl
+          pytest -q
+
+  sdist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build sdist
+        uses: PyO3/maturin-action@v1
+        with:
+          command: sdist
+          args: --out dist
+      - name: Upload sdist
+        uses: actions/upload-artifact@v6
+        with:
+          name: wheels-sdist
+          path: dist
+
+  publish-testpypi:
+    name: Publish to TestPyPI
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    needs: [linux, windows, macos, sdist]
+    runs-on: ubuntu-latest
+    environment: testpypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v7
+      - uses: astral-sh/setup-uv@v7
+      - name: Publish
+        run: uv publish --trusted-publishing always --publish-url https://test.pypi.org/legacy/ 'wheels-*/*'
+
+  publish-pypi:
+    name: Publish to PyPI
+    if: ${{ github.event_name == 'release' }}
+    needs: [linux, windows, macos, sdist]
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+      attestations: write
+    steps:
+      - uses: actions/download-artifact@v7
+      - name: Attest the build provenance
+        uses: actions/attest@v4
+        with:
+          subject-path: 'wheels-*/*'
+      - uses: astral-sh/setup-uv@v7
+      - name: Publish
+        run: uv publish --trusted-publishing always 'wheels-*/*'
