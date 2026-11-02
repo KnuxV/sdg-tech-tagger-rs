@@ -26,18 +26,79 @@
     "bibliometrics"
   ],
   "related_identifiers": [
-    {"identifier": "10.32614/CRAN.package.text2sdg", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "software"},
-    {"identifier": "10.32614/CRAN.package.corpustools", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "software"},
-    {"identifier": "10.32614/RJ-2024-005", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
-    {"identifier": "10.1007/s11625-024-01516-3", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
-    {"identifier": "10.5281/zenodo.3817445", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
-    {"identifier": "10.5281/zenodo.3817444", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
-    {"identifier": "10.17632/87txkw7khs.1", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
-    {"identifier": "10.5281/zenodo.4118028", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"},
-    {"identifier": "10.21203/rs.3.rs-2544385/v2", "relation": "references", "scheme": "doi", "resource_type": "publication-preprint"},
-    {"identifier": "https://www.sdgmapping.auckland.ac.nz/", "relation": "isDerivedFrom", "scheme": "url", "resource_type": "dataset"},
-    {"identifier": "10.1787/9789264312012-en", "relation": "references", "scheme": "doi", "resource_type": "publication-report"},
-    {"identifier": "10.1787/5f65ff7e-en", "relation": "references", "scheme": "doi", "resource_type": "publication-workingpaper"}
+    {
+      "identifier": "10.32614/CRAN.package.text2sdg",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.32614/CRAN.package.corpustools",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.32614/RJ-2024-005",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1007/s11625-024-01516-3",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.3817445",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.3817444",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.17632/87txkw7khs.1",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.4118028",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.21203/rs.3.rs-2544385/v2",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://www.sdgmapping.auckland.ac.nz/",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1787/9789264312012-en",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "10.1787/5f65ff7e-en",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-workingpaper"
+    }
   ],
-  "notes": "Code under GPL-3.0; data files under CC BY 4.0, except SIRIS-derived files (CC BY-SA 4.0) and the query tables exported from text2sdg (GPL-3.0). See LICENSE-DATA.md."
+  "notes": "Code under GPL-3.0-only. Data files under CC BY 4.0, except SIRIS-derived files (CC BY-SA 4.0) and the query tables exported from text2sdg (GPL-3.0-only). Auckland's queries are used with citation, adapted to another syntax and not changed in what they search; their source states no licence. See LICENSE-DATA.md.",
+  "language": "eng"
 }

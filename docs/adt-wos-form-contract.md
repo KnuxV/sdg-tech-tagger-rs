@@ -1,6 +1,6 @@
 # Contract: the technology gate written as Web of Science queries
 
-Decision: D032. Module: `sdg_tech_tagger.adt.wos_form`. Shipped files:
+Module: `sdg_tech_tagger.adt.wos_form`. Shipped files:
 `src/sdg_tech_tagger/adt/gate_v2_wos/`.
 
 ## What this is for
@@ -8,9 +8,9 @@ Decision: D032. Module: `sdg_tech_tagger.adt.wos_form`. Shipped files:
 Gate v2 is a list of terms and three rules that live in its compiled
 patterns only: a term also matches its regular plural, a term written with
 a hyphen also matches its closed spelling, and a decimal is kept whole
-(`docs/adt-gate-v2.md`, 3.2). The query files of `adt/gate_v2/` hold the
-terms in Web of Science syntax without those rules, so run as they are
-they are not the gate (3.4 of the same document).
+(the options stored in `adt/gate_v2/gate_patterns_v2.json`). The query
+files of `adt/gate_v2/` hold the terms in Web of Science syntax without
+those rules, so run as they are they are not the gate.
 
 This stage writes the gate as Web of Science queries that carry the first
 two rules, by writing out every spelling the pattern of a term accepts as
@@ -18,9 +18,8 @@ a term of its own. A term with no rule applied is called a **plain term**
 here: it is searched as the Web of Science query of `adt/wos/` is, with
 every option of `translate` off.
 
-It is the other direction of `docs/adt-query-translation-contract.md`,
-which goes from a query file to patterns. Nothing of that contract
-changes, and `wos_query`, `translate` and `bigquery_sql` are not edited.
+It is the other direction of `adt.wos_query` and `adt.translate`, which
+go from a query file to patterns. Neither is changed by this stage.
 
 ## What is proven and what is not
 
@@ -32,10 +31,10 @@ own matcher.
 
 Not proven here: what the Web of Science returns for these queries. The
 package's matcher with every option off flagged again 163,723 of 163,739
-records the Web of Science had returned for the query of `adt/wos/`
-(`docs/adt-gate-v2.md`, 3.4, not rerun here). No query of this stage was
-run on the Web of Science, and its limits on the length of a query or on
-truncation were not checked.
+records the Web of Science had returned for the query of `adt/wos/`.
+When this contract was written no query of this stage had been run on the
+Web of Science; the eight files were run there afterwards and accepted
+(`adt/gate_v2_wos/README.md`).
 
 ## Inputs
 

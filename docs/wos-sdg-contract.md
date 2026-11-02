@@ -1,6 +1,6 @@
 # Contract: the four systems written as Web of Science queries
 
-Decision: D033. Module: `sdg_tech_tagger.wos_sdg`. Shipped files:
+Module: `sdg_tech_tagger.wos_sdg`. Shipped files:
 `src/sdg_tech_tagger/wos_queries/`.
 
 ## What this is for
@@ -18,7 +18,7 @@ of corpustools and reports firings.
 
 ## The two syntaxes
 
-**Scopus, as read here** (D022; Scopus search tips). Operators, in any
+**Scopus, as read here** (Scopus search tips). Operators, in any
 case: `OR` binds first, then `W/n`, then `AND`, then `AND NOT`.
 Parentheses group. A term is a text in double quotes, a text in braces,
 or a bare word: a run of characters other than white space, parentheses,
@@ -166,7 +166,7 @@ Produces:
 - several: `("keyword" AND ("e1" OR "e2"))`.
 
 This is the vocabulary's rule, the extra terms "should co-appear with the
-key-term", as `probes/published_audit_probe.py` reads it. Notes as
+key-term". Notes as
 `notes` gives them. Raises `QueryError` for an empty keyword and for a
 double quote.
 
@@ -181,7 +181,9 @@ second, `)`, and a newline. Raises `QueryError` for an empty list.
 
 ## `build(published) -> dict[str, str]`
 
-Consumes the path of `published/`. Produces the text of every shipped
+Consumes the path of a directory holding the published query files as
+their authors released them (`aurora/`, `elsevier/`, `auckland/`, `siris/`;
+not shipped with the package, their sources are in `CREDITS.md`). Produces the text of every shipped
 file by its name relative to `wos_queries/`. It needs `openpyxl`, a
 development dependency, and imports it when called.
 

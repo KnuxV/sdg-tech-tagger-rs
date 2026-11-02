@@ -4,7 +4,7 @@ A fixture set is a table of sentences (``UT``, ``text``) and, per mode, the
 rows the oracle of that mode returned for them (``UT``, ``system``, ``sdg``,
 ``query_id``, ``features``), written by ``tests/fixtures/make_fixtures.py``.
 The tests compare the port with them on the key (``UT``, ``system``,
-``sdg``, ``query_id``); ``features`` is stored and not asserted (D028).
+``sdg``, ``query_id``); ``features`` is stored and not asserted.
 """
 
 from __future__ import annotations

@@ -9,6 +9,6 @@ written during development:
 - `adt-wos-form-contract.md`: how gate v2 is written as Web of Science
   queries (`adt.wos_form`, `adt/gate_v2_wos/`).
 
-They cite decisions (`Dnnn`), notes, probes and R scripts of the development
-record, which is not published with the package. The tests in `tests/` are
-written from these contracts.
+They are given as they were written during development, with references
+to the development record removed. The tests in `tests/` are written from
+these contracts.

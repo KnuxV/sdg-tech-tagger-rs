@@ -1,4 +1,4 @@
-//! tantivy as the word index of a batch of documents (D013).
+//! tantivy as the word index of a batch of documents.
 //!
 //! Each document's lookup rows (`tokens::DocTokens`) are indexed as a
 //! pre-tokenised text whose positions are the row numbers, so the postings

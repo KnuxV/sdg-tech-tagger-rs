@@ -10,7 +10,8 @@ with advanced digital technologies, by published Boolean queries.
   Python interface. It returns, for each text, which query of which system
   fired and on which words.
 - **Technologies.** Two versions of a set of queries on advanced digital
-  technologies: the simplified query of the Nature Communications paper, and
+  technologies: the simplified query of the Nature Communications paper
+  (citation: TODO (Kevin), to be added once the paper is published), and
   gate v2, the version of the PhD thesis.
 
 Each comes in three forms: a Python program (text in, tags out), queries
@@ -21,11 +22,12 @@ matched the text.
 
 ## Install
 
-From source for now (a PyPI release will follow). It needs Python 3.13 or
-later and a Rust toolchain.
+From source for now (a PyPI release will follow), from a clone of the
+repository or from the source archive of the Zenodo record. It needs Python
+3.13 or later and a Rust toolchain.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/OWNER/sdg-tech-tagger-rs   # TODO (Kevin): OWNER
 cd sdg-tech-tagger-rs
 uv sync            # or: pip install .
 ```
@@ -210,9 +212,14 @@ The queries are the work of others; please cite them along with this
 package. `CREDITS.md` lists every source with its version, DOI and licence,
 and `CITATION.cff` gives them in machine-readable form.
 
-- Code: GNU GPL version 3 (`LICENSE`), as text2sdg and corpustools.
+- Code: GNU GPL version 3 only (GPL-3.0-only, `LICENSE`), as text2sdg and
+  corpustools.
 - Data files: CC BY 4.0, except what derives from SIRIS (CC BY-SA 4.0) and
-  text2sdg's own query tables (GPL-3). Details in `LICENSE-DATA.md`.
+  text2sdg's own query tables (GPL-3.0-only). Details in `LICENSE-DATA.md`.
+- Auckland's queries are used with citation, adapted to another syntax and
+  not changed in what they search; their source states no licence, and the
+  licences above cannot grant rights in the University of Auckland's own
+  work.
 - Rust crates compiled into the extension: `THIRD_PARTY_LICENSES.md`.
 
 ## How AI was used

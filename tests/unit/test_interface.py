@@ -238,7 +238,7 @@ def test_default_systems_are_the_four():
 
 @pytest.mark.parametrize("threads", [1, 2, 7])
 def test_threads_change_nothing(threads):
-    """The output is the same frame whatever the number of threads (D007)."""
+    """The output is the same frame whatever the number of threads."""
     documents = some_documents()
     assert_frame_equal(
         detect(documents, threads=threads), detect(documents, threads=None)
@@ -246,7 +246,7 @@ def test_threads_change_nothing(threads):
 
 
 def test_order_of_input_rows_changes_nothing():
-    """Shuffled input rows give the same frame (D007)."""
+    """Shuffled input rows give the same frame."""
     documents = some_documents()
     order = list(range(documents.height))
     random.Random(7).shuffle(order)

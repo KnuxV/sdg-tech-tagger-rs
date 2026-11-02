@@ -1,18 +1,18 @@
 //! text2sdg 1.1.2's four systems, in compatible and corrected mode.
 //!
-//! Elsevier, SIRIS and Auckland (`vendor/text2sdg_1.1.2/R/elsevier.R`,
+//! Elsevier, SIRIS and Auckland (text2sdg 1.1.2, `R/elsevier.R`,
 //! `siris.R`, `auckland.R`): a query fires in a document when its search
 //! string has a match there; all of a system's strings are searched in one
-//! call of `search_features`, as `r/detect_text2sdg.R` calls them.
+//! call of `search_features`, as text2sdg calls them.
 //!
 //! Aurora (`R/aurora.R`) searches three internal tables (lines 19 to 61)
 //! and three queries written out by hand (63 to 127), binds their rows in
 //! that order (129 to 141) and joins them back to its query table on the
-//! query text, pasting the features per document and query (149 to 163). `r/detect_text2sdg.R` calls it once per goal (defect 1 of
-//! `docs/text2sdg-behaviour.md`), so each internal table is searched per
-//! goal, in one call per table and column. Corrected mode is
-//! `r/detect_text2sdg_corrected.R`: the six corrections of
-//! `docs/contract.md`, each marked where it applies.
+//! query text, pasting the features per document and query (149 to 163).
+//! text2sdg 1.1.2 cannot run Aurora over all goals in one call, so the
+//! oracle calls it once per goal, and each internal table is searched per
+//! goal, in one call per table and column. Corrected mode applies the six
+//! corrections of `docs/contract.md`, each marked where it applies.
 
 use std::collections::HashMap;
 use std::fmt;
@@ -55,7 +55,7 @@ impl System {
     }
 }
 
-/// The two modes of the port (D008).
+/// The two modes of the port.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum PortMode {
     Compatible,
@@ -114,7 +114,7 @@ pub struct Firing {
 }
 
 // The three queries `detect_aurora` writes out by hand
-// (vendor/text2sdg_1.1.2/R/aurora.R, "handle special 1", "handle special 2"
+// (text2sdg 1.1.2 R/aurora.R, "handle special 1", "handle special 2"
 // and "handle special 3"): their search strings, and the query text the
 // hits are joined back on.
 
@@ -149,30 +149,30 @@ enum Column {
 }
 
 /// Corrections 2, 4, 5 and 6: the piece of a search string text2sdg ships
-/// and the piece that replaces it, as `STRING_CORRECTIONS` of
-/// `r/detect_text2sdg_corrected.R` writes them. The shipped piece must be
+/// and the piece that replaces it, as the corrected oracle writes them.
+/// The shipped piece must be
 /// found exactly once in its column, or the port is not built.
 const STRING_CORRECTIONS: [(Column, &str, &str); 4] = [
-    // correction 2 (D016): `"agricultur*" W/6 ( "sustainab*" OR "resilien*" )`
+    // correction 2: `"agricultur*" W/6 ( "sustainab*" OR "resilien*" )`
     (
         Column::SimpleCorrect,
         "( <(<agricultur*>) ( <sustainab*> OR <resilien*> )>~3)",
         "( <(<agricultur*>) ( <sustainab*> OR <resilien*> )>~6)",
     ),
-    // correction 4 (D020): `("bronchitis" W/3 "chronic")`
+    // correction 4: `("bronchitis" W/3 "chronic")`
     (
         Column::SimpleCorrect,
         "<(<bronchitis>  <chronic>)>~3",
         "<(<bronchitis>) (<chronic>)>~3",
     ),
-    // correction 6 (D022): `("national" W/3 "strategy*" OR "program*")`, OR
+    // correction 6: `("national" W/3 "strategy*" OR "program*")`, OR
     // bound first as Scopus reads it
     (
         Column::SimpleCorrect,
         "(<<national>  <strategy*>>~3 OR <program*>)",
         "(<(<national>) (<strategy*> OR <program*>)>~3)",
     ),
-    // correction 5 (D021): the first pair of SDG-15 id 15, `prevent*` near
+    // correction 5: the first pair of SDG-15 id 15, `prevent*` near
     // `extinction`
     (
         Column::AndCorrect,
@@ -234,7 +234,7 @@ enum Unit {
     Distance { tasks: [Task; 3] },
     /// Special 3: the first string matches, or the second and the third;
     /// in corrected mode the second and third must share a token in the
-    /// `features` mode (correction 3, D023).
+    /// `features` mode (correction 3).
     Smoking {
         tasks: [Task; 3],
         chain: Option<(Task, Task)>,
@@ -243,9 +243,9 @@ enum Unit {
 
 #[derive(Debug, Clone, Copy)]
 enum PairCheck {
-    /// Correction 3 (D017, D018): some token satisfies both strings.
+    /// Correction 3: some token satisfies both strings.
     SharedToken,
-    /// Correction 1 (D010, D018): a token of the first within 3 of one of
+    /// Correction 1: a token of the first within 3 of one of
     /// the second.
     Within3,
 }
@@ -438,7 +438,7 @@ fn plan(tables: &Tables, mode: PortMode, builder: &mut Builder) -> Result<Vec<Qu
                 },
             });
             let (call, ids) = builder.call(&SPECIAL_3);
-            // correction 3 for the chain of special 3 (D023): each string
+            // correction 3 for the chain of special 3: each string
             // searched alone in the features mode
             let chain = if corrected {
                 let (c2, i2) = builder.call(&SPECIAL_3[1..2]);
@@ -607,7 +607,7 @@ fn by_doc(results: &HashMap<Task, Vec<(u32, DocHits)>>, task: Task) -> HashMap<u
     results[&task].iter().map(|(r, h)| (*r, h)).collect()
 }
 
-/// `w_n` (`vendor/text2sdg_1.1.2/R/helper.R:44-47`): whether some token of `x`
+/// `w_n` (text2sdg 1.1.2 `R/helper.R:44-47`): whether some token of `x`
 /// lies within 3 positions of some token of `y`.
 fn w_n(x: &[u32], y: &[u32]) -> bool {
     x.iter().any(|&a| y.iter().any(|&b| a.abs_diff(b) <= 3))

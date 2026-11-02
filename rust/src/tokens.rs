@@ -1,11 +1,11 @@
 //! Tokens as corpustools 0.5.2 cuts a text, and the form in which it looks
 //! them up.
 //!
-//! `vendor/corpustools_0.5.2/R/tokenize.r`, `split_tokens`: the text is cut at
+//! corpustools 0.5.2 `R/tokenize.r`, `split_tokens`: the text is cut at
 //! ICU word boundaries (`stringi::stri_split_boundaries(type = "word")`) and
 //! the pieces that match the ICU regex `^\s+$` are dropped. Every other piece
 //! is a token, and its index plus one is corpustools' `token_id`. The port
-//! cuts with ICU4X (D013; `probes/segmenter_probe/`).
+//! cuts with ICU4X.
 //!
 //! For the lookup of query terms, corpustools prepares the tokens once more
 //! (`R/search_dictionary.r`, `dictionary_lookup_tokens`): a token that holds
@@ -18,7 +18,7 @@ use icu_segmenter::options::WordBreakInvariantOptions;
 use icu_segmenter::{WordSegmenter, WordSegmenterBorrowed};
 
 /// The segmenter of the port: ICU4X in auto mode, its data compiled into the
-/// crate (D013).
+/// crate.
 pub fn segmenter() -> WordSegmenterBorrowed<'static> {
     WordSegmenter::new_auto(WordBreakInvariantOptions::default())
 }

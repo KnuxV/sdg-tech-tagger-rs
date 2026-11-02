@@ -1,6 +1,6 @@
 //! corpustools' `search_features`, evaluated one document at a time.
 //!
-//! A port of `vendor/corpustools_0.5.2/R/search.r` (`lucene_like`, `lookup`,
+//! A port of corpustools 0.5.2 `R/search.r` (`lucene_like`, `lookup`,
 //! `get_*_hit`, `remove_duplicate_hit_id`), `R/util.r` (`global_id`) and
 //! `src/hit_ids_and.cpp`, `src/hit_ids_proximity.cpp`,
 //! `src/hit_ids_sequence.cpp`, following the study's reimplementation of
@@ -17,7 +17,7 @@
 //! documents share its batch. The port evaluates each document alone: it
 //! returns what corpustools returns for a corpus made of that document, which
 //! does not depend on the batch, the order of the input or the number of
-//! threads (D007).
+//! threads.
 //!
 //! The ghost flag, case sensitivity, directed proximity and sentence context
 //! are not implemented; `query::parse` refuses the flags, and text2sdg
@@ -32,7 +32,7 @@ use crate::index::{Batch, WordPostings};
 use crate::query::{self, Node, Relation};
 use crate::terms::{self, Pattern};
 
-/// The two modes of `search_features` (D018).
+/// The two modes of `search_features`.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Mode {
     /// `unique_hits`, the mode text2sdg searches in: whole matches, each

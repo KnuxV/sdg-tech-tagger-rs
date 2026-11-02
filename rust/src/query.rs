@@ -1,6 +1,6 @@
 //! corpustools' query language, parsed into the tree its evaluator walks.
 //!
-//! A port of `vendor/corpustools_0.5.2/src/parse_query.cpp` (with
+//! A port of corpustools 0.5.2 `src/parse_query.cpp` (with
 //! `src/QueryIter.cpp`), followed by `R/query.r`, `parse_query`:
 //! `simplify_query`, then `collapse_or_queries` and
 //! `collapse_sequence_queries` applied by `optimize_query`. The parser reads
@@ -9,7 +9,7 @@
 //!
 //! The flags `~s` (case sensitive), `~g` (ghost), `~d` (directed), token and
 //! meta expressions, and a feature column (`name:`) are refused: no search
-//! string of the four systems uses them (`docs/text2sdg-behaviour.md`), and
+//! string of the four systems uses them, and
 //! the evaluator does not implement them.
 
 use std::fmt;
@@ -615,7 +615,7 @@ mod tests {
 
     #[test]
     fn reads_the_handwritten_aurora_strings() {
-        // vendor/text2sdg_1.1.2/R/aurora.R, special 2
+        // text2sdg 1.1.2 R/aurora.R, special 2
         assert_eq!(
             tree("(<neonatal> OR <under-five> OR ( <(<under>) (<5> OR <five>)>~2 ) OR <before fifth>)"),
             "(OR(T[neonatal],T[under-five],(proximity~2((T[under]),OR(T[5],T[five]))),T[before fifth]))"

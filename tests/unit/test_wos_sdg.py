@@ -1,6 +1,6 @@
 """Tests of `sdg_tech_tagger.wos_sdg`, written from the contract alone.
 
-Source of every expected value: `docs/wos-sdg-contract.md` (D033). An expected
+Source of every expected value: `docs/wos-sdg-contract.md`. An expected
 tree, string or list of notes is either a row or an example of the contract,
 or a rule of the contract applied by hand to a short query written for this
 file. No published query is copied here.

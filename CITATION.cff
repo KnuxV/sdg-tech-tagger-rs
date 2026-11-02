@@ -14,6 +14,10 @@ keywords:
   - sustainable development goals
   - SDG
   - text2sdg
+  - Aurora
+  - Elsevier
+  - SIRIS
+  - Auckland
   - digital technologies
   - Web of Science
   - OpenAlex
@@ -256,7 +260,18 @@ references:
     authors:
       - family-names: Baruffaldi
         given-names: Stefano
-      - name: "et al."
+      - family-names: van Beuzekom
+        given-names: B.
+      - family-names: Dernis
+        given-names: H.
+      - family-names: Harhoff
+        given-names: D.
+      - family-names: Rao
+        given-names: N.
+      - family-names: Rosenfeld
+        given-names: D.
+      - family-names: Squicciarini
+        given-names: M.
     year: 2020
     doi: 10.1787/5f65ff7e-en
     publisher:
@@ -299,8 +314,11 @@ references:
   - type: report
     title: "Advanced Technologies for Industry: Methodological report"
     authors:
-      - family-names: Izsak
-      - name: "et al."
+      - name: "Executive Agency for Small and Medium sized Enterprises"
+      - name: "Technopolis Group"
+      - name: "IDC"
+      - name: "Fraunhofer ISI"
+      - name: "IDEA - Inspire, Debate, Engage and Accelerate Action Consult"
     year: 2021
     doi: 10.2826/911991
     publisher:
@@ -315,7 +333,8 @@ references:
       - family-names: Geuna
         given-names: Aldo
       - family-names: Shermatov
-    year: 2026
+        given-names: Fazliddin
+    year: 2025
     identifiers:
       - type: other
         value: "arXiv:2511.12686"

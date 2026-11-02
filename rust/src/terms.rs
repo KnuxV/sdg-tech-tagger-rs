@@ -1,7 +1,7 @@
 //! What a term of a search string is looked up as: a sequence of words, some
 //! of which may be wildcard patterns.
 //!
-//! `vendor/corpustools_0.5.2/R/search_dictionary.r`: `dictionary_lookup`
+//! corpustools 0.5.2 `R/search_dictionary.r`: `dictionary_lookup`
 //! trims the term, `standardize_dict_term_spacing` (`R/multitokens.r`) cuts
 //! it as a text is cut and joins the pieces with spaces, gluing `*` and `?`
 //! back to their word, and `collapse_dict` lowercases it and splits it on

@@ -1,6 +1,6 @@
 """Tests of `sdg_tech_tagger.adt.wos_form`, written from the contract alone.
 
-Source of every expected value: `docs/adt-wos-form-contract.md` (D032). An
+Source of every expected value: `docs/adt-wos-form-contract.md`. An
 expected list or string is either a row of the contract, or a rule of the
 contract applied by hand. For the equality of the contract the expected side
 is `translate.term_pattern` and `translate.code_pattern`, which exist and are

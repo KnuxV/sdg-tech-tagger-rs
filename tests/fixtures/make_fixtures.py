@@ -1,6 +1,13 @@
 """Write the fixture sets of the tests and run them through the two oracles.
 
-Usage, from the root of the repository, with the ``.Rlib`` link in place:
+Regenerating the fixtures needs R with text2sdg 1.1.2 installed (on the
+library path R finds, or on ``R_LIBS_USER``) and the two R scripts that run
+it in each mode, ``r/detect_text2sdg.R`` and ``r/detect_text2sdg_corrected.R``.
+Those scripts belong to the development record and are not shipped with the
+package; this file is kept to show how the stored fixtures were made, and
+``--dry-run`` runs without them.
+
+Usage, from the root of the repository:
 
     uv run python tests/fixtures/make_fixtures.py
     uv run python tests/fixtures/make_fixtures.py --sets hand --jobs 4
@@ -9,8 +16,9 @@ Usage, from the root of the repository, with the ``.Rlib`` link in place:
 For each set it writes, into ``tests/fixtures/``:
 
 - ``<set>_sentences.parquet``: ``UT`` and ``text``, both ``String``.
-- ``<set>_compatible.parquet``: the rows of ``r/detect_text2sdg.R``.
-- ``<set>_corrected.parquet``: the rows of ``r/detect_text2sdg_corrected.R``.
+- ``<set>_compatible.parquet``: the rows of text2sdg 1.1.2.
+- ``<set>_corrected.parquet``: the rows of text2sdg 1.1.2 with the six
+  corrections of ``docs/contract.md`` applied.
 
 The rows have the columns ``UT``, ``system``, ``sdg``, ``query_id`` (``Int32``)
 and ``features``, sorted by the first four. Both oracles run with the four
@@ -23,10 +31,10 @@ the set in one chunk. ``--dry-run`` writes the sentences only.
 There are two sets.
 
 - ``hand``: sentences written one by one in ``HAND_SENTENCES`` below, a few
-  per kind of rule, and the fifteen sentences of
-  ``probes/corrected_oracle_probe/sentences.py``.
+  per kind of rule, and fifteen sentences written for the corrections of
+  the corrected mode, a pair per correction.
 - ``generated``: sentences built from the query strings of the four systems
-  (D014). For every query, one sentence that should fire and one or more
+  For every query, one sentence that should fire and one or more
   near misses; for Elsevier and Auckland, whose queries are long
   disjunctions, a sentence per branch of the outer disjunction. The
   generator does not decide what fires. The oracle does, and its rows are
@@ -81,9 +89,8 @@ QUESTION_MARK = ["", "z", "s"]
 # The hand-written set
 # ---------------------------------------------------------------------------
 
-# The fifteen sentences of probes/corrected_oracle_probe/sentences.py, copied
-# because that module reads an environment variable when imported. A pair per
-# correction of the corrected mode.
+# Fifteen sentences written for the corrections of the corrected mode, a pair
+# per correction.
 PROBE_SENTENCES = [
     "Income inequality hurts the poorest households.",
     (
@@ -114,7 +121,7 @@ HAND_SENTENCES = [
     # Wildcards: a trailing star, a leading star (Elsevier and Auckland
     # *forest*), a question mark (fertili?er, urbani?ation, democrati?ation,
     # Auckland's fertili?wer), and the star inside Auckland's braces, which is
-    # a character (D019).
+    # a character, as Scopus reads it.
     ("H-wild-01", "Microfinance helps rural households."),
     ("H-wild-02", "Micro-financing schemes reached the villages."),
     ("H-wild-03", "The search string literally says micro-financ* at this point."),
@@ -900,7 +907,7 @@ def _as_table(rows: list[tuple[str, str]]) -> pl.DataFrame:
 
 def run_oracle(script: Path, documents: Path, out_dir: Path) -> None:
     """Run one oracle script on one parquet into a fresh directory."""
-    environment = dict(os.environ, R_LIBS_USER=str(ROOT / ".Rlib"))
+    environment = dict(os.environ)
     command = [
         "Rscript", str(script), "--documents", str(documents), "--out-dir", str(out_dir),
         "--systems", SYSTEMS, "--keep-features", "true", "--chunk-size", "1000000",
@@ -986,8 +993,9 @@ def main() -> None:
     parser.add_argument("--jobs", type=int, default=8)
     parser.add_argument("--dry-run", action="store_true")
     arguments = parser.parse_args()
-    if not (ROOT / ".Rlib").exists() and not arguments.dry_run:
-        sys.exit("the .Rlib link is missing at the root of the repository")
+    missing = [str(script) for script in ORACLES.values() if not script.exists()]
+    if missing and not arguments.dry_run:
+        sys.exit("the R scripts of the oracles are missing: " + ", ".join(missing))
     for name in arguments.sets.split(","):
         build(name, SETS[name](), arguments.jobs, arguments.dry_run)
 

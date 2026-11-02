@@ -1,11 +1,12 @@
 """The port returns the oracle's firings on the fixture sets, in both modes.
 
 Contract: ``docs/contract.md``, "What each system returns" and "What counts
-as agreeing". The expected rows are those of ``r/detect_text2sdg.R``
-(compatible mode) and ``r/detect_text2sdg_corrected.R`` (corrected mode),
-run with the four systems by ``tests/fixtures/make_fixtures.py``. The gate
-is the set of (``UT``, ``system``, ``sdg``, ``query_id``) (D011); the
-oracle's ``features`` are kept in the fixtures and not asserted (D028).
+as agreeing". The expected rows are those of text2sdg 1.1.2 run in R
+(compatible mode) and of the same run with the six corrections applied
+(corrected mode), with the four systems, by
+``tests/fixtures/make_fixtures.py``. The gate is the set of (``UT``,
+``system``, ``sdg``, ``query_id``); the oracle's ``features`` are kept in
+the fixtures and not asserted.
 """
 
 import polars as pl

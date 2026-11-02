@@ -1,6 +1,6 @@
 """The four systems written as Web of Science queries, one per system and goal.
 
-Contract: ``docs/wos-sdg-contract.md`` (D033). The published queries of
+Contract: ``docs/wos-sdg-contract.md``. The published queries of
 Aurora, Elsevier and Auckland are read as Scopus documents its syntax and
 written again in the syntax of the Web of Science, operator for operator;
 the vocabulary of SIRIS is written from its rows. What may not run there,

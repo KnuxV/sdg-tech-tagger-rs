@@ -1,7 +1,7 @@
 # Gate v2 as Web of Science queries
 
 The technology gate, gate v2, written as queries in Web of Science syntax.
-Decision D032; contract `docs/adt-wos-form-contract.md`. Read-only, with
+Contract: `docs/adt-wos-form-contract.md`. Read-only, with
 `SHA256SUMS`.
 
 ## What the files are
@@ -57,8 +57,8 @@ matcher with every option off, as the Web of Science query of `adt/wos/`
 is read, the terms of each file match exactly what the group's terms match
 with the plural and closed-spelling rules on and the decimal rule off.
 
-Run on the Web of Science on 2026-10-11, after these files were written
-(`probes/wos_run_probe`): each of the eight files is accepted as one
+Run on the Web of Science on 2026-10-11, after these files were written:
+each of the eight files is accepted as one
 query, `ALL.txt` included, which returned 6,560,253 records. The term
 `"unmanned surface ve*"` is accepted. A "Did you mean?" suggestion is
 shown for five of the group files and was not followed. That the query
