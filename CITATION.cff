@@ -3,6 +3,7 @@ message: "If you use this package, please cite it, and cite the sources of the q
 title: "sdg-tech-tagger-rs: tagging texts with SDGs and digital technologies by published queries"
 type: software
 version: "0.1.0"
+doi: 10.5281/zenodo.23885812
 license: GPL-3.0-only
 repository-code: "https://github.com/KnuxV/sdg-tech-tagger-rs"
 url: "https://github.com/KnuxV/sdg-tech-tagger-rs"

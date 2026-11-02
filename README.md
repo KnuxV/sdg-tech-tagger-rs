@@ -1,5 +1,7 @@
 # sdg-tech-tagger-rs
 
+[![PyPI](https://img.shields.io/pypi/v/sdg-tech-tagger-rs)](https://pypi.org/project/sdg-tech-tagger-rs/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23885812.svg)](https://doi.org/10.5281/zenodo.23885812)
+
 Tag scientific texts with the UN Sustainable Development Goals (SDGs) and with advanced digital technologies, by published Boolean queries.
 
 - **SDGs.** To tag texts with SDGs, the package ports the R package [text2sdg](https://github.com/dwulff/text2sdg) to Rust, for speed, with a Python interface. It has text2sdg's four query systems: Aurora, Elsevier, SIRIS and Auckland. The texts are indexed with [tantivy](https://github.com/quickwit-oss/tantivy), a full-text search library written in Rust and inspired by Apache Lucene. The queries are evaluated by the package itself on the tantivy index. It returns, for each text, which query of which system fired and on which words.
@@ -162,6 +164,8 @@ assert rebuild_abstract(None) == ""
 Some works have no abstract in OpenAlex; their title alone is then tagged.
 
 ## Credits and licences
+
+Cite this package as: Michoud, K. sdg-tech-tagger-rs. Zenodo. <https://doi.org/10.5281/zenodo.23885812> (all versions; version 0.1.0 is <https://doi.org/10.5281/zenodo.23885813>). The data record [sdg-tech-tagger-rs-data](https://github.com/KnuxV/sdg-tech-tagger-rs-data) holds the comparison with text2sdg.
 
 The queries are the work of others; please cite them along with this package. `CREDITS.md` lists every source with its version, DOI and licence, and `CITATION.cff` gives them in machine-readable form.
 
