@@ -2,7 +2,7 @@
   "upload_type": "software",
   "title": "sdg-tech-tagger-rs: tagging texts with SDGs and digital technologies by published queries",
   "version": "0.1.0",
-  "description": "<p>A Rust port, with a Python interface, of the R package text2sdg for its four SDG query systems (Aurora, Elsevier, SIRIS, Auckland), in a mode that returns what text2sdg 1.1.2 returns and a mode with corrections that restore the published queries; two versions of a set of queries on advanced digital technologies (the simplified query of a Nature Communications paper, and gate v2); and both written as Web of Science queries, with a recipe for OpenAlex. The queries are the work of others: see CREDITS.md and cite them.</p>",
+  "description": "<p>A Rust port, with a Python interface, of the R package text2sdg for its four SDG query systems (Aurora, Elsevier, SIRIS, Auckland), in a mode that returns what text2sdg 1.1.2 returns and a mode with corrections that restore the published queries; two versions of a set of queries on advanced digital technologies (a simplified query and an extended one, with more terms per group for higher recall); and both written as Web of Science queries, with a recipe for OpenAlex. The queries are the work of others: see CREDITS.md and cite them.</p>",
   "creators": [
     {
       "name": "Michoud, Kevin",

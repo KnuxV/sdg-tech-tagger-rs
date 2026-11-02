@@ -29,7 +29,7 @@ from sdg_tech_tagger.adt import translate
 from sdg_tech_tagger.adt.wos_query import QueryError, parse_terms
 
 ROOT = Path(__file__).resolve().parents[3]
-QUERY_DIR = ROOT / "src" / "sdg_tech_tagger" / "adt" / "wos"
+QUERY_DIR = ROOT / "src" / "sdg_tech_tagger" / "adt" / "simplified"
 
 # Code to file, in the order of the contract's mapping table.
 QUERY_FILES = {

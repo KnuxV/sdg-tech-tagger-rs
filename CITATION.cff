@@ -4,6 +4,8 @@ title: "sdg-tech-tagger-rs: tagging texts with SDGs and digital technologies by 
 type: software
 version: "0.1.0"
 license: GPL-3.0-only
+repository-code: "https://github.com/KnuxV/sdg-tech-tagger-rs"
+url: "https://github.com/KnuxV/sdg-tech-tagger-rs"
 abstract: >-
   A Rust port of the R package text2sdg (Aurora, Elsevier, SIRIS and Auckland
   SDG query systems) with a Python interface, in a mode that returns what
@@ -254,7 +256,7 @@ references:
     doi: 10.1787/9789264312012-en
     publisher:
       name: "OECD Publishing"
-    notes: "Framing of the six technology groups of the Nature Communications query."
+    notes: "Framing of the six technology groups of the simplified query."
   - type: report
     title: "Identifying and measuring developments in artificial intelligence: Making the impossible possible"
     authors:
@@ -276,7 +278,7 @@ references:
     doi: 10.1787/5f65ff7e-en
     publisher:
       name: "OECD Publishing"
-    notes: "OECD Science, Technology and Industry Working Papers 2020/05. Source of technology terms of gate v2."
+    notes: "OECD Science, Technology and Industry Working Papers 2020/05. Source of technology terms of the extended query."
   - type: article
     title: "Tracking developments in artificial intelligence research: constructing and applying a new search strategy"
     authors:
@@ -293,7 +295,7 @@ references:
     end: 3192
     year: 2021
     doi: 10.1007/s11192-021-03868-4
-    notes: "Source of technology terms of gate v2."
+    notes: "Source of technology terms of the extended query."
   - type: article
     title: "The enabling technologies of Industry 4.0: examining the seeds of the fourth industrial revolution"
     authors:
@@ -310,7 +312,7 @@ references:
     end: 188
     year: 2021
     doi: 10.1093/icc/dtaa060
-    notes: "Source of technology terms of gate v2."
+    notes: "Source of technology terms of the extended query."
   - type: report
     title: "Advanced Technologies for Industry: Methodological report"
     authors:
@@ -323,7 +325,7 @@ references:
     doi: 10.2826/911991
     publisher:
       name: "European Commission, EISMEA"
-    notes: "Source of technology terms of gate v2."
+    notes: "Source of technology terms of the extended query."
   - type: article
     status: preprint
     title: "Scientific Discovery in the Age of AI and Supercomputing"
@@ -339,4 +341,4 @@ references:
       - type: other
         value: "arXiv:2511.12686"
     url: "https://arxiv.org/abs/2511.12686"
-    notes: "Source of technology terms of gate v2. The full list of sources is in CREDITS.md."
+    notes: "Source of technology terms of the extended query. The full list of sources is in CREDITS.md."

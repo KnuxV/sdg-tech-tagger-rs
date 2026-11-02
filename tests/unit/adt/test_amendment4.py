@@ -108,7 +108,7 @@ MARKER_DERIVED = [
     ("1p2.3", " 1p2p3 ", " 1p2 3 "),
     # The marker does not make a neighbour a digit: `p.5` has no digit on its left.
     ("1.5p.5", " 1p5p 5 ", " 1 5p 5 "),
-    # The texts of the third check of gate v2: nothing stands between two digits.
+    # The texts of the third check of the extended query: nothing stands between two digits.
     ("textile industry. 40 firms", " textile industry 40 firms ", " textile industry 40 firms "),
     ("in industry, 40% of plants", " in industry 40 of plants ", " in industry 40 of plants "),
     # A sentence end glued to the next number is a decimal to the rule.

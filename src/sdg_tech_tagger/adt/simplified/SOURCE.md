@@ -1,8 +1,9 @@
 # The files in this directory
 
-The technology query of the Nature Communications paper, as written for the
-Web of Science `TS=` field, six groups. They are the files the paper ran,
-unchanged. Do not edit them: a change to a term is a research decision.
+The simplified technology query, as written for the Web of Science `TS=`
+field, six groups. The terms are matched as written: no plural, hyphen or
+decimal rule is added. Do not edit the files: a change to a term is a change
+of the query. All terms, group by group, are in `docs/technology-queries.md`.
 
 | file | role |
 |---|---|
@@ -14,7 +15,7 @@ unchanged. Do not edit them: a change to a term is a research decision.
 | `Additive_Manufacturing.txt` | compiled, code `AM` |
 | `combined_raw_query` | reference: the single query as recorded, 281 terms |
 | `executed_raw_query` | reference: the query as the Web of Science ran it, seven terms rewritten by a "Did you mean?" |
-| `adt_patterns_v1.json` | the six compiled files as patterns, read by `translate` |
+| `patterns.json` | the six compiled files as patterns, read by `translate` |
 
 The two reference files end, after a blank line, with the result count the
 Web of Science page showed. Only the six per-group files are compiled.

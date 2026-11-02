@@ -1,21 +1,21 @@
-# Contract: the technology gate written as Web of Science queries
+# Contract: the extended technology query written as Web of Science queries
 
 Module: `sdg_tech_tagger.adt.wos_form`. Shipped files:
-`src/sdg_tech_tagger/adt/gate_v2_wos/`.
+`src/sdg_tech_tagger/adt/extended_wos/`.
 
 ## What this is for
 
-Gate v2 is a list of terms and three rules that live in its compiled
+The extended query is a list of terms and three rules that live in its compiled
 patterns only: a term also matches its regular plural, a term written with
 a hyphen also matches its closed spelling, and a decimal is kept whole
-(the options stored in `adt/gate_v2/gate_patterns_v2.json`). The query
-files of `adt/gate_v2/` hold the terms in Web of Science syntax without
-those rules, so run as they are they are not the gate.
+(the options stored in `adt/extended/patterns.json`). The query
+files of `adt/extended/` hold the terms in Web of Science syntax without
+those rules, so run as they are they are not the extended query.
 
-This stage writes the gate as Web of Science queries that carry the first
+This stage writes the extended query as Web of Science queries that carry the first
 two rules, by writing out every spelling the pattern of a term accepts as
 a term of its own. A term with no rule applied is called a **plain term**
-here: it is searched as the Web of Science query of `adt/wos/` is, with
+here: it is searched as the Web of Science query of `adt/simplified/` is, with
 every option of `translate` off.
 
 It is the other direction of `adt.wos_query` and `adt.translate`, which
@@ -31,16 +31,16 @@ own matcher.
 
 Not proven here: what the Web of Science returns for these queries. The
 package's matcher with every option off flagged again 163,723 of 163,739
-records the Web of Science had returned for the query of `adt/wos/`.
+records the Web of Science had returned for the query of `adt/simplified/`.
 When this contract was written no query of this stage had been run on the
 Web of Science; the eight files were run there afterwards and accepted
-(`adt/gate_v2_wos/README.md`).
+(`adt/extended_wos/README.md`).
 
 ## Inputs
 
 - A term, as `wos_query.parse_terms` returns it: lower-case, stripped, one
   space where it had whitespace.
-- The options of the artefact (`gate_patterns_v2.json`):
+- The options of the artefact (`patterns.json`):
   `hyphen_closed_form`, `plural_tolerant`, `plural_exceptions`.
   `decimal_whole` is read and not used (see "What cannot be written").
 
@@ -128,7 +128,7 @@ term of the list is ignored. Raises `QueryError` for an empty list.
 ## `query_text(terms) -> str`
 
 Consumes plain terms. Produces one Web of Science query in the layout of
-the files of `adt/gate_v2/`: the line `TS = (`, then one line per term,
+the files of `adt/extended/`: the line `TS = (`, then one line per term,
 `("term") OR`, the last without ` OR`, then the line `)`, each line ended
 by a newline. Raises `QueryError` for an empty list and for a term that
 holds a double quote.
@@ -148,7 +148,7 @@ the text of each file, by name, in this order:
   (`plural_exceptions` absent means none);
 - `ALL.txt`: `query_text` of the plain terms of every definition in
   order, a repeat dropped where it comes second. One query for the whole
-  gate, the umbrella terms included.
+  query set, the umbrella terms included.
 
 `decimal_whole` changes nothing in what is produced. Raises `QueryError`
 for an artefact without definitions, and `KeyError` for a missing key
@@ -157,25 +157,25 @@ and `terms` of a definition.
 
 ## The shipped files
 
-`src/sdg_tech_tagger/adt/gate_v2_wos/` holds, byte for byte, what
-`render_gate` produces from `adt/gate_v2/gate_patterns_v2.json`: `AI.txt`,
+`src/sdg_tech_tagger/adt/extended_wos/` holds, byte for byte, what
+`render_gate` produces from `adt/extended/patterns.json`: `AI.txt`,
 `IOT.txt`, `CI.txt`, `BL.txt`, `ROB.txt`, `AM.txt`, `UMBRELLA.txt` and
 `ALL.txt`. Beside them `SHA256SUMS`, in the format of `sha256sum`, lists
 those eight files, and `README.md` says what they are and are not. The
-directory is read-only once written; a new gate is a new directory.
+directory is read-only once written; a new query set is a new directory.
 
 Each of the eight files is read back by `wos_query.parse_terms`.
 
 ## What cannot be written
 
-- **Decimals.** The gate reads "0.5g" as one word, so `5g` does not match
+- **Decimals.** The extended query reads "0.5g" as one word, so `5g` does not match
   it, and "Industry 4.0" as `industry 4p0`. A Web of Science term cannot
-  say that. The files are the gate with `decimal_whole` off: they match
+  say that. The files are the extended query with `decimal_whole` off: they match
   "0.5g per day" for `5g`, and `industry 4.0` matches "industry 4 0". The
-  gate matches neither. In the other direction, the gate matches the text
+  extended query matches neither. In the other direction, it matches the text
   "industry 4p0" and the files do not.
-- **Fields.** The gate searches title and abstract. The files are written
-  with `TS =`, as the queries of `adt/wos/` and `adt/gate_v2/` are, and on
+- **Fields.** The package searches the text it is given, usually title and abstract. The files are written
+  with `TS =`, as the queries of `adt/simplified/` and `adt/extended/` are, and on
   the Web of Science `TS` also searches the author keywords and Keywords
   Plus.
 - **The engine.** See "What is proven and what is not".

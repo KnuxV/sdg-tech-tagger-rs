@@ -12,11 +12,11 @@ What is covered:
   included, and cases derived by hand from the rules of the separators, of
   the endings of the last word and of the order;
 - the equality of the contract, for hand-written terms under the four pairs
-  of options and for every term of `gate_patterns_v2.json` under the options
+  of options and for every term of `extended/patterns.json` under the options
   of the artefact, over hand-written texts and over texts built from each
   term;
 - `plain_code_terms`, `query_text` and `render_gate` on hand-written input;
-- the shipped files of `adt/gate_v2_wos/`: their bytes, what `parse_terms`
+- the shipped files of `adt/extended_wos/`: their bytes, what `parse_terms`
   reads back from them, the number of terms each holds, `SHA256SUMS` and
   `README.md`.
 
@@ -47,8 +47,8 @@ from sdg_tech_tagger.adt import translate
 from sdg_tech_tagger.adt.wos_query import QueryError, parse_terms
 
 ADT_DIR = Path(str(files("sdg_tech_tagger") / "adt"))
-GATE_PATH = ADT_DIR / "gate_v2" / "gate_patterns_v2.json"
-SHIPPED_DIR = ADT_DIR / "gate_v2_wos"
+GATE_PATH = ADT_DIR / "extended" / "patterns.json"
+SHIPPED_DIR = ADT_DIR / "extended_wos"
 
 # The eight files the contract names, in the order `render_gate` gives them.
 SHIPPED_FILES = [
@@ -73,7 +73,7 @@ def wos_form():
 
 @pytest.fixture(scope="module")
 def gate():
-    """The artefact of gate v2, as it is shipped."""
+    """The artefact of the extended query, as it is shipped."""
     return json.loads(GATE_PATH.read_text(encoding="utf-8"))
 
 

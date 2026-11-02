@@ -5,7 +5,7 @@ Source of every expected value: `docs/query-translation-contract.md`, section
 from the rules of the contract; the spaces at the ends of normalised texts and
 of patterns are part of the values and are asserted exactly.
 
-The `compile_queries` tests read the six query files of `query/wos_adt/`. They
+The `compile_queries` tests read the six query files of `adt/simplified/`. They
 assert exact terms and an exact pattern for the Blockchain file only, plus
 fragments derived by hand for the other five; no term count is hard-coded.
 """
@@ -22,7 +22,7 @@ from sdg_tech_tagger.adt import translate
 from sdg_tech_tagger.adt.wos_query import QueryError, parse_terms
 
 ROOT = Path(__file__).resolve().parents[3]
-QUERY_DIR = ROOT / "src" / "sdg_tech_tagger" / "adt" / "wos"
+QUERY_DIR = ROOT / "src" / "sdg_tech_tagger" / "adt" / "simplified"
 
 # Code to file, in the order of the contract's mapping table.
 QUERY_FILES = {
@@ -41,7 +41,7 @@ NORMALISATION = (
     "trimmed; one space added at each end"
 )
 
-# The six terms of query/wos_adt/Blockchain.txt, read by hand from the file.
+# The six terms of adt/simplified/Blockchain.txt, read by hand from the file.
 BLOCKCHAIN_TERMS = [
     "altcoin",
     "bitcoin",

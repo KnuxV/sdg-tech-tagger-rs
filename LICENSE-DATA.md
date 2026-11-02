@@ -15,8 +15,8 @@ Every source, with its version and DOI, is in `CREDITS.md`.
 | `src/sdg_tech_tagger/wos_queries/auckland/` | University of Auckland SDG queries v2.0 | CC BY 4.0 for this adaptation; see the note on Auckland below |
 | `src/sdg_tech_tagger/wos_queries/siris/` | SIRIS Academic SDG vocabulary v1.3 | CC BY-SA 4.0 (`LICENSES/CC-BY-SA-4.0.txt`) |
 | `src/sdg_tech_tagger/wos_queries/NOTES.tsv`, `README.md`, `SHA256SUMS` | written for this package | CC BY 4.0 |
-| `src/sdg_tech_tagger/adt/wos/` | the technology query of the Nature Communications paper, Kevin Michoud | CC BY 4.0 |
-| `src/sdg_tech_tagger/adt/gate_v2/`, `src/sdg_tech_tagger/adt/gate_v2_wos/` | gate v2 of the technology queries, Kevin Michoud; terms drawn from the sources listed in `provenance.tsv` and `CREDITS.md` | CC BY 4.0 |
+| `src/sdg_tech_tagger/adt/simplified/` | the simplified technology query, Kevin Michoud | CC BY 4.0 |
+| `src/sdg_tech_tagger/adt/extended/`, `src/sdg_tech_tagger/adt/extended_wos/` | the extended technology query, Kevin Michoud; terms drawn from the sources listed in `provenance.tsv` and `CREDITS.md` | CC BY 4.0 |
 | `src/sdg_tech_tagger/protocol_v1/` | the frozen prompts of the LLM passes, Kevin Michoud | CC BY 4.0 |
 
 ## Changes made to the sources
