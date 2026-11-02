@@ -17,7 +17,10 @@ from polars.testing import assert_frame_equal
 from sdg_tech_tagger import detect
 from tests.unit.oracle_fixtures import COLUMNS, DTYPES, load_set
 
-COMMAND = Path(sys.executable).parent / "sdg-tech-tagger"
+# pip installs the command beside the interpreter, with `.exe` on Windows.
+COMMAND = Path(sys.executable).parent / (
+    "sdg-tech-tagger.exe" if sys.platform == "win32" else "sdg-tech-tagger"
+)
 
 
 def run(*arguments: str, cwd: Path) -> subprocess.CompletedProcess:
