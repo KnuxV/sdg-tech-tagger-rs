@@ -27,8 +27,8 @@ ADT = ROOT / "src" / "sdg_tech_tagger" / "adt"
 OUT = ROOT / "docs" / "technology-queries.md"
 
 # Display name and a plain description of each group, in the order of the
-# extended query. The descriptions paraphrase the definitions the package's
-# LLM prompts give for the six technologies.
+# extended query. The descriptions paraphrase the definitions of the six
+# technologies used to build the queries.
 GROUPS = {
     "AI": (
         "Artificial intelligence and big data analytics",

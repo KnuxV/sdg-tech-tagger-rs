@@ -83,9 +83,7 @@ Scopus syntax to Web of Science syntax, one query per system and goal, in
 The technology queries are by Kevin Michoud. Their terms draw on the
 sources below.
 
-### The simplified query of the Nature Communications paper (`adt/wos/`)
-
-The paper: citation TODO (Kevin), to be added once it is published.
+### The simplified query (`adt/simplified/`)
 
 Six groups of advanced digital technologies (artificial intelligence with
 big data, Internet of Things, computing infrastructure, blockchain, robotics,
@@ -93,13 +91,13 @@ additive manufacturing). The six groups follow the framing of the OECD's
 _Going Digital_ report: OECD (2019), _Going Digital: Shaping Policies,
 Improving Lives_, OECD Publishing, Paris, <https://doi.org/10.1787/9789264312012-en>.
 The sources of the individual terms of this version were not recorded.
-Gate v2 below holds 275 of its 283 distinct terms, written the same way,
-and gives the sources of each of its terms.
+The extended query below holds 275 of its 283 distinct terms, written the
+same way, and gives the sources of each of its terms.
 
-### Gate v2 (`adt/gate_v2/`)
+### The extended query (`adt/extended/`)
 
 Seven groups, the six above and a group of umbrella terms. Every term is in
-`adt/gate_v2/provenance.tsv` with the keys of its sources (column
+`adt/extended/provenance.tsv` with the keys of its sources (column
 `sources`); `OWN` marks a term of the author's own. The keys resolve below.
 These references were collected from a literature review and several were
 read in part or as their abstract only.
@@ -268,6 +266,7 @@ Every Rust crate compiled into the extension, with its licence text, is in
 
 ## Checksums
 
-`adt/gate_v2/SHA256SUMS` lists the files of gate v2 that this package ships.
-The BigQuery statement of gate v2 is not shipped, and its line was removed
-from that file; every other line is unchanged.
+`adt/extended/SHA256SUMS` lists the files of the extended query that this
+package ships. One file of the query set is not shipped, and its line was
+removed from that file; every other line is unchanged. Every term, with its
+sources, is also listed group by group in `docs/technology-queries.md`.

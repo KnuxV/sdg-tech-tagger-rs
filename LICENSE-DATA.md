@@ -17,7 +17,6 @@ Every source, with its version and DOI, is in `CREDITS.md`.
 | `src/sdg_tech_tagger/wos_queries/NOTES.tsv`, `README.md`, `SHA256SUMS` | written for this package | CC BY 4.0 |
 | `src/sdg_tech_tagger/adt/simplified/` | the simplified technology query, Kevin Michoud | CC BY 4.0 |
 | `src/sdg_tech_tagger/adt/extended/`, `src/sdg_tech_tagger/adt/extended_wos/` | the extended technology query, Kevin Michoud; terms drawn from the sources listed in `provenance.tsv` and `CREDITS.md` | CC BY 4.0 |
-| `src/sdg_tech_tagger/protocol_v1/` | the frozen prompts of the LLM passes, Kevin Michoud | CC BY 4.0 |
 
 ## Changes made to the sources
 

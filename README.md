@@ -74,14 +74,14 @@ The port labelled all 300,001 works in about 20 seconds on 8 threads; text2sdg, 
 
 ## Technologies in Python (ADTs)
 
-Two versions ship, as compiled patterns. Neither is the default.
+Two versions ship, as compiled patterns. Neither is the default. Every term of both, group by group, is listed in `docs/technology-queries.md`.
 
-| version    | file                                | groups                                   | terms |
-| ---------- | ----------------------------------- | ---------------------------------------- | ----- |
-| simplified | `adt/wos/adt_patterns_v1.json`      | AI (with big data), IOT, CI, BL, ROB, AM | 285   |
-| extended   | `adt/gate_v2/gate_patterns_v2.json` | the six above and UMBRELLA               | 868   |
+| version    | file                           | groups                                   | terms |
+| ---------- | ------------------------------ | ---------------------------------------- | ----- |
+| simplified | `adt/simplified/patterns.json` | AI (with big data), IOT, CI, BL, ROB, AM | 285   |
+| extended   | `adt/extended/patterns.json`   | the six above and UMBRELLA               | 868   |
 
-Gate v2 also accepts plurals, the closed spelling of hyphenated terms (`3d-printing` and `3dprinting`), and reads a decimal number as one word.
+The extended version has more terms per group, for a higher recall at some cost of precision. It also accepts plurals, the closed spelling of hyphenated terms (`3d-printing` and `3dprinting`), and reads a decimal number as one word.
 
 ```python
 import json
@@ -96,12 +96,12 @@ documents = pl.DataFrame({
     "abstract": ["With no other technology."],
 })
 
-for name in ["adt/wos/adt_patterns_v1.json", "adt/gate_v2/gate_patterns_v2.json"]:
-    gate = json.loads((files("sdg_tech_tagger") / name).read_text())
-    patterns = {entry["code"]: entry["pattern"] for entry in gate["definitions"]}
+for name in ["adt/simplified/patterns.json", "adt/extended/patterns.json"]:
+    query = json.loads((files("sdg_tech_tagger") / name).read_text())
+    patterns = {entry["code"]: entry["pattern"] for entry in query["definitions"]}
     flags = translate.flag(
         documents, patterns, ["title", "abstract"],
-        decimal_whole=gate.get("decimal_whole", False),
+        decimal_whole=query.get("decimal_whole", False),
     )
     print(name, flags.row(0, named=True))
 ```
@@ -113,8 +113,8 @@ for name in ["adt/wos/adt_patterns_v1.json", "adt/gate_v2/gate_patterns_v2.json"
 Ready to paste in the advanced search of the Web of Science, one line per file.
 
 - `src/sdg_tech_tagger/wos_queries/<system>/SDG-<nn>.txt`: the four SDG systems, one query per system and goal, translated from the published queries. `NOTES.tsv` lists, query by query, what may not run or may not mean the same on the Web of Science; the `README.md` beside them says what they are not. All 65 queries were accepted by the Web of Science.
-- `src/sdg_tech_tagger/adt/wos/`: the technology query of the Nature Communications paper, as it was run.
-- `src/sdg_tech_tagger/adt/gate_v2_wos/`: gate v2 with every plural and closed spelling written out, one file per group and `ALL.txt` for the whole gate. Its `README.md` says where it differs from the Python gate (the decimal rule cannot be written).
+- `src/sdg_tech_tagger/adt/simplified/`: the simplified technology query, as it was run on the Web of Science.
+- `src/sdg_tech_tagger/adt/extended_wos/`: the extended technology query with every plural and closed spelling written out, one file per group and `ALL.txt` for all groups. Its `README.md` says where it differs from the Python program (the decimal rule cannot be written).
 
 The Web of Science returns records, not which query fired on which words, and has its own matching: these files approximate the Python program, they do not reproduce it. To combine a technology with a goal, run each once and combine the numbers of the search history, for example `#1 AND (#2 OR #3 OR #4 OR #5)`.
 
@@ -152,10 +152,6 @@ assert rebuild_abstract(None) == ""
 ```
 
 Some works have no abstract in OpenAlex; their title alone is then tagged.
-
-## Also in the package
-
-`src/sdg_tech_tagger/protocol_v1/`: the frozen prompts of the four LLM passes of the thesis (SDG and technology, passes 1 and 2), as files with their checksums.
 
 ## Credits and licences
 
