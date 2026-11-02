@@ -6,8 +6,8 @@ readme = "README.md"
 authors = [
     { name = "Kevin Michoud", email = "kmichoud@unistra.fr" }
 ]
-# GPL-3.0-only or GPL-3.0-or-later is not decided yet; see LICENSE-DATA.md for
-# the data files, which are under their own licences.
+# GPL version 3 only, as text2sdg and corpustools; see LICENSE-DATA.md for the
+# data files, which are under their own licences.
 license = "GPL-3.0-only"
 license-files = ["LICENSE", "LICENSE-DATA.md", "CREDITS.md", "LICENSES/*", "THIRD_PARTY_LICENSES.md"]
 requires-python = ">=3.13"

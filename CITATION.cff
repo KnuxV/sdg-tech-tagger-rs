@@ -22,7 +22,8 @@ authors:
   - family-names: Michoud
     given-names: Kevin
     email: kmichoud@unistra.fr
-    # TODO (Kevin): affiliation and ORCID.
+    orcid: "https://orcid.org/0009-0002-5245-6088"
+    affiliation: "University of Strasbourg"
 references:
   - type: software
     title: "text2sdg: Detecting UN Sustainable Development Goals in Text"
